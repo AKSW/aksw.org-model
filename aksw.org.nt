@@ -2470,7 +2470,6 @@
 <http://aksw.org/Partners> <http://www.w3.org/2000/01/rdf-schema#label> "Partners" .
 <http://aksw.org/PatrickWestphal> <http://aksw.org/schema/publicationTag> "westphal" .
 <http://aksw.org/PatrickWestphal> <http://ns.ontowiki.net/SysOnt/Site/content> "#Research interests\n\nMy main research interest is structured machine learning and its application on Big Data problems. As part of the [MOLE](http://aksw.org/Groups/MOLE.html \"MOLE\") group I am contributing to the [DL-Learner](http://aksw.org/Projects/DLLearner.html \"DL-Learner\") framework trying to adapt and extend it for bigger life science use-cases. Besides this, further efforts concern the parallelization of existing learning algorithms on shared memory and shared nothing architectures."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/PatrickWestphal> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/PatrickWestphal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DLLearner> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
@@ -2485,7 +2484,6 @@
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/familyName> "Westphal" .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/mbox> <mailto:patrick.westphal@informatik.uni-leipzig.de> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/name> "Patrick Westphal" .
-<http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732253> .
 <http://aksw.org/PaulSpooren> <http://aksw.org/schema/publicationTag> "spooren" .
 <http://aksw.org/PaulSpooren> <http://aksw.org/schema/room> "P906" .
 <http://aksw.org/PaulSpooren> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/feed/> .
@@ -4736,8 +4734,9 @@
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/mbox> <mailto:zaenker@infai.org> .
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/name> "Sebastian Z\u00E4nker" .
 <http://aksw.org/SimonBin> <http://aksw.org/schema/publicationTag> "sbin" .
+<http://aksw.org/SimonBin> <http://aksw.org/schema/room> "24" .
 <http://aksw.org/SimonBin> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
-<http://aksw.org/SimonBin> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/SimonBin> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DLLearner> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SAKE> .
@@ -4747,7 +4746,7 @@
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/familyName> "Bin" .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/mbox> <mailto:sbin@informatik.uni-leipzig.de> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/name> "Simon Bin" .
-<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732253> .
+<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903736> .
 <http://aksw.org/SimonBordewisch> <http://aksw.org/schema/publicationTag> "bordewisch" .
 <http://aksw.org/SimonBordewisch> <http://aksw.org/schema/room> "P906" .
 <http://aksw.org/SimonBordewisch> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/feed/> .
