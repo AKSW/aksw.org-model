@@ -1432,14 +1432,14 @@
 <http://aksw.org/KurtJunghanns> <http://aksw.org/schema/supervisorTag> "KurtJunghanns" .
 <http://aksw.org/KurtJunghanns> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWiki> .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWikiEU> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Junghanns/gn/Kurt> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/familyName> "Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/mbox> <mailto:kjunghanns@informatik.uni-leipzig.de> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AutoSlides> .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32344> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWiki> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWikiEU> .
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lisa Wenige" .
