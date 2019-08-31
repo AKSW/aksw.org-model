@@ -1278,6 +1278,7 @@
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SmartDataWeb> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/familyName> "Frey" .
+<http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JohannesFrey> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/mbox> <mailto:frey@informatik.uni-leipzig.de> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/name> "Johannes Frey" .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-229037-92> .
