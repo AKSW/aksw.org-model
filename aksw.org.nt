@@ -4740,6 +4740,7 @@
 <http://aksw.org/SimonBin> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DLLearner> .
+<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/QROWD> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SAKE> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SMLBench> .
