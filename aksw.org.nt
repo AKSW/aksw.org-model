@@ -2804,7 +2804,6 @@
 <http://aksw.org/Projects/Cofundos> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
 <http://aksw.org/Projects/Cofundos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/CommunityProject> .
 <http://aksw.org/Projects/Cofundos> <http://www.w3.org/2000/01/rdf-schema#label> "Cofundos" .
-<http://aksw.org/Projects/Cofundos> <http://xmlns.com/foaf/0.1/homepage> <http://cofundos.org> .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://aksw.org/schema/hookline> "Towards Biomedical Data Integration for Analyzing the Evolution of Cognition" .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://aksw.org/schema/publicationTag> "cogevo" .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
