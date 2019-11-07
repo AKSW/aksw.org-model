@@ -104,6 +104,14 @@
 <http://aksw.org/Address/AvantgardeLabsGmbH> <http://schema.org/streetAddress> "L\u00F6bauer Stra\u00DFe 19" .
 <http://aksw.org/Address/AvantgardeLabsGmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <http://aksw.org/Address/AvantgardeLabsGmbH> <http://www.w3.org/2000/01/rdf-schema#label> "Avantgarde Labs GmbH" .
+<http://aksw.org/Address/DataLensLtd> <http://ns.ontowiki.net/SysOnt/range> "N101A, Vox Studios" .
+<http://aksw.org/Address/DataLensLtd> <http://schema.org/addressCountry> "United Kingdom" .
+<http://aksw.org/Address/DataLensLtd> <http://schema.org/addressLocality> "London" .
+<http://aksw.org/Address/DataLensLtd> <http://schema.org/name> "Data Lens Ltd." .
+<http://aksw.org/Address/DataLensLtd> <http://schema.org/postalCode> "SE11 5JH" .
+<http://aksw.org/Address/DataLensLtd> <http://schema.org/streetAddress> "1-45 Durham Street" .
+<http://aksw.org/Address/DataLensLtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<http://aksw.org/Address/DataLensLtd> <http://www.w3.org/2000/01/rdf-schema#label> "Data Lens Ltd." .
 <http://aksw.org/Address/Eccenca> <http://schema.org/addressCountry> "Germany" .
 <http://aksw.org/Address/Eccenca> <http://schema.org/addressLocality> "Leipzig" .
 <http://aksw.org/Address/Eccenca> <http://schema.org/faxNumber> <tel:+49-341-26489305> .
@@ -5004,7 +5012,7 @@
 <http://aksw.org/TommasoSoru> <http://aksw.org/schema/publicationTag> "soru" .
 <http://aksw.org/TommasoSoru> <http://ns.ontowiki.net/SysOnt/Site/content> "I'm a Machine Learning & AI enthusiast with the dream of giving my small contribution to the quest for intelligence. My research topics include Entity Resolution, Link Prediction, and Semantic Parsing for Question Answering, with a particular focus on Linked Data and the Semantic Web."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/TommasoSoru> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
-<http://aksw.org/TommasoSoru> <http://schema.org/location> <http://aksw.org/Address/SemanticIntegrationLtd> .
+<http://aksw.org/TommasoSoru> <http://schema.org/location> <http://aksw.org/Address/DataLensLtd> .
 <http://aksw.org/TommasoSoru> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MEX> .
