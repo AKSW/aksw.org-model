@@ -2581,7 +2581,7 @@
 <http://aksw.org/Projects/ALIGNED> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/Projects/ALIGNED> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/Projects/ALIGNED> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/RDFUnit> .
-<http://aksw.org/Projects/ALIGNED> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/ALIGNED> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/ALIGNED> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 02/2015\u201301/2018\n* Funding Programme: EU H2020\n\nALIGNED will develop new ways to build and maintain IT systems that use big data on the web. ALIGNED brings together world class computer science researchers, software companies specialised in data-intensive systems like <a href=\"http://wiki.dbpedia.org\">DBpedia</a>, information companies and academic curators. Together they will create more efficient methods of building IT systems that extract, process, publish and share web data.\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/ALIGNED> <http://purl.org/dc/terms/abstract> "The ALIGNED quality-centric, software and data engineering project is a research project funded by Horizon 2020.\r\nALIGNED will develop and validate a novel process for combined software and data engineering of evolvable data intensive systems. The process will utilise advanced semantic data-modelling, quality analytics and human feedback. The most effective software services or data manipulation tools require costly custom software for specific data sets.  Our process will reduce the development, deployment and maintenance costs of end-to-end software development while increasing the agility of the software engineering cycle. \r\nDBpedia will be one of the four used cases of the ALIGNED project." .
 <http://aksw.org/Projects/ALIGNED> <http://rdfs.org/sioc/ns#feed> <http://aligned-project.eu/feed/> .
@@ -2610,7 +2610,7 @@
 <http://aksw.org/Projects/AMSL> <http://aksw.org/schema/publicationTag> "amsl" .
 <http://aksw.org/Projects/AMSL> <http://aksw.org/schema/publicationTag> "erm" .
 <http://aksw.org/Projects/AMSL> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/OntoWiki> .
-<http://aksw.org/Projects/AMSL> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/AMSL> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/AMSL> <http://purl.org/dc/terms/abstract> "Within the focus of the project is the development of methods and tools for the integration of library data and information from the Internet in the Linked Open Data Cloud. The goal is a scalable and reusable, intelligent data management platform, homogenize the heterogeneous data from different provenances, networking and high demantified in RDF format and any other representation formats can accumulate. The focus \u202Ckept on aligning a system complementarity and data interoperability architecture concept, which is operated by system librarians. As part of the project a use case is to be realized, that provides resource management functions to ensure the efficient licensing, budgeting and management of electronic resources to the level of the smallest unit of publication." .
 <http://aksw.org/Projects/AMSL> <http://rdfs.org/sioc/ns#feed> <http://amsl.technology/feed> .
 <http://aksw.org/Projects/AMSL> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ThomasRiechert> .
@@ -2699,7 +2699,7 @@
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/hookline> "Big Data Europe" .
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/partner> <http://www.iais.fraunhofer.de/#id> .
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/publicationTag> "bde" .
-<http://aksw.org/Projects/BDE> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/BDE> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/BDE> <http://ns.ontowiki.net/SysOnt/Site/content> "Funding Programme: Horizon 2020. The growing digitization and networking process within our society has a large influence on all aspects of everyday life. Large amounts of data are being produced permanently, and when these are analyzed and interlinked they have the potential to create new knowledge and intelligent solutions for economy and society. Big Data can make important contributions to the technical progress in our societal key sectors and help shape business. What is needed are innovative technologies, strategies and competencies for the beneficial use of Big Data to address societal needs.\r\n\r\nClimate, Energy, Food, Health, Transport, Security, and Social Sciences \u2013 are the most important societal challenges tackled by the European Union within the new research and innovation framework program \u201CHorizon 2020\u201D. In every one of these fields, the processing, analysis and integration of large amounts of data plays a growing role \u2013 such as the analysis of medical data, the decentralized supply with renewable energies or the optimization of traffic flow in large cities."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/BDE> <http://open.vocab.org/terms/screenshot> <http://www.big-data-europe.eu/wp-content/uploads/BDE-valuechain-300x262.png> .
 <http://aksw.org/Projects/BDE> <http://purl.org/dc/terms/abstract> "Big Data Europe will undertake the foundational work for enabling European companies to build innovative multilingual products and services based on semantically interoperable, large-scale, multi-lingual data assets and knowledge, available under a variety of licenses and business models." .
@@ -3372,7 +3372,7 @@
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/partner> <http://aksw.org/Partner/brox> .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/publicationTag> "leds" .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LE4SW> .
-<http://aksw.org/Projects/LEDS> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/LEDS> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/LEDS> <http://open.vocab.org/terms/screenshot> <http://www.leds-projekt.de/media/images/pages/Projektstruktur.png> .
 <http://aksw.org/Projects/LEDS> <http://open.vocab.org/terms/screenshot> <http://www.leds-projekt.de/media/images/pages/orgastruktur-projektpartner.png> .
 <http://aksw.org/Projects/LEDS> <http://purl.org/dc/terms/abstract> "Das Projekt hat das Ziel, eine neue Generation semantischer, vernetzter Daten-Anwendungen auf Basis des Linked Data Paradigmas zu entwickeln, zu etablieren und erfolgreich zu vermarkten. Daf\u00FCr wird eine regionale Technologieplattform realisiert, die sowohl Kompetenzen, Methoden als auch konkrete Technologiebausteine umfasst. Das B\u00FCndnis kn\u00FCpft damit direkt an Entwicklungen zum Web 3.0 und im Bereich E-Government an die Agenda 2020 an." .
@@ -3825,6 +3825,7 @@
 <http://aksw.org/Projects/QAMEL> <http://xmlns.com/foaf/0.1/homepage> <http://qamel.eu/> .
 <http://aksw.org/Projects/QAMEL> <http://xmlns.com/foaf/0.1/logo> <http://qamel.eu/wordpress/wp-content/uploads/2015/12/qamel-slogan-e1449756102489.png> .
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/hookline> "The power of the Qrowd combines with RDF" .
+<http://aksw.org/Projects/QROWD> <http://aksw.org/schema/partner> <http://aksw.org/Partner/Atos> .
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/publicationTag> "qrowd" .
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/SANSA_Stack> .
@@ -3837,6 +3838,8 @@
 <http://aksw.org/Projects/QROWD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/QROWD> <http://www.w3.org/2000/01/rdf-schema#label> "QROWD - Project"@de .
 <http://aksw.org/Projects/QROWD> <http://www.w3.org/2000/01/rdf-schema#label> "QROWD"@en .
+<http://aksw.org/Projects/QROWD> <http://xmlns.com/foaf/0.1/homepage> <http://qrowd-project.eu/> .
+<http://aksw.org/Projects/QROWD> <http://xmlns.com/foaf/0.1/logo> <http://qrowd-project.eu/wp-content/uploads/2017/02/logo-header.png> .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/hookline> "A Query Federation Suite for SPARQL" .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/publicationTag> "quetsal" .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/tcga> .
