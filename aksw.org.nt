@@ -3845,6 +3845,7 @@
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/publicationTag> "quetsal" .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/tcga> .
 <http://aksw.org/Projects/QUETSAL> <http://ns.ontowiki.net/SysOnt/Site/content> "<img src = \"https://sites.google.com/site/saleemsweb/home/quetsal_logo.png\" alt = \"Logo QUETSAL\" width = \"150\" align = \"left\">\n\n QUETSAL is an upcoming SPARQL endpoint federation suit which will integrate HiBISCUS, DAW, and CostFed. \n\nFollowing are the relevant AKSW projects to QUETSAL. \n\n- [HiBISCuS](https://github.com/AKSW/hibiscus \"HiBISCuS\")- A hypergraph based source selection for SPARQL endpoints federation. \n- [DAW](https://sites.google.com/site/dawfederation/home \"DAW\")- DAW: Duplicate-AWare Federated Query Processing over the Web of Data\n- [CostFed](https://github.com/AKSW/costfed \"CostFed\")- CostFed: Cost-Based Query Optimization for SPARQL Endpoint Federation\n- [TopFed](https://code.google.com/p/topfed \"TopFed\")-  Cancer Genome Atlas (TCGA) tailored federated query processing and linking to Linked Open Data (LOD) Cloud. \n- [LargeRDFBench](https://github.com/AKSW/largerdfbench \"LargeRDFBench\")-  A billion triples benchmark for SPARQL Endpoint Federation. \n\t\t\t\t  \n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/Projects/QUETSAL> <http://open.vocab.org/terms/screenshot> <https://sites.google.com/site/saleemsweb/home/quetsal.png> .
 <http://aksw.org/Projects/QUETSAL> <http://purl.org/dc/terms/abstract> "QUETSAL is a SPARQL endpoint federation engine for federated SPARQL query processing" .
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#browse> <https://github.com/AKSW/Quetsal> .
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Quetsal/issues> .
@@ -3852,7 +3853,7 @@
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/QUETSAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Projects/QUETSAL> <http://www.w3.org/2000/01/rdf-schema#label> "QUETSAL" .
-<http://aksw.org/Projects/QUETSAL> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/quetsal.png> .
+<http://aksw.org/Projects/QUETSAL> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/quetsal_logo.png> .
 <http://aksw.org/Projects/QualisBrasil> <http://aksw.org/schema/hookline> "Linked Open Data for supporting scientometric studies" .
 <http://aksw.org/Projects/QualisBrasil> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LDWPO> .
 <http://aksw.org/Projects/QualisBrasil> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SandroRautenberg> .
