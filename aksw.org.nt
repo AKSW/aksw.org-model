@@ -4713,7 +4713,6 @@
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "seebi" .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "stramp" .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" .
-<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/familyName> "Tramp" .
@@ -4722,6 +4721,7 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/nick> "Seebi" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AKSWorg> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DSSN> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Erfurt> .
