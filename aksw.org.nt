@@ -333,6 +333,7 @@
 <http://aksw.org/AmitKirschenbaum> <http://aksw.org/schema/publicationTag> "kirschenbaum" .
 <http://aksw.org/AmitKirschenbaum> <http://ns.ontowiki.net/SysOnt/Site/content> "# About\r\nI am a research associate at the Knowledge Integration and Linked Data Technologies ([KILT](http://aksw.org/Groups/KILT.html)) group, where I combine my interests in Natural Language Processing and Semantic Web technologies.   \r\nMy research includes:   \r\n\r\n* computational morphology   \r\n* concept linking   \r\n* language typology and documentation.\r\n\r\n\r\n   \r\nI enjoy transforming raw data into useful information, and have been involved as a researcher in various projects concerned with language processing, by machines or  humans, ranging from machine translation to psycholinguistics.\r\n\r\n\r\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/AmitKirschenbaum> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MMoOn> .
@@ -445,6 +446,7 @@
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732355> .
 <http://aksw.org/BeyzaYaman> <http://aksw.org/schema/publicationTag> "yaman" .
 <http://aksw.org/BeyzaYaman> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/BeyzaYaman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/BeyzaYaman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/BeyzaYaman> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/BeyzaYaman> <http://xmlns.com/foaf/0.1/familyName> "Yaman" .
@@ -452,6 +454,7 @@
 <http://aksw.org/BeyzaYaman> <http://xmlns.com/foaf/0.1/name> "Beyza Yaman" .
 <http://aksw.org/CiroBaron> <http://aksw.org/schema/publicationTag> "baron" .
 <http://aksw.org/CiroBaron> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/CiroBaron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/CiroBaron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/CiroBaron> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/FREME> .
 <http://aksw.org/CiroBaron> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIDER> .
@@ -576,6 +579,19 @@
 <http://aksw.org/Demo/KBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Demo/KBox> <http://www.w3.org/2000/01/rdf-schema#label> "KBox" .
 <http://aksw.org/Demo/KBox> <http://xmlns.com/foaf/0.1/homepage> <http://kbox.tech> .
+<http://aksw.org/DenisStreitmatter> <http://aksw.org/schema/publicationTag> "streitmatter" .
+<http://aksw.org/DenisStreitmatter> <http://aksw.org/schema/room> "Institut fuer Angewandte Informatik (InfAI), 2. OG, AKSW/KILT Office" .
+<http://aksw.org/DenisStreitmatter> <http://ns.ontowiki.net/SysOnt/Site/content> "tbd"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/DenisStreitmatter> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
+<http://aksw.org/DenisStreitmatter> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
+<http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
+<http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/familyName> "Streitmatter" .
+<http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/mbox> <mailto:streitmatter@informatik.uni-leipzig.de> .
+<http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/name> "Denis Streitmatter" .
+<http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-229037-92> .
+<http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-229037-93> .
 <http://aksw.org/DiegoEsteves> <http://aksw.org/schema/publicationTag> "esteves" .
 <http://aksw.org/DiegoEsteves> <http://aksw.org/schema/room> "A120" .
 <http://aksw.org/DiegoEsteves> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
@@ -600,6 +616,7 @@
 <http://aksw.org/DimitrisKontokostas> <http://aksw.org/schema/publicationTag> "kontokostas" .
 <http://aksw.org/DimitrisKontokostas> <http://ns.ontowiki.net/SysOnt/Site/content> "I am a member of the Agile Knowledge Engineering and Semantic Web (AKSW) Research Group, in pursue of a PhD with a focus on Data Quality, DBpedia and Libraries. \n\nIn 2012 I started my PhD studies in the area of Semantic Web, funded by the Dutch national library organization (bibliotheek.nl). Part of my duties were to bootstrap, create and maintain the Dutch DBpedia (nl.dbpedia.org) with the aim to become a hub in the local Dutch LOD cloud. Besides DBpedia, my research focused on Linked Data quality. Along my research publications, I created [RDFUnit](http://rdfunit.aksw.org), an innovative R&D framework for Unit-Testing RDF data that was successfully applied and tested on large scale RDF datasets (e.g. DBpedia, LCSH, LGD, Datos) and integrated in service validation stacks (e.g. NLP2RDF, DataID). RDFUnit is a research & work in progress with the aim to improve it's TRL.\n\nI have been heavily involved in [DBpedia](http://dbpedia.org), where in 2009 bootstrapped and co-lead the DBpedia Internationalization process. This lead in increasing the coverage of the DBpedia extraction framework to many languages and the the creation of the [DBpedia internationalization committee](http://wiki.dbpedia.org/Internationalization). I created and maintained the [Greek](http://el.dbpedia.org) and [Dutch](http://nl.dbpedia.org) DBpedia chapters. Since 2013 I took over [DBpedia Live](http://live.dbpedia.org) where I re-wrote and modularized the core live extraction framework. In addition I am one of the lead developers of the DBpedia Extraction Framework and assist in the coordination of the DBpedia (developer) community.\n\nSince 2013 I lead the efforts of applying DBpedia as a [GSoC](https://www.google-melange.com/) organization and successfully coordinated many students and mentors in completing their projects. Some of the successfully GSoC projects that I mentored myself include the an Error DBpedia browser, the new DBpedia LD interface, Wikidata2DBpedia integration, porting the DBpedia extraction framework to Hadoop / Spark, extracting rich metadata from Wikimedia Commons.\n\nIn March 2014, we finally created a legal entity for DBpedia ( [DBpedia Association](wiki.dbpedia.org/Association) ) where my active role is to coordinate the next technical directions of the project.\n\nIn addition, you can see my\n\n- list of my recent publication at the end of the page, or a complete list in [Google Scholar](http://scholar.google.gr/citations?user=lbWDQ7EAAAAJ&hl=en).\n- [SlideShare presentations](http://www.slideshare.net/jimkont/)\n- [LinkedIn profile](http://gr.linkedin.com/in/jimkont) for earlier experience & education\n- [GitHub](https://github.com/jimkont) & [OpenHub](https://www.openhub.net/accounts/jimkont) for development activily\n- [twitter profile](https://twitter.com/jimkont) where I occasionally tween about SW, Linked Data & DBpedia"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/DimitrisKontokostas> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/DimitrisKontokostas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/DimitrisKontokostas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DimitrisKontokostas> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "DimitrisKontokostas" .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/ALIGNED> .
@@ -1069,10 +1086,12 @@
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/BettinaKlimek> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/BeyzaYaman> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/CiroBaron> .
+<http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DenisStreitmatter> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DimitrisKontokostas> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/GustavoPublio> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JohannesFrey> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KayMueller> .
+<http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MarvinHofer> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MilanDojchinovski> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RiteshKumarSingh> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RobertRoesling> .
@@ -1552,6 +1571,19 @@
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SparqlTrainer> .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-64008750> .
 <http://aksw.org/MarvinFrommhold> <schema:affiliation> <http://aksw.org/Partner/Eccenca> .
+<http://aksw.org/MarvinHofer> <http://aksw.org/schema/publicationTag> "hofer" .
+<http://aksw.org/MarvinHofer> <http://aksw.org/schema/room> "Institut fuer Angewandte Informatik (InfAI), 2. OG, AKSW/KILT Office" .
+<http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/content> "tbd"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
+<http://aksw.org/MarvinHofer> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
+<http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
+<http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/familyName> "Hofer" .
+<http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/mbox> <mailto:hofer@informatik.uni-leipzig.de> .
+<http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/name> "Marvin Hofer" .
+<http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-229037-92> .
+<http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-229037-93> .
 <http://aksw.org/MatthiasWauer> <http://aksw.org/schema/publicationTag> "wauer" .
 <http://aksw.org/MatthiasWauer> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/MatthiasWauer> <http://ns.ontowiki.net/SysOnt/Site/content> "# Retrospective\r\n## 2016\r\n- I've started working at AKSW as a postdoc researcher and will primarily be involved in the GEISER project.\r\n- The GeoKnow project in which I worked for Unister was completed successfully.\r\n\r\n## 2017\r\n- Contributing to the HOBBIT WP1 Dissemination activities.\r\n- Starting the OPAL project.\r\n\r\nmore content to come"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
@@ -4517,6 +4549,7 @@
 <http://aksw.org/RiteshKumarSingh> <http://aksw.org/schema/publicationTag> "singh" .
 <http://aksw.org/RiteshKumarSingh> <http://aksw.org/schema/room> "101a (first floor)" .
 <http://aksw.org/RiteshKumarSingh> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/RiteshKumarSingh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/RiteshKumarSingh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/RiteshKumarSingh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RiteshKumarSingh> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SmartDataWeb> .
