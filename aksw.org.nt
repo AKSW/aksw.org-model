@@ -2194,6 +2194,11 @@
 <http://aksw.org/Partner/Lecos> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH (D)" .
 <http://aksw.org/Partner/Lecos> <http://xmlns.com/foaf/0.1/homepage> <http://www.lecos-gmbh.de/> .
 <http://aksw.org/Partner/Lecos> <http://xmlns.com/foaf/0.1/logo> <http://lh6.ggpht.com/-5FtPuNN8cjk/UD3V-y0Vc7I/AAAAAAAABJ8/nQ82OJQPCn8/Lecos.gif> .
+<http://aksw.org/Partner/LiberAILtd> <http://purl.org/dc/terms/abstract> "Liber AI Ltd is a research & development business based in London. The research areas span from Question Answering to Entity Resolution and Named Entity Recognition." .
+<http://aksw.org/Partner/LiberAILtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://aksw.org/Partner/LiberAILtd> <http://www.w3.org/2000/01/rdf-schema#label> "Liber AI Ltd" .
+<http://aksw.org/Partner/LiberAILtd> <http://xmlns.com/foaf/0.1/homepage> <http://liberai.org> .
+<http://aksw.org/Partner/LiberAILtd> <http://xmlns.com/foaf/0.1/logo> <http://www.liberai.org/img/Liber-AI-logo-300px.png> .
 <http://aksw.org/Partner/LydiaUnterdoerfel> <http://schema.org/location> <http://aksw.org/Address/UniversitaetsbibliothekLeipzig> .
 <http://aksw.org/Partner/LydiaUnterdoerfel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/Partner/LydiaUnterdoerfel> <http://xmlns.com/foaf/0.1/homepage> <http://www.ub.uni-leipzig.de> .
