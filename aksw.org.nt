@@ -3745,7 +3745,7 @@
 <http://aksw.org/Projects/NeuralSPARQLMachines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/NeuralSPARQLMachines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Projects/NeuralSPARQLMachines> <http://www.w3.org/2000/01/rdf-schema#label> "Neural SPARQL Machines" .
-<http://aksw.org/Projects/NeuralSPARQLMachines> <http://xmlns.com/foaf/0.1/logo> <http://www.liberai.org/LiberAI-logo.png> .
+<http://aksw.org/Projects/NeuralSPARQLMachines> <http://xmlns.com/foaf/0.1/logo> <http://www.liberai.org/img/Liber-AI-logo-300px.png> .
 <http://aksw.org/Projects/ORE> <http://aksw.org/schema/demonstrates> <http://ore.aksw.org/> .
 <http://aksw.org/Projects/ORE> <http://aksw.org/schema/hookline> "A tool for the enrichment, repair and validation of OWL based  knowledge bases." .
 <http://aksw.org/Projects/ORE> <http://aksw.org/schema/publicationTag> "ore" .
