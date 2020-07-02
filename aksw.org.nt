@@ -1858,6 +1858,7 @@
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Nate" .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "white-gecko" .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "white_gecko" .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AKSWorg> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CatalogusProfessorum> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Erfurt> .
