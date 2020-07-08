@@ -3414,7 +3414,6 @@
 <http://aksw.org/Projects/LE4SW> <http://vocab.ox.ac.uk/projectfunding#startDate> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LE4SW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LE4SW> <http://www.w3.org/2000/01/rdf-schema#label> "LE4SW" .
-<http://aksw.org/Projects/LE4SW> <http://xmlns.com/foaf/0.1/homepage> <http://le4sw.de> .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/funding> "1500000" .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/hookline> "Linked Enterprise Data Services" .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/partner> <http://aksw.org/Partner/Eccenca> .
