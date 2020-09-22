@@ -1007,18 +1007,15 @@
 <http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/mbox> <mailto:badie@informatik.uni-leipzig.de> .
 <http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/name> "Farshad Badie" .
 <http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32273> .
-<http://aksw.org/FelixConrads> <http://aksw.org/schema/publicationTag> "conrads" .
-<http://aksw.org/FelixConrads> <http://aksw.org/schema/room> "P906" .
 <http://aksw.org/FelixConrads> <http://ns.ontowiki.net/SysOnt/Site/content> "# About me\nHey, \nI am Felix, a C.S. student at the University Leipzig. I began working at the AKSW Group in Summer 2014  . I started by working on the next [DBpedia SPARQL Benchmark](http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/download/5168/5384) which evolved into [IGUANA](http://aksw.org/Projects/IGUANA.html). \n\nIGUANA is my major project and will be one of my favorite too. I wrote my BA thesis about it as well as my first paper. \n\nFurther on i currently work on EMU. EMU is built up on IGUANA and is trying to get the best configuration of one triple store for your dataset.\n\n# Highlights\n## 2016\n- I submitted my Bachelor thesis about [IGUANA](http://aksw.org/Projects/IGUANA.html).\n\n## 2014 \n- One of the three [Top Students](http://dbs.uni-leipzig.de/en/node/1537) at the Database Group Leipzig \n\n# Research Interest\n- Benchmarking\n- Semantic Web\n- Data Generation\n- Generic and Automated Solutions\n- (NLP)\n\n# Further Info\n- **[@Twitter](https://twitter.com/FelixCorrados)**\n- **[ORCID](http://orcid.org/0000-0002-8803-6758)**"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/FelixConrads> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/feed/> .
-<http://aksw.org/FelixConrads> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
-<http://aksw.org/FelixConrads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
-<http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
-<http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/IGUANA> .
+<http://aksw.org/FelixConrads> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/LixiConrads> .
+<http://aksw.org/FelixConrads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
+<http://aksw.org/FelixConrads> <http://www.w3.org/2002/07/owl#sameAs> <http://aksw.org/LixiConrads> .
+<http://aksw.org/FelixConrads> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "LixiConrads" .
 <http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/depiction> <https://avatars2.githubusercontent.com/u/5443313?v=3&s=460> .
-<http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Conrads>" .
+<http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/familyName> "Conrads" .
 <http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/mbox> <mailto:conrads@informatik.uni-leipzig.de> .
-<http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/name> "Felix Conrads" .
+<http://aksw.org/FelixConrads> <http://xmlns.com/foaf/0.1/name> "Lixi Conrads" .
 <http://aksw.org/FranzTeichmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/FranzTeichmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/FranzTeichmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1491,6 +1488,18 @@
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/mbox> <mailto:wenige@infai.org> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903755> .
+<http://aksw.org/LixiConrads> <http://aksw.org/schema/publicationTag> "conrads" .
+<http://aksw.org/LixiConrads> <http://aksw.org/schema/room> "P906" .
+<http://aksw.org/LixiConrads> <http://ns.ontowiki.net/SysOnt/Site/content> "# About me\r\nHey, \r\nI am Felix, a C.S. student at the University Leipzig. I began working at the AKSW Group in Summer 2014  . I started by working on the next [DBpedia SPARQL Benchmark](http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/download/5168/5384) which evolved into [IGUANA](http://aksw.org/Projects/IGUANA.html). \r\n\r\nIGUANA is my major project and will be one of my favorite too. I wrote my BA thesis about it as well as my first paper. \r\n\r\nFurther on i currently work on EMU. EMU is built up on IGUANA and is trying to get the best configuration of one triple store for your dataset.\r\n\r\n# Highlights\r\n## 2016\r\n- I submitted my Bachelor thesis about [IGUANA](http://aksw.org/Projects/IGUANA.html).\r\n\r\n## 2014 \r\n- One of the three [Top Students](http://dbs.uni-leipzig.de/en/node/1537) at the Database Group Leipzig \r\n\r\n# Research Interest\r\n- Benchmarking\r\n- Semantic Web\r\n- Data Generation\r\n- Generic and Automated Solutions\r\n- (NLP)\r\n\r\n# Further Info\r\n- **[@Twitter](https://twitter.com/FelixCorrados)**\r\n- **[ORCID](http://orcid.org/0000-0002-8803-6758)**"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/LixiConrads> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/feed/> .
+<http://aksw.org/LixiConrads> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
+<http://aksw.org/LixiConrads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/IGUANA> .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/depiction> <https://avatars2.githubusercontent.com/u/5443313?v=3&s=460> .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Conrads>" .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/mbox> <mailto:conrads@informatik.uni-leipzig.de> .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/name> "Lixi Conrads" .
 <http://aksw.org/LorenzBuehmann> <http://aksw.org/schema/publicationTag> "buehmann" .
 <http://aksw.org/LorenzBuehmann> <http://ns.ontowiki.net/SysOnt/Site/content> "Research Topics:\n----------------\n- Ontology Learning\n- Ontology Debugging\n- Reasoning\n- Question Answering\n- Natural Language Generation\n- Big Structured Machine Learning"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/LorenzBuehmann> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "regular" .
