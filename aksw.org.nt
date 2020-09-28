@@ -4625,12 +4625,21 @@
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/mbox> <mailto:shekarpour@informatik.uni-leipzig.de> .
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/name> "Saeedeh Shekarpour" .
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32341> .
-<http://aksw.org/SandraBartsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Bartsch/gn/Sandra> .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/familyName> "Bartsch" .
+<http://aksw.org/SandraBartsch> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/SandraFuchs> .
+<http://aksw.org/SandraBartsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
+<http://aksw.org/SandraBartsch> <http://www.w3.org/2002/07/owl#sameAs> <http://aksw.org/SandraFuchs> .
+<http://aksw.org/SandraBartsch> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "SandraFuchs" .
+<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Fuchs/gn/Sandra> .
+<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/familyName> "Fuchs" .
 <http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/mbox> <mailto:sbartsch@informatik.uni-leipzig.de> .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/name> "Sandra Bartsch" .
+<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
 <http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903752> .
+<http://aksw.org/SandraFuchs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Fuchs/gn/Sandra> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/familyName> "Fuchs" .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/mbox> <mailto:sbartsch@informatik.uni-leipzig.de> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903752> .
 <http://aksw.org/SandraPraetor> <http://aksw.org/schema/room> "P635" .
 <http://aksw.org/SandraPraetor> <http://ns.ontowiki.net/SysOnt/Site/content> "Derzeit in Elternzeit."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/SandraPraetor> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
