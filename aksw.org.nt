@@ -5902,6 +5902,9 @@
 <https://orcid.org/0000-0002-8130-8677> <http://aksw.org/schema/buttonLabel> "ORCID" .
 <https://orcid.org/0000-0002-8130-8677> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <https://orcid.org/0000-0002-8130-8677> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/NatanaelArndt> .
+<https://orcid.org/0000-0003-0762-8688> <http://aksw.org/schema/buttonLabel> "ORCID" .
+<https://orcid.org/0000-0003-0762-8688> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
+<https://orcid.org/0000-0003-0762-8688> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/MichaelMartin> .
 <https://packagist.org/packages/aksw/ontowiki> <http://aksw.org/schema/buttonLabel> "@Packagist" .
 <https://packagist.org/packages/aksw/ontowiki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://packagist.org/packages/aksw/ontowiki> <http://www.w3.org/2000/01/rdf-schema#label> "aksw/ontowiki at Packagist" .
