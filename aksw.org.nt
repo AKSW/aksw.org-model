@@ -1469,16 +1469,17 @@
 <http://aksw.org/KunalJha> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/KunalJha> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32260> .
 <http://aksw.org/KurtJunghanns> <http://aksw.org/schema/publicationTag> "junghanns" .
-<http://aksw.org/KurtJunghanns> <http://aksw.org/schema/room> "16" .
+<http://aksw.org/KurtJunghanns> <http://aksw.org/schema/room> "20" .
 <http://aksw.org/KurtJunghanns> <http://aksw.org/schema/supervisorTag> "KurtJunghanns" .
 <http://aksw.org/KurtJunghanns> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/STREAM> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Junghanns/gn/Kurt> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/familyName> "Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/mbox> <mailto:kjunghanns@informatik.uni-leipzig.de> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AutoSlides> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LIMBO> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWiki> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWikiEU> .
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
@@ -4203,6 +4204,16 @@
 <http://aksw.org/Projects/SPARQR> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/sparqr.dl-learner.org/tree/master/releases> .
 <http://aksw.org/Projects/SPARQR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SPARQR> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQR " .
+<http://aksw.org/Projects/STREAM> <http://aksw.org/schema/hookline> "Semantische Repr\u00E4sentation, Vernetzung und Kuratierung von qualit\u00E4tsgesicherten Materialdaten." .
+<http://aksw.org/Projects/STREAM> <http://aksw.org/schema/partner> <akswpartner:InfAI> .
+<http://aksw.org/Projects/STREAM> <http://aksw.org/schema/publicationTag> "\"streamproject\"" .
+<http://aksw.org/Projects/STREAM> <http://ns.ontowiki.net/SysOnt/Site/content> "F\u00F6rderkennzeichen: 16QK11C\n\nDie Materialwissenschaften stehen vor der gro\u00DFen Herausforderung, umfangreich vorliegende und neu hinzukommende Forschungsdaten qualitativ zu vernetzen und zugleich die Reproduzierbarkeit der Daten sicherzustellen. Dar\u00FCber hinaus stellen die Bewertung, Bestandspflege und Speicherung, vor allem aber die Nutzbarmachung dezentral gespeicherter Daten im Zusammenhang mit der fortschreitenden Digitalisierung und dem daraus resultierenden Umgang mit neuem Wissen bisher nicht gekannte Anforderungen f\u00FCr die Materialwissenschaftler dar.\n\nMit dem BMBF-gef\u00F6rderten Projekt STREAM (\u201ESemantische Repr\u00E4sentation, Vernetzung und Kuratierung von qualit\u00E4tsgesicherten Materialdaten\u201C) widmen sich die Projektpartner dem Problem der Qualit\u00E4tsbewertung und Kuratierung wissenschaftlicher Daten. Hierzu werden neue Methoden und Denkans\u00E4tze entwickelt, um im Anschluss an das Projekt der Wissenschaftler-Gemeinschaft L\u00F6sungen zum Bew\u00E4ltigen der neuen Herausforderungen zur Verf\u00FCgung stellen zu k\u00F6nnen. Hierbei gilt es in Bezug auf Materialdaten zuerst, zeitnah Kurationskriterien zu formulieren, auf deren Basis die Sicherstellung der Vollst\u00E4ndigkeit von Datens\u00E4tzen, der Koh\u00E4renz und Konsistenz von Material- und Kontextdaten sowie auf die portal\u00FCbergreifende Auffind- und Nutzbarkeit von Daten realisierbar wird.\n\nSTREAM steht zu allererst jedoch vor der gro\u00DFen Herausforderung, ein gemeinsames Verst\u00E4ndnis zur Struktur von Material- und Kontextdaten zu etablieren, soll hei\u00DFen, eine agile Ontologiemodellierung einzuf\u00FChren, welche zu einem abgestimmten Repr\u00E4sentationsschema f\u00FCr Materialdaten aus Computersimulation und Experiment und entsprechenden Kontextinformationen f\u00FChrt. Sobald dieses gemeinsame Verst\u00E4ndnis der Materialrepr\u00E4sentation vorhanden ist, k\u00F6nnen im n\u00E4chsten Schritt Material- und Kontextdaten durch eine gemeinsame Ontologie abgebildet werden. Diese sind somit auf ihrer Basis vollst\u00E4ndig digitalisiert und \u00FCber ihrer Eigenschaften beschrieben. Die Ontologie erm\u00F6glicht dabei, die Struktur von Materialdaten sowohl aus Computersimulationen als auch aus Experimenten sinnvoll mit den jeweiligen Kontextinformationen zu erfassen. Die erfassten und digitalisierten Daten k\u00F6nnen in einem darauffolgenden Prozess kontinuierlich einer Bewertung unterzogen werden. Hierzu werden standardisierte Methoden zum Testen und f\u00FCr die Datenanalytik mittels maschinellen Lernens eingef\u00FChrt. Die digitalisierten Daten, das hei\u00DFt, sowohl die Materialdaten als auch die Kontextinformationen, werden anderen Materialwissenschaftlerinnen und \u2013wissenschaftlern \u00FCber neu zu entwickelnde Plattformen zug\u00E4nglich gemacht. Durch diesen Schritt kann die Reproduzierbarkeit bzw. die Validit\u00E4t von Experimenten gef\u00F6rdert, neue Ergebnisse direkt verglichen und Daten f\u00FCr neue Experimente wiederverwendet werden."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/Projects/STREAM> <http://purl.org/dc/terms/abstract> "" .
+<http://aksw.org/Projects/STREAM> <http://usefulinc.com/ns/doap#maintainer> <aksworg:MichaelMartin> .
+<http://aksw.org/Projects/STREAM> <http://vocab.ox.ac.uk/projectfunding#endDate> "2022-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/STREAM> <http://vocab.ox.ac.uk/projectfunding#startDate> "2019-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/STREAM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
+<http://aksw.org/Projects/STREAM> <http://www.w3.org/2000/01/rdf-schema#label> "STREAM" .
 <http://aksw.org/Projects/Scoreboard> <http://aksw.org/schema/funding> "10000" .
 <http://aksw.org/Projects/Scoreboard> <http://aksw.org/schema/hookline> "A Statistical Anatomy of Europe's way into the Information Age" .
 <http://aksw.org/Projects/Scoreboard> <http://aksw.org/schema/partner> <http://aksw.org/Partner/TenForce> .
