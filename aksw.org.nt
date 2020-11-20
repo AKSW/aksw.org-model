@@ -492,6 +492,7 @@
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/name> "Claus Stadler" .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732253> .
 <http://aksw.org/ClemensHoffmann> <http://schema.org/faxNumber> <tel:+49-341-97-32269> .
+<http://aksw.org/ClemensHoffmann> <http://schema.org/streetAddress> "Hainstr. 11" .
 <http://aksw.org/ClemensHoffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/ClemensHoffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/ClemensHoffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -506,7 +507,6 @@
 <http://aksw.org/ClemensHoffmann> <http://xmlns.com/foaf/0.1/mbox> <mailto:hoffmann@informatik.uni-leipzig.de> .
 <http://aksw.org/ClemensHoffmann> <http://xmlns.com/foaf/0.1/name> "Clemens Hoffmann" .
 <http://aksw.org/ClemensHoffmann> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32347> .
-<http://aksw.org/ClemensHoffmann> <schema:streetAddress> "Hainstr. 11" .
 <http://aksw.org/Comment5211f4e1c0394> <http://purl.org/dc/terms/created> "2013-08-19T12:35:13+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://aksw.org/Comment5211f4e1c0394> <http://rdfs.org/sioc/ns#about> <http://aksw.org/Partner/RolandBloch> .
 <http://aksw.org/Comment5211f4e1c0394> <http://rdfs.org/sioc/ns#content> "@thomas, passt das jetzt so mit der Adresse?" .
@@ -1100,6 +1100,7 @@
 <http://aksw.org/Groups/KILT> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/Groups/KILT> <http://purl.org/dc/terms/abstract> "What kind of smart applications can we build, if we were able to integrate all available knowledge, data and language resources in a meaningful way? While Turing's imitation game is exciting, we are focussing on the actual knowledge engineering to build information machines that enable humans to perform more efficiently in their tasks. To achieve this goal, we believe the following two prerequisites must be met: \n\n  1. Knowledge and Data must be rendered discoverable and then transformed, linked, enriched and integrated homogeneously in a huge semantic knowledge graph ([DBpedia](DBpedia))  \n  2.  Language Technologies must be on the one hand leveraged to understand, categorize and structure available textual content in all its forms. On the other hand, language technology must assist in building adequate interfaces that allow humans to interact effectively with data and information via discovery, querying and reorganization. \n\nResearch in this group focusses on contextualising data and ontologies as well as capturing deep linguistic knowledge to improve machine understanding. Besides research, we are taking the extra effort to undertake transfer and innovation projects and support industrial applications such as in the [JURION use case](http://aligned-project.eu/jurion-demonstration-system/ \"JURION use case\"). \n\nMain contact: [Dr.-Ing. Sebastian Hellmann](http://aksw.org/SebastianHellmann \"Dr.-Ing. Sebastian Hellmann\")"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Groups/KILT> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
+<http://aksw.org/Groups/KILT> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/Groups/KILT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
 <http://aksw.org/Groups/KILT> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge Integration and Linked Data Technologies" .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AmitKirschenbaum> .
@@ -1116,7 +1117,6 @@
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RiteshKumarSingh> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RobertRoesling> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianHellmann> .
-<http://aksw.org/Groups/KILT> <schema:location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/Groups/MOLE> <http://aksw.org/schema/publicationTag> "mole" .
 <http://aksw.org/Groups/MOLE> <http://aksw.org/schema/researchAreas> "Creating knowledge bases from weakly structured data" .
 <http://aksw.org/Groups/MOLE> <http://aksw.org/schema/researchAreas> "Quality assurance and enhancement in ontologies" .
@@ -1564,6 +1564,7 @@
 <http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/NLP2RDF> .
 <http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-26508028> .
 <http://aksw.org/MarkusFreudenberg> <http://schema.org/affiliation> <http://aksw.org/Partner/Eccenca> .
+<http://aksw.org/MarkusFreudenberg> <http://schema.org/faxNumber> <tel:+49-341-26489305> .
 <http://aksw.org/MarkusFreudenberg> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/MarkusFreudenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MarkusFreudenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1577,7 +1578,6 @@
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DBpediaNIF> .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-26508028> .
-<http://aksw.org/MarkusFreudenberg> <schema:faxNumber> <tel:+49-341-26489305> .
 <http://aksw.org/MartinBruemmer> <http://aksw.org/schema/publicationTag> "bruemmer" .
 <http://aksw.org/MartinBruemmer> <http://schema.org/affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/MartinBruemmer> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
@@ -1593,6 +1593,7 @@
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/name> "Martin Br\u00FCmmer" .
 <http://aksw.org/MarvinFrommhold> <http://aksw.org/schema/publicationTag> "frommhold" .
 <http://aksw.org/MarvinFrommhold> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
+<http://aksw.org/MarvinFrommhold> <http://schema.org/affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/MarvinFrommhold> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/MarvinFrommhold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Frommhold/gn/Marvin> .
@@ -1604,7 +1605,6 @@
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/OntoWikiEU> .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SparqlTrainer> .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-64008750> .
-<http://aksw.org/MarvinFrommhold> <schema:affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/MarvinHofer> <http://aksw.org/schema/publicationTag> "hofer" .
 <http://aksw.org/MarvinHofer> <http://aksw.org/schema/room> "Institut fuer Angewandte Informatik (InfAI), 2. OG, AKSW/KILT Office" .
 <http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/content> "tbd"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
@@ -4788,7 +4788,6 @@
 <http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AMSL> .
 <http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LEDS> .
 <http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-26508028> .
-<http://aksw.org/SebastianNuck> <schema:affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/SebastianTramp> <http://aksw.org/schema/publicationTag> "tramp" .
 <http://aksw.org/SebastianTramp> <http://ns.ontowiki.net/SysOnt/Site/content> "I am an AKSW founding member, former head of the Emergent Semantics research group and now associated AKSW member and CTO at [eccenca GmbH](http://aksw.org/Partner/Eccenca \"eccenca\").\n\nI am interested in students who want to work in the **Semantic Web in business context**.\n\nI provide **supervision of bachelor and master thesis**, practical work courses as well as student working contracts.\n\nFeel free to drop me a note if you are interested working with me and [eccenca GmbH](http://aksw.org/Partner/Eccenca \"eccenca\").\n\nMy research interests are:\n\n* Distributed Semantic Social as well as Business Networks\n* Security / trust / privacy in the Semantic Web \n* Basic Web information technologies (Web data integration, personalization techniques, architecture of Web information systems)\n* Semantic Web infrastructure and languages (query, rule and update languages)\n* Semantic Web applications\n\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/SebastianTramp> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
@@ -4834,7 +4833,6 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Xodx> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/xOperator> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-26508028> .
-<http://aksw.org/SebastianTramp> <schema:affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/SebastianZaenker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/JekyllRDF> .
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/familyName> "" .
@@ -5890,10 +5888,6 @@
 <https://github.com/AKSW/ldwpo/tree/master/tools> <http://aksw.org/schema/buttonLabel> "@tools" .
 <https://github.com/AKSW/ldwpo/tree/master/tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://github.com/AKSW/ldwpo/tree/master/tools> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/Projects/LDWPO> .
-<https://github.com/KonradHoeffner> <aksw:buttonLabel> "@github\n" .
-<https://github.com/KonradHoeffner> <http://aksw.org/schema/buttonLabel> "@github" .
-<https://github.com/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <schema:ProfilePage> .
-<https://github.com/KonradHoeffner> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/KonradHoeffner> .
 <https://github.com/MSherif> <http://aksw.org/schema/buttonLabel> "@GitHub" .
 <https://github.com/MSherif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <https://github.com/MSherif> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/MohamedSherif> .
