@@ -126,7 +126,7 @@
 <http://aksw.org/Address/Goerdellering904109Leipzig> <http://schema.org/addressLocality> "Leipzig" .
 <http://aksw.org/Address/Goerdellering904109Leipzig> <http://schema.org/faxNumber> <tel:+49-341-229037-99> .
 <http://aksw.org/Address/Goerdellering904109Leipzig> <http://schema.org/postalCode> "04109" .
-<http://aksw.org/Address/Goerdellering904109Leipzig> <http://schema.org/streetAddress> "Goerdellering 9" .
+<http://aksw.org/Address/Goerdellering904109Leipzig> <http://schema.org/streetAddress> "Goerdelerring 9" .
 <http://aksw.org/Address/Goerdellering904109Leipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <http://aksw.org/Address/Goerdellering904109Leipzig> <http://www.w3.org/2000/01/rdf-schema#label> "Goerdelerring 9, 04109 Leipzig" .
 <http://aksw.org/Address/GrimmaischeStrasse12> <http://schema.org/addressCountry> "DE" .
@@ -1446,6 +1446,7 @@
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "KonradHoeffner" .
+<http://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Konrad H\u00F6ffner" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AutoSPARQL> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/BIG> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
@@ -1453,7 +1454,7 @@
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Hoeffner/gn/Konrad> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/familyName> "H\u00F6ffner" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/mbox> <mailto:konrad.hoeffner@uni-leipzig.de> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Dr. Konrad H\u00F6ffner" .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad H\u00F6ffner" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkedGeoData> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SAIM> .
@@ -1812,6 +1813,7 @@
 <http://aksw.org/MuhammadSaleem> <http://aksw.org/schema/room> "P905" .
 <http://aksw.org/MuhammadSaleem> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
 <http://aksw.org/MuhammadSaleem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/MuhammadSaleem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Muhammad Saleem" .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DIESEL> .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/REX> .
@@ -1820,7 +1822,7 @@
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/familyName> "Saleem" .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/homepage> <https://sites.google.com/site/saleemsweb/> .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/mbox> <mailto:saleem@informatik.uni-leipzig.de> .
-<http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/name> "Dr. rer. nat. Muhammad Saleem" .
+<http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/name> "Muhammad Saleem" .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32362-/-+4917666169917> .
 <http://aksw.org/NadineJaenicke> <http://aksw.org/schema/room> "P612" .
 <http://aksw.org/NadineJaenicke> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/NadineJochimsen> .
@@ -4583,7 +4585,7 @@
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Usbeck/gn/Ricardo> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/familyName> "Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/mbox> <mailto:ricardo.usbeck@iais.fraunhofer.de> .
-<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/name> "Dr. Ricardo Usbeck" .
+<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/name> "Ricardo Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2013/SKIL> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DIESEL> .
@@ -5075,12 +5077,13 @@
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "TRiechert" .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "ThomasRiechert" .
+<http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AMSL> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> <http://thomas-riechert.de/pict/tr.jpg> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/familyName> "Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/mbox> <mailto:thomas.riechert@htwk-leipzig.de> .
-<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Thomas Riechert" .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/ARTeFACT> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/CatalogusProfessorum> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
