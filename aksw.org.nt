@@ -4304,7 +4304,6 @@
 <http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/2000/01/rdf-schema#label> "Smart Data Web" .
 <http://aksw.org/Projects/SmartDataWeb> <http://xmlns.com/foaf/0.1/homepage> <http://smartdataweb.de/> .
 <http://aksw.org/Projects/SmartDataWeb> <http://xmlns.com/foaf/0.1/logo> <http://smartdataweb.de/wp-content/uploads/2015/10/sdw-logo-small.png> .
-<http://aksw.org/Projects/SmartDataWeb> <site:content> "[Smart Data Web](http://smartdataweb.de/) is a [BMWi](http://www.bmwi.de/EN/) funded project. The central goal of the [Smart Data Web project](http://smartdataweb.de/) is to leverage state-of-the-art data extraction and enrichment technologies as well as Linked Data to create value-added systems for the German industry. Knowledge which is relevant to decision-making processes will be extracted from government and industry data, official web pages and social media. Then the data will be analyzed using natural language processing frameworks and then it will be integrated into knowledge graphs. These knowledge graphs will be accessible via dashboards and APIs, as well as via Linked Data. Special concern will be given to legal questions, such as data licensing as well as data security and privacy.\n\n[AKSW](http://www.aksw.org), which is representing the University of Leipzig in this project, will develop the Knowledge Graph, which is the central aggregation and integration interface of [Smart Data Web](http://smartdataweb.de/). Unlike most current Linked Data knowledge bases, the German Knowledge Graph will focus on industry-relevant data. The graph will be developed in an iterative extraction, integration and interlinking process, building on proven technologies of the [Linked Data Stack](http://stack.linkeddata.org/). Data quality and persistence are a special priority of the German Knowledge Graph since consistency has to be guaranteed at all times. [RDFUnit](http://aksw.org/Projects/RDFUnit.html) is our tool of choice to accomplish this task.\n\nSmart Data Web will contribute significantly to overcome the barriers that hinder the integration of Semantic Web technologies, Web 2.0 data and data analysis for commercial applications." .
 <http://aksw.org/Projects/SoftWiki> <http://aksw.org/schema/funding> "418824"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://aksw.org/Projects/SoftWiki> <http://aksw.org/schema/hookline> "Semantics- and Community-Based Requirements Engineering" .
 <http://aksw.org/Projects/SoftWiki> <http://aksw.org/schema/partner> <http://aksw.org/Partner/ISA> .
@@ -5120,7 +5119,6 @@
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/name> "Tommaso Soru" .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkingLOD> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Rocker> .
-<http://aksw.org/TommasoSoru> <site:content> " " .
 <http://aksw.org/UrosMilosevic> <http://aksw.org/schema/publicationTag> "milosevic" .
 <http://aksw.org/UrosMilosevic> <http://aksw.org/schema/room> "41" .
 <http://aksw.org/UrosMilosevic> <http://schema.org/location> <http://aksw.org/Address/InstituteMihajloPupin> .
@@ -5888,6 +5886,9 @@
 <https://github.com/AKSW/ldwpo/tree/master/tools> <http://aksw.org/schema/buttonLabel> "@tools" .
 <https://github.com/AKSW/ldwpo/tree/master/tools> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://github.com/AKSW/ldwpo/tree/master/tools> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/Projects/LDWPO> .
+<https://github.com/KonradHoeffner> <http://aksw.org/schema/buttonLabel> "@github" .
+<https://github.com/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
+<https://github.com/KonradHoeffner> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/KonradHoeffner> .
 <https://github.com/MSherif> <http://aksw.org/schema/buttonLabel> "@GitHub" .
 <https://github.com/MSherif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <https://github.com/MSherif> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/MohamedSherif> .
