@@ -944,6 +944,7 @@
 <http://aksw.org/Events/2017/FDM2017> <http://schema.org/endDate> "2017-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2017/FDM2017> <http://schema.org/performer> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/Events/2017/FDM2017> <http://schema.org/startDate> "2013-09-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2017/FDM2017> <http://schema.org/startDate> "2017-09-25"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2017/FDM2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/Events/2017/FDM2017> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop on digital processes and information systems in research data management" .
 <http://aksw.org/Events/2017/FDM2017> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/EdgardMarx> .
