@@ -41,7 +41,7 @@
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://purl.org/dc/elements/1.1/title> "publication tags" .
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://rdfs.org/sioc/ns#has_creator> <http://aksw.org/SimonBin> .
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://rdfs.org/sioc/ns#id> "3db0038ec153e756747566a1353c1e09" .
-<http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://rdfs.org/sioc/ns#num_views> "3" .
+<http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://rdfs.org/sioc/ns#num_views> "5" .
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/SparqlQuery> .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#locality> "Leipzig" .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#postal-code> "04109" .
@@ -320,7 +320,7 @@
 <http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFaCE> .
 <http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWiki> .
 <http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWikiEU> .
-<http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=khalili> .
+<http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/depiction> <https://ali1k.com/imgs/ali_cv_photo.jpg> .
 <http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/familyName> "Khalili" .
 <http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/homepage> <http://ali1k.com> .
 <http://aksw.org/AliKhalili> <http://xmlns.com/foaf/0.1/mbox> <mailto:khalili@informatik.uni-leipzig.de> .
@@ -372,7 +372,6 @@
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/ReDDObservatory> .
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/TripleCheckMate> .
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/USPatents> .
-<http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32273> .
 <http://aksw.org/AndreValdestilhas> <http://aksw.org/schema/publicationTag> "Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -535,7 +534,7 @@
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DEQA> .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DeFacto> .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SPARQL2NL> .
-<http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=gerber> .
+<http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/depiction> <https://gruene.social/system/accounts/avatars/000/018/907/original/d23f010ca01b6a65.jpg> .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/familyName> "Gerber" .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/mbox> <mailto:dgerber@informatik.uni-leipzig.de> .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
@@ -1012,7 +1011,7 @@
 <http://aksw.org/FarshadBadie> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.inf.unideb.hu/~kadek/logic.html> .
 <http://aksw.org/FarshadBadie> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "FarshadBadie" .
 <http://aksw.org/FarshadBadie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farshad Badie" .
-<http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=Badie> .
+<http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/depiction> <https://vbn.aau.dk/files-asset/286568626/Importeret+foto.jpg> .
 <http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/familyName> "Badie" .
 <http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/mbox> <mailto:badie@informatik.uni-leipzig.de> .
 <http://aksw.org/FarshadBadie> <http://xmlns.com/foaf/0.1/name> "Farshad Badie" .
@@ -1378,7 +1377,7 @@
 <http://aksw.org/KarolinKoblenz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/KarolinKoblenz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KarolinKoblenz> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
-<http://aksw.org/KarolinKoblenz> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=cn&value=Karolin+Koblenz> .
+<http://aksw.org/KarolinKoblenz> <http://xmlns.com/foaf/0.1/depiction> <https://nitter.net/pic/profile_images%2F557159618980237312%2F9ZdUoRSh_400x400.jpeg> .
 <http://aksw.org/KarolinKoblenz> <http://xmlns.com/foaf/0.1/familyName> "Koblenz" .
 <http://aksw.org/KarolinKoblenz> <http://xmlns.com/foaf/0.1/mbox> <mailto:koblenz@informatik.uni-leipzig.de> .
 <http://aksw.org/KarolinKoblenz> <http://xmlns.com/foaf/0.1/name> "Karolin Majura Koblenz" .
@@ -1390,7 +1389,7 @@
 <http://aksw.org/KayMueller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
 <http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SmartDataWeb> .
-<http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/depiction> <https://pbs.twimg.com/profile_images/641547816070971392/I3czpI40.png> .
+<http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/depiction> <https://nitter.net/pic/profile_images%2F641547816070971392%2FI3czpI40_400x400.png> .
 <http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/familyName> "M\u00FCller" .
 <http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/mbox> <mailto:kay.mueller@informatik.uni-leipzig.de> .
 <http://aksw.org/KayMueller> <http://xmlns.com/foaf/0.1/name> "Kay M\u00FCller" .
@@ -1435,7 +1434,7 @@
 <http://aksw.org/KonradAbicht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KonradAbicht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KonradAbicht> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CubeViz> .
-<http://aksw.org/KonradAbicht> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=abicht> .
+<http://aksw.org/KonradAbicht> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Abicht> .
 <http://aksw.org/KonradAbicht> <http://xmlns.com/foaf/0.1/familyName> "Abicht" .
 <http://aksw.org/KonradAbicht> <http://xmlns.com/foaf/0.1/mbox> <mailto:k.abicht@gmail.com> .
 <http://aksw.org/KonradAbicht> <http://xmlns.com/foaf/0.1/name> "Konrad Abicht" .
@@ -1572,7 +1571,7 @@
 <http://aksw.org/MarkusFreudenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MarkusFreudenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> .
-<http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/depiction> <https://media.licdn.com/dms/image/C4E03AQF76Dd1ZhEXtg/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=OQhUDF-ocEIXQNVCIq3296vxS6Xohqpr3vKmyY8jSbc> .
+<http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/depiction> <https://2019.semantics.cc/sites/2019.semantics.cc/files/styles/user_picture/public/pictures/picture-1515-1567584829.jpg> .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/familyName> "Freudenberg" .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/mbox> <mailto:markus.freudenberg@eccenca.com> .
 <http://aksw.org/MarkusFreudenberg> <http://xmlns.com/foaf/0.1/name> "Markus Freudenberg" .
@@ -1938,7 +1937,7 @@
 <http://aksw.org/NormanHeino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NormanHeino> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "NormanHeino" .
 <http://aksw.org/NormanHeino> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/BioASQ> .
-<http://aksw.org/NormanHeino> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=heino> .
+<http://aksw.org/NormanHeino> <http://xmlns.com/foaf/0.1/depiction> <https://avatars0.githubusercontent.com/u/173583> .
 <http://aksw.org/NormanHeino> <http://xmlns.com/foaf/0.1/familyName> "Heino" .
 <http://aksw.org/NormanHeino> <http://xmlns.com/foaf/0.1/mbox> <mailto:heino@informatik.uni-leipzig.de> .
 <http://aksw.org/NormanHeino> <http://xmlns.com/foaf/0.1/name> "Norman Heino" .
@@ -4644,7 +4643,7 @@
 <http://aksw.org/SaeedehShekarpour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SaeedehShekarpour> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "SaeedehShekarpour" .
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SINA> .
-<http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=shekarpour> .
+<http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/depiction> <https://nitter.net/pic/profile_images%2F1265095918770159621%2F4LQVEEDk_400x400.jpg> .
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/familyName> "Shekarpour" .
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/mbox> <mailto:shekarpour@informatik.uni-leipzig.de> .
 <http://aksw.org/SaeedehShekarpour> <http://xmlns.com/foaf/0.1/name> "Saeedeh Shekarpour" .
@@ -4783,7 +4782,7 @@
 <http://aksw.org/SebastianNuck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/SebastianNuck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SebastianNuck> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "snuck" .
-<http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=nuck> .
+<http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/depiction> <https://avatars2.githubusercontent.com/u/312090> .
 <http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/familyName> "Nuck" .
 <http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/mbox> <mailto:sebastian.nuck@eccenca.com> .
 <http://aksw.org/SebastianNuck> <http://xmlns.com/foaf/0.1/name> "Sebastian Nuck" .
@@ -6015,6 +6014,9 @@
 <https://www.linkedin.com/in/mullerkay> <http://aksw.org/schema/buttonLabel> "@LinkedIn" .
 <https://www.linkedin.com/in/mullerkay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <https://www.linkedin.com/in/mullerkay> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/KayMueller> .
+<https://www.maastrichtuniversity.nl/memoriam-amrapali-zaveri> <http://aksw.org/schema/buttonLabel> "+In Memoriam" .
+<https://www.maastrichtuniversity.nl/memoriam-amrapali-zaveri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
+<https://www.maastrichtuniversity.nl/memoriam-amrapali-zaveri> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/AmrapaliZaveri> .
 <https://www.ohloh.net/p/ontowiki> <http://aksw.org/schema/buttonLabel> "@ohloh" .
 <https://www.ohloh.net/p/ontowiki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ohloh.net/p/ontowiki> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/Projects/OntoWiki> .
