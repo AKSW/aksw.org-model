@@ -447,7 +447,7 @@
 <http://aksw.org/BettinaKlimek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIDER> .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
-<http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/depiction> <https://pbs.twimg.com/profile_images/611514556771385344/MgV5Jkhh.jpg> .
+<http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Klimek> .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/familyName> "Klimek" .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/mbox> <mailto:klimek@informatik.uni-leipzig.de> .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/name> "Bettina Klimek" .
@@ -617,7 +617,7 @@
 <http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AGDISTIS> .
 <http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MEX> .
 <http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
-<http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/depiction> <http://dice.cs.uni-paderborn.de/fileadmin/profile_pics/moussallem_small.jpg> .
+<http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Moussallem> .
 <http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/familyName> "Moussallem" .
 <http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/mbox> <mailto:moussallem@informatik.uni-leipzig.de> .
 <http://aksw.org/DiegoMoussallem> <http://xmlns.com/foaf/0.1/name> "Diego Moussallem" .
@@ -1039,7 +1039,7 @@
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Gezim Sejdiu" .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/BDE> .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
-<http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/depiction> <https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0a0/145/14cb4e4.jpg> .
+<http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Sejdiu> .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/familyName> "Sejdiu" .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/mbox> <mailto:g.sejdiu@gmail.com> .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/name> "Gezim Sejdiu" .
@@ -1496,6 +1496,7 @@
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
+<http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Wenige> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/familyName> "Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/mbox> <mailto:wenige@infai.org> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
@@ -1668,7 +1669,7 @@
 <http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DIESEL> .
 <http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/HOBBIT> .
 <http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/QAMEL> .
-<http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/depiction> <https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi-AAAAJGYyZDZkYjI5LWIyMTgtNDViOS1iYjFkLTdmMTNiMzlkZDNkOA.jpg> .
+<http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Hoffmann/gn/Michael> .
 <http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/familyName> "Hoffmann" .
 <http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/mbox> <mailto:michoffmann.potsdam@gmail.com> .
 <http://aksw.org/MichaelHoffmann> <http://xmlns.com/foaf/0.1/name> "Michael Hoffmann" .
@@ -4690,7 +4691,7 @@
 <http://aksw.org/SarvenCapadisli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SarvenCapadisli> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://csarven.ca/cv> .
 <http://aksw.org/SarvenCapadisli> <http://www.w3.org/2002/07/owl#sameAs> <http://csarven.ca/#i> .
-<http://aksw.org/SarvenCapadisli> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=Capadisli> .
+<http://aksw.org/SarvenCapadisli> <http://xmlns.com/foaf/0.1/depiction> <https://csarven.ca/media/images/sarven-capadisli.jpg> .
 <http://aksw.org/SarvenCapadisli> <http://xmlns.com/foaf/0.1/familyName> "Capadisli" .
 <http://aksw.org/SarvenCapadisli> <http://xmlns.com/foaf/0.1/homepage> <http://csarven.ca/> .
 <http://aksw.org/SarvenCapadisli> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@csarven.ca> .
@@ -4865,7 +4866,7 @@
 <http://aksw.org/SimoneAngermann> <http://aksw.org/schema/room> "15" .
 <http://aksw.org/SimoneAngermann> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/SimoneAngermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=Angermann&f=1> .
+<http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Angermann> .
 <http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/familyName> "Angermann" .
 <http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/mbox> <mailto:angermann@infai.org> .
 <http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/name> "Simone Angermann" .
@@ -4892,7 +4893,7 @@
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Sparqlify> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/TripleCheckMate> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/conTEXT> .
-<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/depiction> <https://www.tib.eu/fileadmin/_processed_/f/5/csm_Auer_Soeren_b0af54d245.jpg> .
+<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Auer> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/familyName> "Auer" .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/mbox> <mailto:soeren.auer@tib.eu> .
@@ -5098,7 +5099,7 @@
 <http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/OntoWiki> .
 <http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/QAMEL> .
 <http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/conTEXT> .
-<http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=cn&value=Tim+Ermilov> .
+<http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Ermilov/gn/Tim> .
 <http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/familyName> "Ermilov" .
 <http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/mbox> <mailto:ermilov@informatik.uni-leipzig.de> .
 <http://aksw.org/TimofeyErmilov> <http://xmlns.com/foaf/0.1/name> "Timofey Ermilov" .
@@ -5125,7 +5126,7 @@
 <http://aksw.org/UrosMilosevic> <http://schema.org/location> <http://aksw.org/Address/InstituteMihajloPupin> .
 <http://aksw.org/UrosMilosevic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/UrosMilosevic> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
-<http://aksw.org/UrosMilosevic> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=milosevic> .
+<http://aksw.org/UrosMilosevic> <http://xmlns.com/foaf/0.1/depiction> <https://gravatar.com/avatar/377e189f5fcf8c4a67431163f5076166?s=200> .
 <http://aksw.org/UrosMilosevic> <http://xmlns.com/foaf/0.1/familyName> "Milo\u0161evi\u0107" .
 <http://aksw.org/UrosMilosevic> <http://xmlns.com/foaf/0.1/mbox> <mailto:uros.milosevic@pupin.rs> .
 <http://aksw.org/UrosMilosevic> <http://xmlns.com/foaf/0.1/name> "Uro\u0161 Milo\u0161evi\u0107" .
