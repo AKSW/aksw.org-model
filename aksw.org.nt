@@ -445,6 +445,7 @@
 <http://aksw.org/BettinaKlimek> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/BettinaKlimek> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/BettinaKlimek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/BettinaKlimek> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Bettina Klimek" .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIDER> .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
 <http://aksw.org/BettinaKlimek> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Klimek> .
