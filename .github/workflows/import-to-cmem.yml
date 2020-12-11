@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: Import graphs to eccenca Corporate Memory @ aksw.eccenca.dev
 
 on:
   push:
