@@ -7,7 +7,12 @@ on:
     branches: [master]
 
 jobs:
-  container:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@master
+  graph-import:
     runs-on: ubuntu-latest
     container: docker-registry.eccenca.com/eccenca-cmemc:v20.12
     steps:
@@ -16,4 +21,5 @@ jobs:
           OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
         run: |
           echo "$OAUTH_CLIENT_SECRET"
+          ls -l
 
