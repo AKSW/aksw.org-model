@@ -4,14 +4,16 @@ name: Import graphs to eccenca Corporate Memory @ aksw.eccenca.dev
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   container:
     runs-on: ubuntu-latest
     container: node:10.16-jessie
     steps:
-      - run: |
-          echo This job does specify a container.
-          echo It runs in the container instead of the VM.
-        name: Run in container
+      - shell: bash
+        env:
+          OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
+          run: |
+            echo "$OAUTH_CLIENT_SECRET"
+
