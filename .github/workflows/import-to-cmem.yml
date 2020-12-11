@@ -9,7 +9,7 @@ on:
 jobs:
   container:
     runs-on: ubuntu-latest
-    container: node:10.16-jessie
+    container: docker-registry.eccenca.com/eccenca-cmemc:v20.12
     steps:
       - shell: bash
         env:
