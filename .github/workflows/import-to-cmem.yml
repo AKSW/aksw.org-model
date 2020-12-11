@@ -14,6 +14,6 @@ jobs:
       - shell: bash
         env:
           OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
-          run: |
-            echo "$OAUTH_CLIENT_SECRET"
+        run: |
+          echo "$OAUTH_CLIENT_SECRET"
 
