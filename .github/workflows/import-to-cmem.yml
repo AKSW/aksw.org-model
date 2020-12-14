@@ -24,5 +24,5 @@ jobs:
         uses: docker-registry.eccenca.com/eccenca-cmemc:v20.12
         with:
           entrypoint: /bin/bash
-        run: cmemc graph list
+          args: cmemc graph list
 
