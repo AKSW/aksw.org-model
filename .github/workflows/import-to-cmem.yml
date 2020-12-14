@@ -24,7 +24,5 @@ jobs:
           OAUTH_CLIENT_ID: cmem-service-account
           OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
           CMEMC_CONNECTION: aksw.eccenca.dev
-        with:
-          entrypoint: /bin/bash
-        run: cmemc graph import .
+        options: graph list
 
