@@ -1,12 +1,12 @@
 
-name: Import to eccenca Corporate Memory
+name: Import to aksw.eccenca.dev 😃
 
 on:
   push:
     branches: [master]
 
 jobs:
-  graph-import:
+  replace-graphs:
     runs-on: ubuntu-latest
     container:
       image: docker-registry.eccenca.com/eccenca-cmemc:v20.12
@@ -21,6 +21,5 @@ jobs:
           OAUTH_GRANT_TYPE: client_credentials
           OAUTH_CLIENT_ID: cmem-service-account
           OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
-          #run: cmemc graph import --replace .
         run: cmemc graph import --replace .
 
