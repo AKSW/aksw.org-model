@@ -13,13 +13,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@master
   graph-import:
-    runs-on: ubuntu-latest
-    container: docker-registry.eccenca.com/eccenca-cmemc:v20.12
-    steps:
-      - shell: bash
-        env:
-          OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
-        run: |
-          echo "$OAUTH_CLIENT_SECRET"
-          ls -l
+    container:
+      image: docker-registry.eccenca.com/eccenca-cmemc:v20.12
+      volumes:
+        - ${{ github.workspace }}:/data
+      env:
+        CMEM_BASE_URI: https://aksw.eccenca.dev
+        OAUTH_GRANT_TYPE: client_credentials
+        OAUTH_CLIENT_ID: cmem-service-account
+        OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
+        CMEMC_CONNECTION: aksw.eccenca.dev
+      options: graph list
 
