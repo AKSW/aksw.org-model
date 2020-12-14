@@ -23,5 +23,5 @@ jobs:
       - name: cmemc graph list
         with:
           entrypoint: /bin/bash
-          args: cmemc graph list
+        run: cmemc graph list
 
