@@ -13,11 +13,14 @@ jobs:
       volumes:
         - ${{ github.workspace }}:/data
     steps:
-      - name: cmemc graph list
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: cmemc graph import
         env:
           CMEM_BASE_URI: https://aksw.eccenca.dev
           OAUTH_GRANT_TYPE: client_credentials
           OAUTH_CLIENT_ID: cmem-service-account
           OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
-        run: cmemc graph list
+          #run: cmemc graph import --replace .
+        run: ls -l
 
