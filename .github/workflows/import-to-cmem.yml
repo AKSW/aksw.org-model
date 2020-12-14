@@ -21,6 +21,7 @@ jobs:
         CMEMC_CONNECTION: aksw.eccenca.dev
     steps:
       - name: cmemc graph list
+        uses: docker-registry.eccenca.com/eccenca-cmemc:v20.12
         with:
           entrypoint: /bin/bash
         run: cmemc graph list
