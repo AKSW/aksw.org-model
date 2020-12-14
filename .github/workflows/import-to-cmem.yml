@@ -21,4 +21,5 @@ jobs:
         CMEMC_CONNECTION: aksw.eccenca.dev
     steps:
       - name: cmemc graph list
+        run: ls
 
