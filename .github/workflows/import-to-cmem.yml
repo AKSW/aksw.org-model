@@ -18,7 +18,6 @@ jobs:
         OAUTH_GRANT_TYPE: client_credentials
         OAUTH_CLIENT_ID: cmem-service-account
         OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
-        CMEMC_CONNECTION: aksw.eccenca.dev
     steps:
       - name: cmemc graph list
         run: cmemc graph list
