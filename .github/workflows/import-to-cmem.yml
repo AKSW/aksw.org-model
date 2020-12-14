@@ -21,7 +21,4 @@ jobs:
         CMEMC_CONNECTION: aksw.eccenca.dev
     steps:
       - name: cmemc graph list
-        with:
-          entrypoint: /bin/bash
-        run: cmemc graph list
 
