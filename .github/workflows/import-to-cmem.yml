@@ -22,5 +22,6 @@ jobs:
     steps:
       - name: cmemc graph list
         with:
-          args: graph list
+          entrypoint: /bin/bash
+        run: cmemc graph list
 
