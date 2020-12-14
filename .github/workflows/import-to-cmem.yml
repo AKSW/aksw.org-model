@@ -9,19 +9,18 @@ on:
 jobs:
   graph-import:
     runs-on: ubuntu-latest
+    container:
+      image: docker-registry.eccenca.com/eccenca-cmemc:v20.12
+      volumes:
+        - ${{ github.workspace }}:/data
+      env:
+        CMEM_BASE_URI: https://aksw.eccenca.dev
+        OAUTH_GRANT_TYPE: client_credentials
+        OAUTH_CLIENT_ID: cmem-service-account
+        OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
+        CMEMC_CONNECTION: aksw.eccenca.dev
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
       - name: cmemc graph list
-        uses: docker-registry.eccenca.com/eccenca-cmemc:v20.12
         with:
-          volumes:
-            - ${{ github.workspace }}:/data
-          env:
-            CMEM_BASE_URI: https://aksw.eccenca.dev
-            OAUTH_GRANT_TYPE: client_credentials
-            OAUTH_CLIENT_ID: cmem-service-account
-            OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
-            CMEMC_CONNECTION: aksw.eccenca.dev
           args: graph list
 
