@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 jobs:
-  checkout:
+  import-to-corporate-memory:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -23,5 +23,9 @@ jobs:
         OAUTH_CLIENT_ID: cmem-service-account
         OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
         CMEMC_CONNECTION: aksw.eccenca.dev
-      options: graph list
+    steps:
+      - name: cmemc
+        with:
+          entrypoint: /bin/bash
+        run: cmemc graph import .
 
