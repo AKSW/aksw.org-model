@@ -12,6 +12,6 @@ jobs:
     - name: Invoke workflow in another repo
       uses: benc-uk/workflow-dispatch@v1
       with:
-        workflow: build-and-publish-page
+        workflow: "Build & Publish to GitHub Pages"
         repo: AKSW/aksw.org.jekyllrdf
         token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}
