@@ -1,4 +1,5 @@
-name: Trigger Page Build for https://github.com/AKSW/aksw.org.jekyllrdf
+# Trigger Page Build for https://github.com/AKSW/aksw.org.jekyllrdf
+name: Trigger Page Build
 
 on:
   push:
