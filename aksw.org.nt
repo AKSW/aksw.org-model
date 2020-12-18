@@ -628,6 +628,7 @@
 <http://aksw.org/DimitrisKontokostas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/DimitrisKontokostas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DimitrisKontokostas> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "DimitrisKontokostas" .
+<http://aksw.org/DimitrisKontokostas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Dimitris Kontokostas" .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/ALIGNED> .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpediaDQ> .
