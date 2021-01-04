@@ -375,6 +375,7 @@
 <http://aksw.org/AndreValdestilhas> <http://aksw.org/schema/publicationTag> "Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/AndreValdestilhas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Andr\u00E9 Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/depiction> <https://lh4.googleusercontent.com/-oyLs5qEUu5c/VKuvgD7cMpI/AAAAAAAABSY/B5dWW-p-NCM/s128/andre_terno_ita.jpg> .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/familyName> "Valdestilhas" .
@@ -530,6 +531,7 @@
 <http://aksw.org/DanielGerber> <http://schema.org/location> <http://aksw.org/Address/Elsewhere> .
 <http://aksw.org/DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AGDISTIS> .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/BOA> .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DEQA> .
