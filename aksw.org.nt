@@ -1814,6 +1814,7 @@
 <http://aksw.org/MohnishDubey> <http://aksw.org/schema/room> "P905" .
 <http://aksw.org/MohnishDubey> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
 <http://aksw.org/MohnishDubey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/MohnishDubey> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Mohnish Dubey" .
 <http://aksw.org/MohnishDubey> <http://xmlns.com/foaf/0.1/depiction> <https://slack-files.com/files-tmb/T02RQPZG8-F067HR0RE-5ab2c0fa00/aksw_profile_360.png> .
 <http://aksw.org/MohnishDubey> <http://xmlns.com/foaf/0.1/familyName> "Dubey" .
 <http://aksw.org/MohnishDubey> <http://xmlns.com/foaf/0.1/name> "Mohnish Dubey" .
