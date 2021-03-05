@@ -1731,6 +1731,7 @@
 <http://aksw.org/MilanDojchinovski> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "MilanDojchinovski" .
+<http://aksw.org/MilanDojchinovski> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/ALIGNED> .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpediaNIF> .
