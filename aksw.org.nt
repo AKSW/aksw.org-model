@@ -485,6 +485,7 @@
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/KupferDigital> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LinkedGeoData> .
+<http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MCLIENT> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/QROWD> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SLIPO> .
@@ -3678,6 +3679,17 @@
 <http://aksw.org/Projects/LinkingLOD> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-07-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/2000/01/rdf-schema#label> "LinkingLOD" .
+<http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/hookline> "Effiziente Schnittstellen f\u00FCr Datenbereitsteller" .
+<http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/partner> <http://aksw.org/Partner/CISS> .
+<http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/publicationTag> "mclient" .
+<http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/MCLIENT> <http://purl.org/dc/terms/abstract> "Zahlreiche Einrichtungen der Kommunen und der L\u00E4nder besitzen hochgradig relevante Datensch\u00E4tze aus dem Mobilit\u00E4tsbereich, die sie gern einer breiten \u00D6ffentlichkeit zur Verf\u00FCgung stellen m\u00F6chten. Der potenzielle Nutzerkreis ist gro\u00DF: Unternehmen und Beh\u00F6rden, aber auch Journalisten, Wissenschaftler oder B\u00FCrger haben Interesse an der Nutzung. Oftmals existiert vor Ort jedoch kein Werkzeug, um die Daten direkt in bundesweite Datenportale einzuspielen. Deshalb planen die Projektpartner, eine Softwarel\u00F6sung f\u00FCr die automatisierte Ver\u00F6ffentlichung von Daten zu erstellen: den mCLIENT. Der mCLIENT soll in der Lage sein, Datensammlungen auf Qualit\u00E4t zu pr\u00FCfen, semantisch zu beschreiben und im PUSH-Modus in zentrale Datenportale zu \u00FCberf\u00FChren." .
+<http://aksw.org/Projects/MCLIENT> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/LisaWenige> .
+<http://aksw.org/Projects/MCLIENT> <http://vocab.ox.ac.uk/projectfunding#endDate> "2020-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/MCLIENT> <http://vocab.ox.ac.uk/projectfunding#startDate> "2021-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/MCLIENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
+<http://aksw.org/Projects/MCLIENT> <http://www.w3.org/2000/01/rdf-schema#label> "mCLIENT" .
+<http://aksw.org/Projects/MCLIENT> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/projekt-zur-beschleunigten-publikation-von-mobilitaets-daten/> .
 <http://aksw.org/Projects/MEX> <http://aksw.org/schema/hookline> "A Light-Weight Interchange Format for Machine Learning Experiments" .
 <http://aksw.org/Projects/MEX> <http://aksw.org/schema/publicationTag> "mex" .
 <http://aksw.org/Projects/MEX> <http://ns.ontowiki.net/SysOnt/Site/content> "Over the last decades many machine learning experiments have been published, giving benefit to the scientific progress. In order to compare machine-learning experiment results with each other and collaborate positively, they need to be performed thoroughly on the same computing environment, using the same sample datasets and algorithm configurations. Besides this, practical experience shows that scientists and engineers tend to have large output data in their experiments, which is both difficult to analyze and archive properly without provenance metadata. However, the Linked Data community still misses a light-weight specification for interchanging machine-learning metadata over different architectures to achieve a higher level of interoperability. MEX provides a prompt method to describe experiments with a special focus on data provenance and fulfills the requirements for a long-term maintenance"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
