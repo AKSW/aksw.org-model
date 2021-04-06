@@ -4790,6 +4790,16 @@
 <http://aksw.org/SchemaEvent/DBpediaTutorial> <http://schema.org/startDate> "2020-07-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/SchemaEvent/DBpediaTutorial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/SchemaEvent/DBpediaTutorial> <http://www.w3.org/2000/01/rdf-schema#label> "1st DBpedia Stack Tutorial (Online)" .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://aksw.org/schema/hookline> "" .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "" .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://ns.ontowiki.net/SysOnt/Site/menuLabel> "" .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://purl.org/dc/terms/abstract> "We are proud to announce that we will organize a tutorial at the Knowledge Graph Conference 2021 on May 4, 2021 at 3pm CEST. " .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://schema.org/description> "We are proud to announce that we will organize a tutorial at the Knowledge Graph Conference 2021 on May 4, 2021 at 3pm CEST. The tutorial targets existing and potential new users of DBpedia, developers that wish to learn how to replicate DBpedia infrastructure, service providers interested in exploiting the DBpedia KG, data providers interested in integrating data assets with the DBpedia KG, data scientists (e.g. linguists) focused on extracting relevant information (e.g. linguistic) from/based on the DBpedia KG. Please check all details here: https://www.dbpedia.org/events/dbpedia-tutorial-kg-conference/" .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://schema.org/endDate> "2021-05-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://schema.org/startDate> "2021-05-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<http://aksw.org/SchemaEvent/DBpediaTutorialAtKGC2021> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Tutorial at KGC 2021\n\n" .
 <http://aksw.org/SchemaEvent/DBpediaTutorialAtLDK2021> <http://aksw.org/schema/hookline> "" .
 <http://aksw.org/SchemaEvent/DBpediaTutorialAtLDK2021> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "" .
 <http://aksw.org/SchemaEvent/DBpediaTutorialAtLDK2021> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
