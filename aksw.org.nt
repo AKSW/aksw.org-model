@@ -5229,8 +5229,6 @@
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#VCard> .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2000/01/rdf-schema#label> "[InfAI Office Leipzig]" .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2006/vcard/ns#adr> <http://aksw.org/Address/vCard/Goerdelerring9> .
-<http://aksw.org/newResource/59197300b1bd3d82654f5d41abae2f80> <http://aksw.org/schema/room> "Hainzstr." .
-<http://aksw.org/newResource/59197300b1bd3d82654f5d41abae2f80> <http://xmlns.com/foaf/0.1/familyName> "" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/Site/classTemplate> "project" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/creationLabel> "Projects" .
 <http://aksw.org/schema/AlumniProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -5894,7 +5892,7 @@
 <http://xmlns.com/foaf/0.1/currentProject> <http://www.w3.org/2000/01/rdf-schema#label> "current project" .
 <http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/2000/01/rdf-schema#label> "depiction" .
-<http://xmlns.com/foaf/0.1/familyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/familyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://xmlns.com/foaf/0.1/familyName> <http://www.w3.org/2000/01/rdf-schema#label> "family name" .
 <http://xmlns.com/foaf/0.1/holdsAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://xmlns.com/foaf/0.1/holdsAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
