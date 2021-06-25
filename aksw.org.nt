@@ -305,7 +305,7 @@
 <http://aksw.org/AlexanderBigerl> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AlexanderBigerl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/AlexanderBigerl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/AlexanderBigerl> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Bigerl>" .
+<http://aksw.org/AlexanderBigerl> <http://xmlns.com/foaf/0.1/familyName> "Bigerl" .
 <http://aksw.org/AlexanderBigerl> <http://xmlns.com/foaf/0.1/mbox> <mailto:bigerl@informatik.uni-leipzig.de> .
 <http://aksw.org/AlexanderBigerl> <http://xmlns.com/foaf/0.1/name> "Alexander Bigerl" .
 <http://aksw.org/AliKhalili> <http://aksw.org/schema/publicationTag> "khalili" .
@@ -1357,7 +1357,7 @@
 <http://aksw.org/JonathanEberle> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
 <http://aksw.org/JonathanEberle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/JonathanEberle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/JonathanEberle> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Eberle>" .
+<http://aksw.org/JonathanEberle> <http://xmlns.com/foaf/0.1/familyName> "Eberle" .
 <http://aksw.org/JonathanEberle> <http://xmlns.com/foaf/0.1/mbox> <mailto:eberle@informatik.uni-leipzig.de> .
 <http://aksw.org/JonathanEberle> <http://xmlns.com/foaf/0.1/name> "Jonathan Eberle" .
 <http://aksw.org/JonathanHuthman> <http://aksw.org/schema/publicationTag> "huthmann" .
@@ -1366,7 +1366,7 @@
 <http://aksw.org/JonathanHuthman> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
 <http://aksw.org/JonathanHuthman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/JonathanHuthman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/JonathanHuthman> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Huthmann>" .
+<http://aksw.org/JonathanHuthman> <http://xmlns.com/foaf/0.1/familyName> "Huthmann" .
 <http://aksw.org/JonathanHuthman> <http://xmlns.com/foaf/0.1/mbox> <mailto:huthmann@informatik.uni-leipzig.de> .
 <http://aksw.org/JonathanHuthman> <http://xmlns.com/foaf/0.1/name> "Jonathan Huthmann" .
 <http://aksw.org/JuliaHolze> <http://aksw.org/schema/room> "101 (first floor)" .
@@ -1490,6 +1490,11 @@
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LIMBO> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWiki> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWikiEU> .
+<http://aksw.org/LarsPeterMeyer> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
+<http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/familyName> "Meyer" .
+<http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/mbox> <mailto:lpmeyer@infai.org> .
+<http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lisa Wenige" .
@@ -1508,7 +1513,7 @@
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/IGUANA> .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/depiction> <https://avatars2.githubusercontent.com/u/5443313?v=3&s=460> .
-<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Conrads>" .
+<http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/familyName> "Conrads" .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/mbox> <mailto:conrads@informatik.uni-leipzig.de> .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/name> "Lixi Conrads" .
 <http://aksw.org/LorenzBuehmann> <http://aksw.org/schema/publicationTag> "buehmann" .
@@ -2575,7 +2580,7 @@
 <http://aksw.org/PaulSpooren> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
 <http://aksw.org/PaulSpooren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/PaulSpooren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/PaulSpooren> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Spooren>" .
+<http://aksw.org/PaulSpooren> <http://xmlns.com/foaf/0.1/familyName> "Spooren" .
 <http://aksw.org/PaulSpooren> <http://xmlns.com/foaf/0.1/mbox> <mailto:spooren@informatik.uni-leipzig.de> .
 <http://aksw.org/PaulSpooren> <http://xmlns.com/foaf/0.1/name> "Paul Spooren" .
 <http://aksw.org/PhilippFrischmuth> <http://aksw.org/schema/publicationTag> "frischmuth" .
@@ -4925,7 +4930,7 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-26508028> .
 <http://aksw.org/SebastianZaenker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/JekyllRDF> .
-<http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/familyName> "" .
+<http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/familyName> "Z\u00E4nker" .
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/mbox> <mailto:zaenker@infai.org> .
 <http://aksw.org/SebastianZaenker> <http://xmlns.com/foaf/0.1/name> "Sebastian Z\u00E4nker" .
 <http://aksw.org/SimonBin> <http://aksw.org/schema/publicationTag> "sbin" .
@@ -4949,7 +4954,7 @@
 <http://aksw.org/SimonBordewisch> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
 <http://aksw.org/SimonBordewisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/SimonBordewisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/SimonBordewisch> <http://xmlns.com/foaf/0.1/familyName> "<http://aksw.org/Bordewisch>" .
+<http://aksw.org/SimonBordewisch> <http://xmlns.com/foaf/0.1/familyName> "Bordewisch" .
 <http://aksw.org/SimonBordewisch> <http://xmlns.com/foaf/0.1/mbox> <mailto:bordewisch@informatik.uni-leipzig.de> .
 <http://aksw.org/SimonBordewisch> <http://xmlns.com/foaf/0.1/name> "Simon Bordewisch" .
 <http://aksw.org/SimoneAngermann> <http://aksw.org/schema/room> "15" .
@@ -5226,11 +5231,6 @@
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2006/vcard/ns#adr> <http://aksw.org/Address/vCard/Goerdelerring9> .
 <http://aksw.org/newResource/59197300b1bd3d82654f5d41abae2f80> <http://aksw.org/schema/room> "Hainzstr." .
 <http://aksw.org/newResource/59197300b1bd3d82654f5d41abae2f80> <http://xmlns.com/foaf/0.1/familyName> "" .
-<http://aksw.org/newResource/6fdf4b6937446e8e119093f36c9431d0> <http://aksw.org/schema/publicationTag> "" .
-<http://aksw.org/newResource/6fdf4b6937446e8e119093f36c9431d0> <http://aksw.org/schema/room> "" .
-<http://aksw.org/newResource/6fdf4b6937446e8e119093f36c9431d0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/newResource/6fdf4b6937446e8e119093f36c9431d0> <http://xmlns.com/foaf/0.1/familyName> "" .
-<http://aksw.org/newResource/6fdf4b6937446e8e119093f36c9431d0> <http://xmlns.com/foaf/0.1/name> "" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/Site/classTemplate> "project" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/creationLabel> "Projects" .
 <http://aksw.org/schema/AlumniProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
