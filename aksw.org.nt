@@ -1091,11 +1091,13 @@
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AntjeSchlaf> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ClausStadler> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KurtJunghanns> .
+<http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LarsPeterMeyer> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LisaWenige> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NormanRadtke> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
+<http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SabineGruenderFahrer> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SarvenCapadisli> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/StudentWorker/SimeonAckermann> .
 <http://aksw.org/Groups/KILT> <http://aksw.org/schema/publicationTag> "kilt" .
@@ -4663,6 +4665,13 @@
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DockerConverter> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903754> .
+<http://aksw.org/SabineGruenderFahrer> <http://aksw.org/schema/room> "" .
+<http://aksw.org/SabineGruenderFahrer> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
+<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gr\u00FCnder-Fahrer" .
+<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/familyName> "Gr\u00FCnder-Fahrer" .
+<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/mbox> <mailto:gruender-fahrer@infai.org> .
+<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gr\u00FCnder-Fahrer" .
 <http://aksw.org/SaeedehShekarpour> <http://aksw.org/schema/publicationTag> "shekarpour" .
 <http://aksw.org/SaeedehShekarpour> <http://aksw.org/schema/room> "P616" .
 <http://aksw.org/SaeedehShekarpour> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
