@@ -4120,7 +4120,6 @@
 <http://aksw.org/Projects/SAKE> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/Projects/SAKE> <http://aksw.org/schema/status> "active" .
 <http://aksw.org/Projects/SAKE> <http://ns.ontowiki.net/SysOnt/Site/content> "- Duration: 12/2014 - 12/2017\n- Funding Programme: BWMi (Federal Ministry for Economic Affairs and Energy)"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/Projects/SAKE> <http://open.vocab.org/terms/screenshot> <http://www.sake-projekt.de/fileadmin/Websites/SAKE/template/img/SAKE_Logo_en.png> .
 <http://aksw.org/Projects/SAKE> <http://purl.org/dc/terms/abstract> "The increasing use of automation in machine and plant construction has inevitably led to a large growth in the number of industrial production processes being recorded and monitored by sensors. If the vast quantities of data this generates could be centrally evaluated in real time it would be possible for the results to be used to optimize internal processes and drastically reduce production costs. Unfortunately, the most commonly used data analysis tools are simply not designed to handle such enormous amounts of real time data. The SAKE project has been set up to resolve this problem by developing a framework specifically designed to analyze these vast streams of data. By implementing prefabricated modules it will also be possible to use individual applications in a number of different roles. The modules will be evaluated in real-life industrial environments by the project's industrial partners.  " .
 <http://aksw.org/Projects/SAKE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/SAKE> <http://usefulinc.com/ns/doap#wiki> "https://ok-jira.iais.fraunhofer.de/wiki/display/SAKEEXT" .
@@ -4129,8 +4128,6 @@
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/2000/01/rdf-schema#label> "SAKE - Semantische Analyse Komplexer Ereignisse"@de .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/2000/01/rdf-schema#label> "SAKE"@en .
-<http://aksw.org/Projects/SAKE> <http://xmlns.com/foaf/0.1/homepage> <http://www.sake-projekt.de/en/> .
-<http://aksw.org/Projects/SAKE> <http://xmlns.com/foaf/0.1/logo> <http://www.sake-projekt.de/fileadmin/Websites/SAKE/template/img/SAKE_Logo_en.png> .
 <http://aksw.org/Projects/SANSA_Stack> <http://aksw.org/schema/hookline> "Open source platform for distributed data processing for RDF large-scale datasets" .
 <http://aksw.org/Projects/SANSA_Stack> <http://aksw.org/schema/promoted> "1" .
 <http://aksw.org/Projects/SANSA_Stack> <http://aksw.org/schema/publicationTag> "sansa" .
