@@ -4650,25 +4650,28 @@
 <http://aksw.org/RobertRoesling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RobertRoesling> <http://xmlns.com/foaf/0.1/familyName> "R\u00F6sling" .
 <http://aksw.org/RobertRoesling> <http://xmlns.com/foaf/0.1/name> "Robert R\u00F6sling" .
-<http://aksw.org/RoyMeissner> <http://aksw.org/schema/publicationTag> "meissner" .
+<http://aksw.org/RoyMeissner> <http://aksw.org/schema/publicationTag> "" .
 <http://aksw.org/RoyMeissner> <http://aksw.org/schema/room> "33" .
 <http://aksw.org/RoyMeissner> <http://aksw.org/schema/supervisorTag> "RoyMeissner" .
 <http://aksw.org/RoyMeissner> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
-<http://aksw.org/RoyMeissner> <http://purl.org/dc/terms/description> "Roy Meissner is working in the field of DevOps and distributed systems. In his PhD he is working for the topic of Distributed Collaborative Semantic Web Systems."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/RoyMeissner> <http://purl.org/dc/terms/description> "Roy Meissner is researching e-learning technologies and technology aided competency acquisition processes. Within these topics he applies DevOps, Semantic-Web, Service-Architecture and machine-learning technologies and workflows.\n\nSee his [ORCiD](https://orcid.org/0000-0003-4193-8209) for a list of all publications."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/2002/07/owl#sameAs> <https://rmeissn.github.io> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "RoyMeissner" .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "rmeissn" .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "rmeissner" .
-<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWiki> .
-<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWikiEU> .
+<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/currentProject> <http://easlit.de> .
+<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/currentProject> <https://tech4comp.de> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/depiction> <https://avatars.githubusercontent.com/u/855967?> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/familyName> "Meissner" .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/homepage> <https://rmeissn.github.io> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/mbox> <mailto:meissner@infai.org> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/mbox> <mailto:meissner@informatik.uni-leipzig.de> .
+<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/mbox> <mailto:roy.meissner@uni-leipzig.de> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DockerConverter> .
+<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWiki> .
+<http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWikiEU> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903754> .
 <http://aksw.org/SabineGruenderFahrer> <http://aksw.org/schema/room> "" .
 <http://aksw.org/SabineGruenderFahrer> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
@@ -5416,6 +5419,9 @@
 <http://gerbil.aksw.org/gerbil/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/online_annotator_benchmark.png> .
 <http://gerbil.aksw.org/gerbil/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://gerbil.aksw.org/gerbil/> <http://www.w3.org/2000/01/rdf-schema#label> "GERBIL" .
+<http://github.com/rmeissn> <http://aksw.org/schema/buttonLabel> "@github" .
+<http://github.com/rmeissn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
+<http://github.com/rmeissn> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/RoyMeissner> .
 <http://github.com/white-gecko> <http://aksw.org/schema/buttonLabel> "@github" .
 <http://github.com/white-gecko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <http://github.com/white-gecko> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/NatanaelArndt> .
@@ -6057,6 +6063,9 @@
 <https://scholar.google.de/citations?user=52Q9BbMAAAAJ> <http://aksw.org/schema/buttonLabel> "@GoogleScholar" .
 <https://scholar.google.de/citations?user=52Q9BbMAAAAJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <https://scholar.google.de/citations?user=52Q9BbMAAAAJ> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/HajiraJabeen> .
+<https://scholar.google.de/citations?user=EGn49FUAAAAJ&hl=de> <http://aksw.org/schema/buttonLabel> "@Google Scholar" .
+<https://scholar.google.de/citations?user=EGn49FUAAAAJ&hl=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
+<https://scholar.google.de/citations?user=EGn49FUAAAAJ&hl=de> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/RoyMeissner> .
 <https://scholar.google.de/citations?user=j3QGCY0AAAAJ> <http://aksw.org/schema/buttonLabel> "@Google Scholar" .
 <https://scholar.google.de/citations?user=j3QGCY0AAAAJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <https://scholar.google.de/citations?user=j3QGCY0AAAAJ> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/NatanaelArndt> .
