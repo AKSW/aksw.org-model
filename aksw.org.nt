@@ -1883,8 +1883,9 @@
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732367> .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/publicationTag> "arndt" .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/supervisorTag> "NatanaelArndt" .
-<http://aksw.org/NatanaelArndt> <http://open.vocab.org/terms/businessCard> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Natanael Arndt is working in the field of Linked Enterprise Data Services. His doctoral thesis has the title \"Distributed Collaboration on Versioned Decentralized RDF Knowledge Bases\"."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/NatanaelArndt> <http://schema.org/faxNumber> <tel:+49-341-35115771> .
+<http://aksw.org/NatanaelArndt> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fb.comiles.eu/?c=person&id=natanael> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2002/07/owl#sameAs> <http://data.semanticweb.org/person/natanael-arndt> .
@@ -1899,11 +1900,10 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Erfurt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/JekyllRDF> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/OntoWiki> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/PlatonaM> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/familyName> "Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://natanael.arndt.xyz/> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/mbox> <mailto:arndt@informatik.uni-leipzig.de> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/mbox> <mailto:natanael.arndt@eccenca.com> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/nick> "Nate" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2013/DigitaleForschungskollaboration> .
@@ -1914,7 +1914,7 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LEDS> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/MobileSocialSemanticWeb> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Xodx> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903755> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/phone> <tel:+49-173-2646196> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/About> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/Team> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/Groups> .
@@ -3901,18 +3901,8 @@
 <http://aksw.org/Projects/Pfarrerbuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/Pfarrerbuch> <http://www.w3.org/2000/01/rdf-schema#label> "Pfarrerbuch" .
 <http://aksw.org/Projects/Pfarrerbuch> <http://xmlns.com/foaf/0.1/homepage> <http://pfarrerbuch.aksw.org/> .
-<http://aksw.org/Projects/PlatonaM> <http://aksw.org/schema/hookline> "Plattform-\u00D6kosystem f\u00FCr innovatives Instandhaltungsmanagement durch Predictive Maintenance" .
-<http://aksw.org/Projects/PlatonaM> <http://aksw.org/schema/partner> <http://aksw.org/Partner/InfAI> .
-<http://aksw.org/Projects/PlatonaM> <http://aksw.org/schema/publicationTag> "platonam" .
-<http://aksw.org/Projects/PlatonaM> <http://aksw.org/schema/status> "active" .
-<http://aksw.org/Projects/PlatonaM> <http://purl.org/dc/terms/abstract> "Der deutsche Maschinen- und Anlagenbau ist weltweit f\u00FChrend in der IT-Vernetzung von Maschinen (Industrie 4.0). Die digitale Erfassung von Maschinendaten f\u00FCr das Instandhaltungsmanagement in Verbindung intelligenten Analyseverfahren (Predictive Maintenance) stellen aus heutiger Sicht den neuen Goldstandard dar. Diese gro\u00DFen Potentziale f\u00FCr Effizienzgewinne und Qualit\u00E4tssteigerungen werden bislang jedoch kaum ausgesch\u00F6pft. Hemmnis bei der Adoption von Anwendungen f\u00FCr Industrie 4.0 sind Bedenken hinsichtlich einer sicheren und rechtskonformen Datennutzung die Erh\u00F6hung der Komplexit\u00E4t von Hersteller-Kunden-Beziehungen. Vor diesem Hintergrund stellt das Gesamtziel von PlatonaM die sichere und rechtskonforme Nutzbarmachung digitaler Maschinendaten als eigenst\u00E4ndiges Wirtschaftsgut auf Grundlage eines neuartigen Plattform-\u00D6kosystems dar. Infolgedessen werden die bisherigen komplexen Hersteller-Kunden-Beziehungen abgel\u00F6st und in eine plattformbasierte Beziehung \u00FCberf\u00FChrt. Der Nutzen liegt dabei in der Reduzierung von Datenschnittstellen, der Aufdeckung bislang verborgener Zusammenh\u00E4nge in der Maschinennutzung und der verbesserten Prognose und Priorisierung von Instandhaltungsma\u00DFnahmen."@de .
-<http://aksw.org/Projects/PlatonaM> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/Projects/PlatonaM> <http://vocab.ox.ac.uk/projectfunding#endDate> "2021-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/PlatonaM> <http://vocab.ox.ac.uk/projectfunding#startDate> "2019-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/PlatonaM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
-<http://aksw.org/Projects/PlatonaM> <http://www.w3.org/2000/01/rdf-schema#label> "PlatonaM" .
-<http://aksw.org/Projects/PlatonaM> <http://xmlns.com/foaf/0.1/homepage> <https://platona-m.technology/> .
-<http://aksw.org/Projects/PlatonaM> <http://xmlns.com/foaf/0.1/logo> <https://platona-m.technology/img/logo_klein.png> .
 <http://aksw.org/Projects/Powl> <http://aksw.org/schema/hookline> "Semantic Web Development Plattform" .
 <http://aksw.org/Projects/Powl> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/OntoWiki> .
 <http://aksw.org/Projects/Powl> <http://purl.org/dc/terms/abstract> "The aim of the Powl project is to deliver a PHP and web-based ontology editing and management solution to the OpenSoure community.\n\nPowl is followed up by [OntoWiki](http://aksw.org/Projects/OntoWiki)"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
@@ -4902,7 +4892,7 @@
 <http://aksw.org/SebastianTramp> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/SebastianTramp> <http://rdfs.org/sioc/ns#feed> <http://seebi.soup.io/rss> .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Partner/Eccenca> .
-<http://aksw.org/SebastianTramp> <http://schema.org/faxNumber> <tel:+49-341-26489305> .
+<http://aksw.org/SebastianTramp> <http://schema.org/faxNumber> <tel:+49-341-35115771> .
 <http://aksw.org/SebastianTramp> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
