@@ -1882,9 +1882,8 @@
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732367> .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/publicationTag> "arndt" .
-<http://aksw.org/NatanaelArndt> <http://aksw.org/schema/room> "33" .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/supervisorTag> "NatanaelArndt" .
-<http://aksw.org/NatanaelArndt> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/NatanaelArndt> <http://open.vocab.org/terms/businessCard> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Natanael Arndt is working in the field of Linked Enterprise Data Services. His doctoral thesis has the title \"Distributed Collaboration on Versioned Decentralized RDF Knowledge Bases\"."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fb.comiles.eu/?c=person&id=natanael> .
