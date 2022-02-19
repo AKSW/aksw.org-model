@@ -220,6 +220,14 @@
 <http://aksw.org/Address/SemanticIntegrationLtd> <http://schema.org/streetAddress> "1-45 Durham Street" .
 <http://aksw.org/Address/SemanticIntegrationLtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <http://aksw.org/Address/SemanticIntegrationLtd> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Integration Ltd." .
+<http://aksw.org/Address/SerendipityAILtd> <http://ns.ontowiki.net/SysOnt/range> "LABS House" .
+<http://aksw.org/Address/SerendipityAILtd> <http://schema.org/addressCountry> "United Kingdom" .
+<http://aksw.org/Address/SerendipityAILtd> <http://schema.org/addressLocality> "London" .
+<http://aksw.org/Address/SerendipityAILtd> <http://schema.org/name> "Serendipity AI Ltd." .
+<http://aksw.org/Address/SerendipityAILtd> <http://schema.org/postalCode> "WC1A 2TH" .
+<http://aksw.org/Address/SerendipityAILtd> <http://schema.org/streetAddress> "15-19 Bloomsbury Way" .
+<http://aksw.org/Address/SerendipityAILtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<http://aksw.org/Address/SerendipityAILtd> <http://www.w3.org/2000/01/rdf-schema#label> "Serendipity AI Ltd." .
 <http://aksw.org/Address/SydneyConventionExhibitionCentreDarlingHarbourSydneyNSW2000> <http://schema.org/addressCountry> "AU" .
 <http://aksw.org/Address/SydneyConventionExhibitionCentreDarlingHarbourSydneyNSW2000> <http://schema.org/addressLocality> "Sydney" .
 <http://aksw.org/Address/SydneyConventionExhibitionCentreDarlingHarbourSydneyNSW2000> <http://schema.org/postalCode> "NSW 2000" .
@@ -2230,9 +2238,10 @@
 <http://aksw.org/Partner/Lecos> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH (D)" .
 <http://aksw.org/Partner/Lecos> <http://xmlns.com/foaf/0.1/homepage> <http://www.lecos-gmbh.de/> .
 <http://aksw.org/Partner/Lecos> <http://xmlns.com/foaf/0.1/logo> <http://lh6.ggpht.com/-5FtPuNN8cjk/UD3V-y0Vc7I/AAAAAAAABJ8/nQ82OJQPCn8/Lecos.gif> .
-<http://aksw.org/Partner/LiberAILtd> <http://purl.org/dc/terms/abstract> "Liber AI is an open-source research & development organisation based in London. The research areas span from Question Answering to Entity Resolution and Named Entity Recognition." .
+<http://aksw.org/Partner/LiberAILtd> <http://purl.org/dc/terms/abstract> "Liber AI is an open-source research & development organisation based in the UK and Germany. The research areas are at the intersection of Artificial Intelligence and Knowledge Engineering." .
 <http://aksw.org/Partner/LiberAILtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Partner/LiberAILtd> <http://www.w3.org/2000/01/rdf-schema#label> "Liber AI" .
+<http://aksw.org/Partner/LiberAILtd> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://medium.com/liber-ai> .
 <http://aksw.org/Partner/LiberAILtd> <http://xmlns.com/foaf/0.1/homepage> <http://liberai.org> .
 <http://aksw.org/Partner/LiberAILtd> <http://xmlns.com/foaf/0.1/logo> <http://www.liberai.org/img/Liber-AI-logo-name-200.png> .
 <http://aksw.org/Partner/LydiaUnterdoerfel> <http://schema.org/location> <http://aksw.org/Address/UniversitaetsbibliothekLeipzig> .
@@ -5209,14 +5218,15 @@
 <http://aksw.org/TommasoSoru> <http://aksw.org/schema/publicationTag> "soru" .
 <http://aksw.org/TommasoSoru> <http://ns.ontowiki.net/SysOnt/Site/content> "I'm a Machine Learning & AI enthusiast with the dream of giving my small contribution to the quest for intelligence. My research topics include Entity Resolution, Link Prediction, and Semantic Parsing for Question Answering, with a particular focus on Linked Data and the Semantic Web."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/TommasoSoru> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
-<http://aksw.org/TommasoSoru> <http://schema.org/location> <http://aksw.org/Address/ScalpelLtd> .
+<http://aksw.org/TommasoSoru> <http://schema.org/location> <http://aksw.org/Address/SerendipityAILtd> .
 <http://aksw.org/TommasoSoru> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MEX> .
+<http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/depiction> <http://tommaso-soru.it/images/tom-cupertino.jpg> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/familyName> "Soru" .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/mbox> <mailto:tom@tommaso-soru.it> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/name> "Tommaso Soru" .
+<http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkingLOD> .
 <http://aksw.org/TommasoSoru> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Rocker> .
 <http://aksw.org/UrosMilosevic> <http://aksw.org/schema/publicationTag> "milosevic" .
