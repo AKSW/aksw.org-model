@@ -3050,6 +3050,15 @@
 <http://aksw.org/Projects/DIESEL> <http://www.w3.org/2000/01/rdf-schema#label> "DIESEL" .
 <http://aksw.org/Projects/DIESEL> <http://xmlns.com/foaf/0.1/homepage> <http://diesel-project.eu/> .
 <http://aksw.org/Projects/DIESEL> <http://xmlns.com/foaf/0.1/logo> <http://diesel-project.eu/wordpress/wp-content/uploads/2015/10/DIESEL_Logo_2015_rgb.png> .
+<http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/hookline> "Discovering Natural Inspired Products From Brazilian Biodiversity" .
+<http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/DINOBBIO> <http://purl.org/dc/terms/abstract> "The chemical diversity of the flora and fauna of the Brazilian Biomes is revealed by a diversity of compound classes and structural types of secondary metabolites from plants, fungi, insects, marine organisms, and bacteria. This extraordinary biodiversity and its chemical diversity could be used for the development of bioproducts, including pharmaceuticals, cosmetics, food supplements, and agricultural pesticides. DINOBBIO aims to investigate the challenges imposed on building, managing, and consuming Biochemical Knowledge Graphs through Semantic Web Technologies and Machine Learning. DINOBBIO focuses on researching new natural inspired products using Brazilian biodiversity." .
+<http://aksw.org/Projects/DINOBBIO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
+<http://aksw.org/Projects/DINOBBIO> <http://vocab.ox.ac.uk/projectfunding#endDate> "2024-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/DINOBBIO> <http://vocab.ox.ac.uk/projectfunding#startDate> "2021-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/DINOBBIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
+<http://aksw.org/Projects/DINOBBIO> <http://www.w3.org/2000/01/rdf-schema#label> "DINOBBIO" .
+<http://aksw.org/Projects/DINOBBIO> <http://xmlns.com/foaf/0.1/homepage> <http://dinobbio.aksw.org> .
 <http://aksw.org/Projects/DLD> <http://aksw.org/schema/hookline> "Knowledge Base Shipping to the Linked Open Data Cloud" .
 <http://aksw.org/Projects/DLD> <http://aksw.org/schema/publicationTag> "docker" .
 <http://aksw.org/Projects/DLD> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/CatalogusProfessorum> .
