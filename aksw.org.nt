@@ -2459,11 +2459,9 @@
 <http://aksw.org/Partner/UlfMorgenstern> <http://xmlns.com/foaf/0.1/name> "Dr. Ulf Morgenstern" .
 <http://aksw.org/Partner/UlfMorgenstern> <http://xmlns.com/foaf/0.1/phone> <tel:+49-4104-977-112> .
 <http://aksw.org/Partner/UniBamberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<http://aksw.org/Partner/UniBamberg> <http://www.w3.org/2000/01/rdf-schema#label> "Universidade do Estado de Sao Paulo" .
 <http://aksw.org/Partner/UniBamberg> <http://www.w3.org/2000/01/rdf-schema#label> "University of Bamberg (D)" .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-bamberg.de/en/> .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/homepage> <https://www2.unesp.br/> .
-<http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/logo> <https://en.wikipedia.org/wiki/File:Logo_Unesp.svg> .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/logo> <https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg/480px-Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg.png> .
 <http://aksw.org/Partner/UniDuisburgEssen> <http://purl.org/dc/terms/abstract> "The research group Interaktive Systems of the University of Duisburg-Essen (Campus Duisburg) is active in the research areas of human computer interaction, engineering of interactive systems and context adaptive web applications." .
 <http://aksw.org/Partner/UniDuisburgEssen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -3070,10 +3068,10 @@
 <http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/partner> <http://aksw.org/Partner/HTWK> .
 <http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/partner> <http://aksw.org/Partner/UNESP> .
 <http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/partner> <http://aksw.org/Partner/USP> .
-<http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/promoted> "1" .
+<http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/promoted> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/publicationTag> "dinobbio" .
 <http://aksw.org/Projects/DINOBBIO> <http://aksw.org/schema/status> "active" .
-<http://aksw.org/Projects/DINOBBIO> <http://purl.org/dc/terms/abstract> "The chemical diversity of the flora and fauna of the Brazilian Biomes is revealed by a diversity of compound classes and structural types of secondary metabolites from plants, fungi, insects, marine organisms, and bacteria. This extraordinary biodiversity and its chemical diversity could be used for the development of bioproducts, including pharmaceuticals, cosmetics, food supplements, and agricultural pesticides. DINOBBIO aims to investigate the challenges imposed on building, managing, and consuming Biochemical Knowledge Graphs through Semantic Web Technologies and Machine Learning. DINOBBIO focuses on researching new natural inspired products using Brazilian biodiversity." .
+<http://aksw.org/Projects/DINOBBIO> <http://purl.org/dc/terms/abstract> "The chemical diversity of the flora and fauna of the Brazilian Biomes is revealed by its multiplicity of compound classes and structural types of secondary metabolites from plants, fungi, insects, marine organisms, and bacteria. This extraordinary bio- and chemical diversity could be explored for developing new bioproducts, including pharmaceuticals, cosmetics, food supplements, and agricultural pesticides. DINOBBIO aims to investigate the challenges imposed on building, managing, and consuming Biochemical Knowledge Graphs through Semantic Web Technologies and Machine Learning. DINOBBIO focuses on researching new natural inspired products using Brazilian biodiversity." .
 <http://aksw.org/Projects/DINOBBIO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/Projects/DINOBBIO> <http://vocab.ox.ac.uk/projectfunding#endDate> "2024-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/DINOBBIO> <http://vocab.ox.ac.uk/projectfunding#startDate> "2021-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
