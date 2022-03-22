@@ -2127,6 +2127,7 @@
 <http://aksw.org/Partner/Exalead> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Exalead> .
 <http://aksw.org/Partner/Exalead> <http://xmlns.com/foaf/0.1/homepage> <http://www.exalead.com> .
 <http://aksw.org/Partner/Exalead> <http://xmlns.com/foaf/0.1/logo> <http://lh5.ggpht.com/-hr_G7nhmUG8/UD3V-yhQ4gI/AAAAAAAABJ8/Vfpqw_QfZEg/Exalead.png> .
+<http://aksw.org/Partner/FAPESP> <http://www.w3.org/2000/01/rdf-schema#label> "UNESP" .
 <http://aksw.org/Partner/FHStPoelten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Partner/FHStPoelten> <http://www.w3.org/2000/01/rdf-schema#label> "FH St. P\u00F6lten" .
 <http://aksw.org/Partner/FHStPoelten> <http://xmlns.com/foaf/0.1/homepage> <https://www.fhstp.ac.at/> .
@@ -2428,6 +2429,11 @@
 <http://aksw.org/Partner/UBL> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University Library (D)" .
 <http://aksw.org/Partner/UBL> <http://xmlns.com/foaf/0.1/homepage> <http://www.ub.uni-leipzig.de/en.html> .
 <http://aksw.org/Partner/UBL> <http://xmlns.com/foaf/0.1/logo> <https://image.jimcdn.com/app/cms/image/transf/dimension=697x10000:format=jpg/path/scffc2e997c1ef044/image/i8ebb6d223c166f5e/version/1460140771/image.jpg> .
+<http://aksw.org/Partner/UNESP> <http://purl.org/dc/terms/abstract> "" .
+<http://aksw.org/Partner/UNESP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://aksw.org/Partner/UNESP> <http://www.w3.org/2000/01/rdf-schema#label> "UNESP" .
+<http://aksw.org/Partner/UNESP> <http://xmlns.com/foaf/0.1/homepage> <http://unesp.br> .
+<http://aksw.org/Partner/UNESP> <http://xmlns.com/foaf/0.1/logo> <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logo_Unesp.svg/800px-Logo_Unesp.svg.png> .
 <http://aksw.org/Partner/UNIBI> <http://purl.org/dc/terms/abstract> "The goal of the Semantic Computing Group is to develop new techniques that allow humans to interact with technical devices, machines including robots as well as to access large knowledge resources in an intuitive fashion." .
 <http://aksw.org/Partner/UNIBI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Partner/UNIBI> <http://www.w3.org/2000/01/rdf-schema#label> "Universit\u00E4t Bielefeld" .
@@ -2438,6 +2444,11 @@
 <http://aksw.org/Partner/UNIROMA> <http://www.w3.org/2000/01/rdf-schema#label> "Sapienza University of Rome" .
 <http://aksw.org/Partner/UNIROMA> <http://xmlns.com/foaf/0.1/homepage> <http://www.uniroma1.it/> .
 <http://aksw.org/Partner/UNIROMA> <http://xmlns.com/foaf/0.1/logo> <http://t2.gstatic.com/images?q=tbn:ANd9GcSc_IOX3h9a60VpHzGTsiKZH6JkwsmUAR-S_xpbl0kdfxAZ3yNWxoa_GZE> .
+<http://aksw.org/Partner/USP> <http://purl.org/dc/terms/abstract> "" .
+<http://aksw.org/Partner/USP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://aksw.org/Partner/USP> <http://www.w3.org/2000/01/rdf-schema#label> "USP" .
+<http://aksw.org/Partner/USP> <http://xmlns.com/foaf/0.1/homepage> <http://usp.br> .
+<http://aksw.org/Partner/USP> <http://xmlns.com/foaf/0.1/logo> <https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Webysther_20160310_-_Logo_USP.svg/1200px-Webysther_20160310_-_Logo_USP.svg.png> .
 <http://aksw.org/Partner/UlfMorgenstern> <http://schema.org/location> <http://aksw.org/Address/OttovonBismarckStiftung> .
 <http://aksw.org/Partner/UlfMorgenstern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/Partner/UlfMorgenstern> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Events/2013/DigitaleForschungskollaboration> .
@@ -2446,8 +2457,11 @@
 <http://aksw.org/Partner/UlfMorgenstern> <http://xmlns.com/foaf/0.1/name> "Dr. Ulf Morgenstern" .
 <http://aksw.org/Partner/UlfMorgenstern> <http://xmlns.com/foaf/0.1/phone> <tel:+49-4104-977-112> .
 <http://aksw.org/Partner/UniBamberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://aksw.org/Partner/UniBamberg> <http://www.w3.org/2000/01/rdf-schema#label> "Universidade do Estado de Sao Paulo" .
 <http://aksw.org/Partner/UniBamberg> <http://www.w3.org/2000/01/rdf-schema#label> "University of Bamberg (D)" .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-bamberg.de/en/> .
+<http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/homepage> <https://www2.unesp.br/> .
+<http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/logo> <https://en.wikipedia.org/wiki/File:Logo_Unesp.svg> .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/logo> <https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg/480px-Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg.png> .
 <http://aksw.org/Partner/UniDuisburgEssen> <http://purl.org/dc/terms/abstract> "The research group Interaktive Systems of the University of Duisburg-Essen (Campus Duisburg) is active in the research areas of human computer interaction, engineering of interactive systems and context adaptive web applications." .
 <http://aksw.org/Partner/UniDuisburgEssen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
