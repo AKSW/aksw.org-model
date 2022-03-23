@@ -2461,7 +2461,6 @@
 <http://aksw.org/Partner/UniBamberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Partner/UniBamberg> <http://www.w3.org/2000/01/rdf-schema#label> "University of Bamberg (D)" .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-bamberg.de/en/> .
-<http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/homepage> <https://www2.unesp.br/> .
 <http://aksw.org/Partner/UniBamberg> <http://xmlns.com/foaf/0.1/logo> <https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg/480px-Otto-Friedrich-Universit%C3%A4t_Bamberg_logo.svg.png> .
 <http://aksw.org/Partner/UniDuisburgEssen> <http://purl.org/dc/terms/abstract> "The research group Interaktive Systems of the University of Duisburg-Essen (Campus Duisburg) is active in the research areas of human computer interaction, engineering of interactive systems and context adaptive web applications." .
 <http://aksw.org/Partner/UniDuisburgEssen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
