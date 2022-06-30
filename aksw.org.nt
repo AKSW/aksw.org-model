@@ -420,6 +420,12 @@
 <http://aksw.org/AntjeSchlaf> <http://xmlns.com/foaf/0.1/mbox> <mailto:antje.schlaf@informatik.uni-leipzig.de> .
 <http://aksw.org/AntjeSchlaf> <http://xmlns.com/foaf/0.1/name> "Antje Schlaf" .
 <http://aksw.org/AntjeSchlaf> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32344> .
+<http://aksw.org/AntoninDelpeuch> <http://aksw.org/schema/publicationTag> "delpeuch" .
+<http://aksw.org/AntoninDelpeuch> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/AntoninDelpeuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/familyName> "Delpeuch" .
+<http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/mbox> <mailto:delpeuch@infai.org> .
+<http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/name> "Antonin Delpeuch" .
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/publicationTag> "ngonga" .
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
