@@ -423,6 +423,7 @@
 <http://aksw.org/AntoninDelpeuch> <http://aksw.org/schema/publicationTag> "delpeuch" .
 <http://aksw.org/AntoninDelpeuch> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/AntoninDelpeuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/AntoninDelpeuch> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Antonin Delpeuch" .
 <http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/familyName> "Delpeuch" .
 <http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/mbox> <mailto:delpeuch@infai.org> .
 <http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/name> "Antonin Delpeuch" .
