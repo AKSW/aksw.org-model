@@ -496,9 +496,9 @@
 <http://aksw.org/CiroBaron> <http://xmlns.com/foaf/0.1/mbox> <mailto:cbaron@informatik.uni-leipzig.de> .
 <http://aksw.org/CiroBaron> <http://xmlns.com/foaf/0.1/name> "Ciro Baron" .
 <http://aksw.org/ClausStadler> <http://aksw.org/schema/publicationTag> "stadler" .
-<http://aksw.org/ClausStadler> <http://aksw.org/schema/room> "20x" .
+<http://aksw.org/ClausStadler> <http://aksw.org/schema/room> "24" .
 <http://aksw.org/ClausStadler> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
-<http://aksw.org/ClausStadler> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/ClausStadler> <http://schema.org/location> <http://aksw.org/Address/Goerdellering904109Leipzig> .
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/ClausStadler> <http://www.w3.org/2002/07/owl#sameAs> <http://aklakan.dyndns-server.com/~raven/card#me> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/FTS> .
@@ -515,7 +515,7 @@
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/familyName> "Stadler" .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/mbox> <mailto:cstadler@informatik.uni-leipzig.de> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/name> "Claus Stadler" .
-<http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732253> .
+<http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903736> .
 <http://aksw.org/ClemensHoffmann> <http://schema.org/faxNumber> <tel:+49-341-97-32269> .
 <http://aksw.org/ClemensHoffmann> <http://schema.org/streetAddress> "Hainstr. 11" .
 <http://aksw.org/ClemensHoffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
@@ -1540,9 +1540,10 @@
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/mbox> <mailto:conrads@informatik.uni-leipzig.de> .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/name> "Lixi Conrads" .
 <http://aksw.org/LorenzBuehmann> <http://aksw.org/schema/publicationTag> "buehmann" .
+<http://aksw.org/LorenzBuehmann> <http://aksw.org/schema/room> "24" .
 <http://aksw.org/LorenzBuehmann> <http://ns.ontowiki.net/SysOnt/Site/content> "Research Topics:\n----------------\n- Ontology Learning\n- Ontology Debugging\n- Reasoning\n- Question Answering\n- Natural Language Generation\n- Big Structured Machine Learning"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/LorenzBuehmann> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "regular" .
-<http://aksw.org/LorenzBuehmann> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/LorenzBuehmann> <http://schema.org/location> <http://aksw.org/Address/Goerdellering904109Leipzig> .
 <http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AutoSPARQL> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DEQA> .
@@ -1561,7 +1562,7 @@
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/familyName> "B\u00FChmann" .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/mbox> <mailto:buehmann@informatik.uni-leipzig.de> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/name> "Lorenz B\u00FChmann" .
-<http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732253> .
+<http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903736> .
 <http://aksw.org/LuisGarcia> <http://aksw.org/schema/publicationTag> "lpfgarcia" .
 <http://aksw.org/LuisGarcia> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/LuisGarcia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
