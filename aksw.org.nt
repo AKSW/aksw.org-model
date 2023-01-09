@@ -5282,8 +5282,6 @@
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#VCard> .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2000/01/rdf-schema#label> "[InfAI Office Leipzig]" .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2006/vcard/ns#adr> <http://aksw.org/Address/vCard/Goerdelerring9> .
-<http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/GeoKnow" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/Site/classTemplate> "project" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/creationLabel> "Projects" .
 <http://aksw.org/schema/AlumniProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
