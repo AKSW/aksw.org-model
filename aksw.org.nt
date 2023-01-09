@@ -1482,13 +1482,9 @@
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/homepage> <https://konradhoeffner.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/mbox> <mailto:konrad.hoeffner@uni-leipzig.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad H\u00F6ffner" .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/1c2e27d0-0cc4-48b1-b734-d960d78829eb> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkedGeoData> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SAIM> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/c06e00a1-49cc-4b4d-adfc-988c4fd96c22> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-16322> .
 <http://aksw.org/KunalJha> <http://aksw.org/schema/publicationTag> "kunaljha" .
 <http://aksw.org/KunalJha> <http://aksw.org/schema/room> "P905" .
