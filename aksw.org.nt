@@ -5286,14 +5286,8 @@
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#VCard> .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2000/01/rdf-schema#label> "[InfAI Office Leipzig]" .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2006/vcard/ns#adr> <http://aksw.org/Address/vCard/Goerdelerring9> .
-<http://aksw.org/a0971e5c-c023-43d1-89aa-2812f4852379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/a0971e5c-c023-43d1-89aa-2812f4852379> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/BIG" .
-<http://aksw.org/a9176ae0-37ed-4f09-992f-aa572ba0bd73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/a9176ae0-37ed-4f09-992f-aa572ba0bd73> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/AutoSPARQL" .
 <http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/LinkedSpending" .
-<http://aksw.org/c06e00a1-49cc-4b4d-adfc-988c4fd96c22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/c06e00a1-49cc-4b4d-adfc-988c4fd96c22> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/AutoSPARQL" .
 <http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/GeoKnow" .
 <http://aksw.org/ea95464d-897d-4a76-aa39-d4c1387cfb62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
