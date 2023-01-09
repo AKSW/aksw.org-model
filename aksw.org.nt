@@ -45,10 +45,6 @@
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/SparqlQuery> .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#locality> "Leipzig" .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#postal-code> "04109" .
-<http://aksw.org/1c2e27d0-0cc4-48b1-b734-d960d78829eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/1c2e27d0-0cc4-48b1-b734-d960d78829eb> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/BIG" .
-<http://aksw.org/9e6b2846-a385-4c14-82c4-c6aad6430091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/9e6b2846-a385-4c14-82c4-c6aad6430091> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/LinkedSpending" .
 <http://aksw.org/> <http://purl.org/dc/terms/contributor> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/> <http://purl.org/dc/terms/creator> <http://aksw.org/AmrapaliZaveri> .
 <http://aksw.org/> <http://purl.org/dc/terms/creator> <http://aksw.org/JohannesFrey> .
@@ -5286,12 +5282,8 @@
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#VCard> .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2000/01/rdf-schema#label> "[InfAI Office Leipzig]" .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2006/vcard/ns#adr> <http://aksw.org/Address/vCard/Goerdelerring9> .
-<http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/LinkedSpending" .
 <http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/GeoKnow" .
-<http://aksw.org/ea95464d-897d-4a76-aa39-d4c1387cfb62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
-<http://aksw.org/ea95464d-897d-4a76-aa39-d4c1387cfb62> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/GeoKnow" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/Site/classTemplate> "project" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/creationLabel> "Projects" .
 <http://aksw.org/schema/AlumniProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
