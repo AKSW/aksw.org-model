@@ -45,6 +45,8 @@
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/SparqlQuery> .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#locality> "Leipzig" .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#postal-code> "04109" .
+<http://aksw.org/1c2e27d0-0cc4-48b1-b734-d960d78829eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
+<http://aksw.org/1c2e27d0-0cc4-48b1-b734-d960d78829eb> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/BIG" .
 <http://aksw.org/9e6b2846-a385-4c14-82c4-c6aad6430091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/9e6b2846-a385-4c14-82c4-c6aad6430091> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/LinkedSpending" .
 <http://aksw.org/> <http://purl.org/dc/terms/contributor> <http://aksw.org/Groups/AKSW> .
@@ -1480,10 +1482,13 @@
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/homepage> <https://konradhoeffner.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/mbox> <mailto:konrad.hoeffner@uni-leipzig.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad H\u00F6ffner" .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/1c2e27d0-0cc4-48b1-b734-d960d78829eb> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkedGeoData> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SAIM> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/c06e00a1-49cc-4b4d-adfc-988c4fd96c22> .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-16322> .
 <http://aksw.org/KunalJha> <http://aksw.org/schema/publicationTag> "kunaljha" .
 <http://aksw.org/KunalJha> <http://aksw.org/schema/room> "P905" .
@@ -5291,6 +5296,10 @@
 <http://aksw.org/a9176ae0-37ed-4f09-992f-aa572ba0bd73> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/AutoSPARQL" .
 <http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/ad8221b4-240d-4344-88dc-d13bbaf35fcb> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/LinkedSpending" .
+<http://aksw.org/c06e00a1-49cc-4b4d-adfc-988c4fd96c22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
+<http://aksw.org/c06e00a1-49cc-4b4d-adfc-988c4fd96c22> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/AutoSPARQL" .
+<http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
+<http://aksw.org/da66dda2-3312-419a-a7cb-9a41752e2824> <http://www.w3.org/2000/01/rdf-schema#label> " http://aksw.org/Projects/GeoKnow" .
 <http://aksw.org/ea95464d-897d-4a76-aa39-d4c1387cfb62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/ea95464d-897d-4a76-aa39-d4c1387cfb62> <http://www.w3.org/2000/01/rdf-schema#label> " https://aksw.org/Projects/GeoKnow" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/Site/classTemplate> "project" .
