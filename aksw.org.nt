@@ -1478,6 +1478,7 @@
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/homepage> <https://konradhoeffner.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/mbox> <mailto:konrad.hoeffner@uni-leipzig.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad H\u00F6ffner" .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AutoSPARQL> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkedGeoData> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SAIM> .
