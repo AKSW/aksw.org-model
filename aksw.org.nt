@@ -3528,6 +3528,7 @@
 <http://aksw.org/Projects/LEDS> <http://vocab.ox.ac.uk/projectfunding#endDate> "2018-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LEDS> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LEDS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
+<http://aksw.org/Projects/LEDS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/Projects/LEDS> <http://www.w3.org/2000/01/rdf-schema#label> "LEDS" .
 <http://aksw.org/Projects/LEDS> <http://xmlns.com/foaf/0.1/homepage> <http://www.leds-projekt.de/> .
 <http://aksw.org/Projects/LEDS> <http://xmlns.com/foaf/0.1/logo> <http://www.leds-projekt.de/static/img/logo-www.leds-projekt.de.png> .
