@@ -2,8 +2,6 @@
 name: Import to aksw.eccenca.dev 😃
 
 on:
-  push:
-    branches: [master]
 
 jobs:
   replace-graphs:
@@ -20,6 +18,5 @@ jobs:
           CMEM_BASE_URI: https://aksw.eccenca.dev
           OAUTH_GRANT_TYPE: client_credentials
           OAUTH_CLIENT_ID: cmem-service-account
-          OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_SERVICE_ACCOUNT_CLIENT_SECRET }}
+          OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_OAUTH_CLIENT_SECRET }}
         run: cmemc graph import --replace .
-

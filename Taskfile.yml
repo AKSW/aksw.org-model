@@ -1,0 +1,62 @@
+version: '3'
+
+vars:
+  INTEGRATION_GRAPH: aksw.org
+
+  INTEGRATION_GRAPH_IRI:
+    sh: cat {{.INTEGRATION_GRAPH}}.nt.graph
+
+  WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
+
+  CMEMC_VERSION: v22.2
+  CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
+  CMEMC_CONFIG: cmemc.ini
+  CMEMC_CONFIG_ID: aksw.eccenca.dev
+  CMEMC: docker run -i --rm -v {{.WORKING_DIRECTORY}}:/data -v {{.WORKING_DIRECTORY}}/{{.CMEMC_CONFIG}}:/{{.CMEMC_CONFIG}} {{.CMEMC_IMAGE}} -c {{.CMEMC_CONFIG_ID}} --config-file /{{.CMEMC_CONFIG}}
+
+  GIT_USER_NAME: aksw.org Update Bot 🤖
+  GIT_USER_EMAIL: aksw-org-update-bot@aksw.org
+  GIT_COMMIT_MESSAGE: Update from CMEM
+
+tasks:
+
+  default:
+    desc: List all tasks
+    cmds:
+      - task -a
+
+  sync:
+    desc: Synchronize the data
+    cmds:
+      - task: integration-graph:get
+
+  ci:
+    desc: Synchronize the data with environment preparation and git operations to be exectued in the CI
+    cmds:
+      - task: cmemc:env-overwrite
+        vars: { CONFIG_KEYS: 'OAUTH_CLIENT_ID OAUTH_CLIENT_SECRET' }
+      - task: sync
+      - task: track:commit-and-push-data
+
+  integration-graph:get:
+    desc: Get the program graph from cmem
+    cmds:
+      - '{{.CMEMC}} workflow execute --wait {{.CMEM_DI_WORKFLOW}}'
+      - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+
+  track:commit-and-push-data:
+    desc: Commit and push all changes made to the graphs
+    cmds:
+      - |
+        echo "commit-id-old=$(git rev-parse HEAD)" >> {{.GITHUB_OUTPUT}}
+        git add {{.INTEGRATION_GRAPH}}.nt
+        git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+        echo "commit-id-new=$(git rev-parse HEAD)" >> {{.GITHUB_OUTPUT}}
+        git push || echo ""
+
+  cmemc:env-overwrite:
+    desc: A helper task to overwrite the cmemc config variables in a CI
+    cmds:
+      - python ./tools/cmemc_env_overwrite.py {{.CMEMC_CONFIG}} {{.CMEMC_CONFIG_ID}} {{.CONFIG_KEYS}}
+    status:
+      - '[ ${CMEMC_ENV_OVERWRITE} != "True" ]'

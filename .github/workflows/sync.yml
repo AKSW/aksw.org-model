@@ -1,0 +1,38 @@
+name: aksw.org Model Sync
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 * * * *'
+
+env:
+  BRANCH: main
+  OAUTH_CLIENT_ID: ${{ secrets.CMEM_OAUTH_CLIENT_ID }}
+  OAUTH_CLIENT_SECRET: ${{ secrets.CMEM_OAUTH_CLIENT_SECRET }}
+  CMEMC_ENV_OVERWRITE: "True"
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: arduino/setup-task@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ env.BRANCH }}
+    - name: Install Prerequisites
+      run: sudo apt-get -y install raptor2-utils moreutils
+    - name: "⚙️ Run CI Tasks"
+      id: ci_step
+      run: task ci
+    - name: "📦 Trigger Page Build"
+      if: steps.ci_step.outputs.commit-id-old != steps.ci_step.outputs.commit-id-new
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: "Build Jekyll Page Preview"
+        repo: AKSW/aksw.org.jekyllrdf
+        ref: develop
+        token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}
