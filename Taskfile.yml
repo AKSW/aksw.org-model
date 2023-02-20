@@ -41,7 +41,6 @@ tasks:
   integration-graph:get:
     desc: Get the program graph from cmem
     cmds:
-      - '{{.CMEMC}} workflow execute --wait {{.CMEM_DI_WORKFLOW}}'
       - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
 
   track:commit-and-push-data:
