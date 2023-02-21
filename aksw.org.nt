@@ -3423,7 +3423,7 @@
 <http://aksw.org/Projects/JekyllRDF> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/Projects/JekyllRDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Projects/JekyllRDF> <http://www.w3.org/2000/01/rdf-schema#label> "Jekyll RDF" .
-<http://aksw.org/Projects/JekyllRDF> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/white-gecko/jekyll-rdf> .
+<http://aksw.org/Projects/JekyllRDF> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/aksw/jekyll-rdf> .
 <http://aksw.org/Projects/KeyNodeJS> <http://aksw.org/schema/hookline> "Next level web presentations" .
 <http://aksw.org/Projects/KeyNodeJS> <http://open.vocab.org/terms/screenshot> <http://aksw.github.com/KeyNode.js/images/presenter3.PNG> .
 <http://aksw.org/Projects/KeyNodeJS> <http://purl.org/dc/terms/abstract> "KeyNode.js tries to upgrade existing web-standards based slide show tools (as Slidy or slidedown) with presenter console like features such as personal notes on a different screen/browser, next slide preview and slide overview." .
