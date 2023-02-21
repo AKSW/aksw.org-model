@@ -41,7 +41,7 @@ tasks:
   integration-graph:get:
     desc: Get the program graph from cmem
     cmds:
-      - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+      - '{{.CMEMC}} graph export {{.INTEGRATION_GRAPH_IRI}} | LC_ALL=C sort -u > {{.INTEGRATION_GRAPH}}.nt'
 
   track:commit-and-push-data:
     desc: Commit and push all changes made to the graphs
