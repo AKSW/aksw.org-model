@@ -1099,6 +1099,7 @@
 <http://aksw.org/Events/2023/SEMANTiCS2023EU> <http://schema.org/startDate> "2023-09-22"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2023/SEMANTiCS2023EU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/Events/2023/SEMANTiCS2023EU> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS 2023 EU (Leipzig)" .
+<http://aksw.org/Events/2023/SEMANTiCS2023EU> <http://xmlns.com/foaf/0.1/homepage> <https://2023-eu.semantics.cc/> .
 <http://aksw.org/Events> <http://ns.ontowiki.net/SysOnt/Site/content> "# Upcoming Events\n<nav class=\"nav-sidelinks\">\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(?startDate > now())\" orderby=\"DESC(?startDate)\" template=\"liplain\"}}\n</nav>\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(?startDate > now()) \" orderby=\"DESC(?startDate)\" template=\"abstract\"}}\n\n# Past Events\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(now() > ?startDate) \" orderby=\"DESC(?startDate)\" template=\"liplain\"}}"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Events> <http://purl.org/dc/terms/abstract> "ASKW is or was active in the following events." .
 <http://aksw.org/Events> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/events/feed/> .
