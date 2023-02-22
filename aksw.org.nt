@@ -85,7 +85,7 @@
 <http://aksw.org/> <http://www.w3.org/2002/07/owl#imports> <http://schema.org/> .
 <http://aksw.org/> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org> .
 <http://aksw.org/> <http://xmlns.com/foaf/0.1/page> <http://aksw.org/Projects/AKSWorg> .
-<http://aksw.org/About> <http://ns.ontowiki.net/SysOnt/Site/content> "<nav class=\"nav-sidelinks\">\n<ul>\n<li><strong class=\"headline\">current funded projects</strong>\n{{query where=\"?resourceUri a aksw:FundedProject. OPTIONAL { ?resourceUri aksw:status ?status }  FILTER (?status != 'finished')\" template=\"liplain\"}}\n</li>\n<li><strong class=\"headline\">featured projects</strong>\n{{query where=\"?resourceUri aksw:promoted 'true'^^xsd:boolean.\" template=\"liplain\"}}\n</li>\n</ul>\n</nav>\n\nThe Research Group **Agile Knowledge Engineering and Semantic Web (AKSW)** is hosted by the Chair of\n[Business Information Systems](http://bis.informatik.uni-leipzig.de) (BIS) of the [Institute of Computer Science](http://www.informatik.uni-leipzig.de) (IfI) / [University of Leipzig](http://www.uni-leipzig.de) as well as the [Institute for Applied Informatics](http://infai.org) (InfAI).\n\n# Goals\n* Development of methods, tools and applications for adaptive Knowledge Engineering in the context of the Semantic Web\n* Research of underlying Semantic Web technologies and development of fundamental Semantic Web tools and applications\n* Maturation of strategies for fruitfully combining the Social Web paradigms with semantic knowledge representation techniques\n\nAKSW is committed to the [free software](http://en.wikipedia.org/wiki/Free_software_movement), [open source](http://www.opensource.org), [open access](http://www.soros.org/openaccess) and [open knowledge](http://okfn.org) movements.\n\n# Jobs\nWe are always glad about seeing new people in our group. AKSW currently has some open job offers. Please find further information on our [Jobs](http://aksw.org/Jobs)-Resource.\n\n# Projects\nAKSW has launched a number of high-impact R&D projects.\nPlease look at the [projects page](/Projects) for a comprehensive description of AKSW's funded as well as community, open source and past projects.\n\n# Demos\nPlease have a look at our demos:\n\n{{query where=\"?resourceUri a aksw:Demo.\" template=\"wheel\"}}\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/About> <http://ns.ontowiki.net/SysOnt/Site/content> "The Research Group **Agile Knowledge Engineering and Semantic Web (AKSW)** is hosted by the Chair of\n[Business Information Systems](http://bis.informatik.uni-leipzig.de) (BIS) of the [Institute of Computer Science](http://www.informatik.uni-leipzig.de) (IfI) / [University of Leipzig](http://www.uni-leipzig.de) as well as the [Institute for Applied Informatics](http://infai.org) (InfAI).\n\n# Goals\n* Development of methods, tools and applications for adaptive Knowledge Engineering in the context of the Semantic Web\n* Research of underlying Semantic Web technologies and development of fundamental Semantic Web tools and applications\n* Maturation of strategies for fruitfully combining the Social Web paradigms with semantic knowledge representation techniques\n\nAKSW is committed to the [free software](http://en.wikipedia.org/wiki/Free_software_movement), [open source](http://www.opensource.org), [open access](http://www.soros.org/openaccess) and [open knowledge](http://okfn.org) movements.\n\n# Jobs\nWe are always glad about seeing new people in our group. AKSW currently has some open job offers. Please find further information on our [Jobs](http://aksw.org/Jobs)-Resource.\n\n# Projects\nAKSW has launched a number of high-impact R&D projects.\nPlease look at the [projects page](/Projects) for a comprehensive description of AKSW's funded as well as community, open source and past projects."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/About> <http://ns.ontowiki.net/SysOnt/Site/menuLabel> "About" .
 <http://aksw.org/About> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/feed/> .
 <http://aksw.org/About> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -1020,6 +1020,55 @@
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2014/SEMANTiCS> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2021" .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/BusinessEvent> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/EducationEvent> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://schema.org/endDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://schema.org/performer> <http://aksw.org/Groups/AKSW> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2021-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "9. Leipziger Semantic Web Tag (LSWT2021)"@de .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2014/SEMANTiCS> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2021/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2020/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2022" .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/BusinessEvent> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/EducationEvent> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://schema.org/endDate> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://schema.org/performer> <http://aksw.org/Groups/AKSW> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag (LSWT2022)"@de .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2014/SEMANTiCS> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2020/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2021/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://2022.dataweek.de/lswt2022> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/lswt2022> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://xmlns.com/foaf/0.1/homepage> <https://lswt2022.aksw.org/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2023" .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/BusinessEvent> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/EducationEvent> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/endDate> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/performer> <http://aksw.org/Groups/AKSW> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "11. Leipziger Semantic Web Tag (LSWT2023)"@de .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2014/SEMANTiCS> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2020/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2021/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2022/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/lswt2023> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2023.aksw.org/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://xmlns.com/foaf/0.1/homepage> <https://lswt2023.aksw.org/> .
 <http://aksw.org/Events> <http://ns.ontowiki.net/SysOnt/Site/content> "# Upcoming Events\n<nav class=\"nav-sidelinks\">\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(?startDate > now())\" orderby=\"DESC(?startDate)\" template=\"liplain\"}}\n</nav>\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(?startDate > now()) \" orderby=\"DESC(?startDate)\" template=\"abstract\"}}\n\n# Past Events\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(now() > ?startDate) \" orderby=\"DESC(?startDate)\" template=\"liplain\"}}"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Events> <http://purl.org/dc/terms/abstract> "ASKW is or was active in the following events." .
 <http://aksw.org/Events> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/events/feed/> .
@@ -4620,7 +4669,7 @@
 <http://aksw.org/Projects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/Projects> <http://www.w3.org/2000/01/rdf-schema#label> "Projects" .
 <http://aksw.org/Publications> <http://lod2.eu/schema/exhibitData> <http://aksw.org/BibsonomyProxy/exhibit-proxy.php?suffix=user/aksw/group_aksw&callback=cb> .
-<http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/content> "<nav class=\"nav-sidelinks\">\n<ul>\n<li><strong class=\"headline\">current funded projects</strong>\n{{query where=\"?resourceUri a aksw:FundedProject. OPTIONAL { ?resourceUri aksw:status ?status }  FILTER (?status != 'finished')\" template=\"liplain\"}}\n</li>\n</nav>\n\nBibTeX entries for all AKSW publications can be found at [Bibsonomy](http://www.bibsonomy.org/user/aksw).\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/content> "BibTeX entries for all AKSW publications can be found at [Bibsonomy](http://www.bibsonomy.org/user/aksw)."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "noheading" .
 <http://aksw.org/Publications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
