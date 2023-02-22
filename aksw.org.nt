@@ -1047,6 +1047,7 @@
 <http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag/> .
 <http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2020/LeipzigerSemanticWebTag/> .
 <http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2021/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2023" .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/BusinessEvent> .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://schema.org/additionalType> <http://schema.org/EducationEvent> .
@@ -1062,7 +1063,9 @@
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2020/LeipzigerSemanticWebTag/> .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2021/LeipzigerSemanticWebTag/> .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2022/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/lswt2023> .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2023.aksw.org/> .
+<http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
 <http://aksw.org/Events> <http://ns.ontowiki.net/SysOnt/Site/content> "# Upcoming Events\n<nav class=\"nav-sidelinks\">\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(?startDate > now())\" orderby=\"DESC(?startDate)\" template=\"liplain\"}}\n</nav>\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(?startDate > now()) \" orderby=\"DESC(?startDate)\" template=\"abstract\"}}\n\n# Past Events\n{{query where=\"?resourceUri a schema:Event . ?resourceUri schema:startDate ?startDate . filter(now() > ?startDate) \" orderby=\"DESC(?startDate)\" template=\"liplain\"}}"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Events> <http://purl.org/dc/terms/abstract> "ASKW is or was active in the following events." .
 <http://aksw.org/Events> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/events/feed/> .
