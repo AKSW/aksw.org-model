@@ -4620,7 +4620,7 @@
 <http://aksw.org/Projects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/Projects> <http://www.w3.org/2000/01/rdf-schema#label> "Projects" .
 <http://aksw.org/Publications> <http://lod2.eu/schema/exhibitData> <http://aksw.org/BibsonomyProxy/exhibit-proxy.php?suffix=user/aksw/group_aksw&callback=cb> .
-<http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/content> "<nav class=\"nav-sidelinks\">\n<ul>\n<li><strong class=\"headline\">current funded projects</strong>\n{{query where=\"?resourceUri a aksw:FundedProject. OPTIONAL { ?resourceUri aksw:status ?status }  FILTER (?status != 'finished')\" template=\"liplain\"}}\n</li>\n</nav>\n\nBibTeX entries for all AKSW publications can be found at [Bibsonomy](http://www.bibsonomy.org/user/aksw).\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/content> "BibTeX entries for all AKSW publications can be found at [Bibsonomy](http://www.bibsonomy.org/user/aksw)."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/Publications> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "noheading" .
 <http://aksw.org/Publications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
