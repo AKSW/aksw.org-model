@@ -1011,11 +1011,14 @@
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/description> "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlernInnen, Unternehmen und Organisationen die M\u00F6glichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. Die Schwerpunkte liegen in diesem Jahr auf Enterprise Knowledge Graphs, E-Government, Mobilit\u00E4t, Datenintegration, Semantic Web in der Industrie und K\u00FCnstliche Intelligenz. Neben Live-Vortr\u00E4gen wird es eine digitale, interaktive Postersession mit Beitr\u00E4gen von Studierenden zu aktuellen Forschungsprojekten und Ideen geben.\r\nUm sich inhaltlich \u00FCber den LSWT zu Informieren, eignet sich am Besten ein Blick auf die <a href=\"https://lswt2020.aksw.org/\">Webseite</a>. \r\n" .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/endDate> "2020-06-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/endDate> "2020-06-17T14:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/endDate> "2021-07-07T00:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/performer> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2020-06-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2020-06-17T09:15:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2021-07-07T00:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "8. Leipziger Semantic Web Tag (LSWT2020)" .
+<http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "9. Leipziger Semantic Web Tag (LSWT2021)"@de .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag/> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2014/SEMANTiCS> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
