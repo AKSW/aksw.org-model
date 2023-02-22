@@ -357,6 +357,7 @@
 <http://aksw.org/AmitKirschenbaum> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/AmitKirschenbaum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Amit Kirschenbaum" .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MMoOn> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/AmitKirschenbaum> .
