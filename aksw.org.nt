@@ -2021,9 +2021,7 @@
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/Projects> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/Publications> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/Events> .
-<http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/Presentations> .
-<http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/Teaching> .
-<http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <http://aksw.org/Partners> .
+<http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/Partners> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/2000/01/rdf-schema#label> "Main Navigation" .
 <http://aksw.org/Navigation/Top> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/Contact> .
