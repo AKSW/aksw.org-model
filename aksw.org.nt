@@ -5304,7 +5304,7 @@
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AMSL> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
-<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> <http://thomas-riechert.de/pict/tr.jpg> .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/familyName> "Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/mbox> <mailto:thomas.riechert@htwk-leipzig.de> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
