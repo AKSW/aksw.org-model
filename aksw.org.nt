@@ -4658,7 +4658,7 @@
 <http://aksw.org/Projects/pcp-on-web> <http://ns.ontowiki.net/SysOnt/Site/content> "<img src=\"https://pcp-on-web.htwk-leipzig.de/project/img/pcp-logo.gif\" width=\"300px\" alt=\"PCP on web Logo\" align=\"left\">\r\n\r\n# Summary\r\nThe Leipzig University of Applied Science (HTWK Leipzig) with the research group Agile Knowledge Engineering and Semantic Web (AKSW) and the Herzog August Library in Wolfenbüttel (HAB) run the research project, in cooperation with partners from the Working Group of German Professor catalogs and the European research network for academic history - Héloïse. The project uses independent online databases for research in the field of prosopography, which is the study and evaluation of collected information on groups of historical persons. This project focuses on German professors' career patterns during the 18th and 19th centuries. The proposed research employs databases that have previously been produced by both project partners, namely the Catalogus Professorum Lipsiensium and the Professorum Helmstadiensium. This proposed project will develop a new research method that combines well-known research methods from the humanities and computer science. In preliminary work AKSW proposed the Heloise Common Research Model (HCRM) for cross-project research in the field of university history, within the European research network Heloise. HCRM is conceived as a layered architecture, framing the research within the following abstract layers: the Repository Layer, the Application Layer and the Research Interface Layer. As part of the proposed research project a method will be developed based on HCRM and be evaluated by studying the research question. \r\n\r\n# About PCP on Web\r\nPCP on Web  is a project within the field of Digital Humanities founded by the German Research Foundation (DFG) and started on March 1st, 2017. The consortium consists of HTWK Leipzig (coordinator, Germany) and Herzog August Bibliothek in Wolfenbüttel (Germany).\r\n\r\n* Duration: 03/2017–02/2020\r\n* Funding Programme: DFG - German Research Foundation"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/pcp-on-web> <http://purl.org/dc/terms/abstract> "Development of a scientific method for research on online available and distributed research databases of academic history." .
 <http://aksw.org/Projects/pcp-on-web> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ThomasRiechert> .
-<http://aksw.org/Projects/pcp-on-web> <http://vocab.ox.ac.uk/projectfunding#endDate> "2020-02-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/pcp-on-web> <http://vocab.ox.ac.uk/projectfunding#endDate> "2023-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/pcp-on-web> <http://vocab.ox.ac.uk/projectfunding#startDate> "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/pcp-on-web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/pcp-on-web> <http://www.w3.org/2000/01/rdf-schema#label> "PCP on Web" .
@@ -5302,14 +5302,15 @@
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "TRiechert" .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "ThomasRiechert" .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" .
-<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AMSL> .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DINOBBIO> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
-<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/ThomasRiechert> .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> <https://fim.htwk-leipzig.de/fileadmin/_processed_/4/c/csm_rie_tho_201812_fd5d36f91b.jpg> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/familyName> "Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/mbox> <mailto:thomas.riechert@htwk-leipzig.de> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/ARTeFACT> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/CatalogusProfessorum> .
+<http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DINOBBIO> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SoftWiki> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-3076-6413> .
