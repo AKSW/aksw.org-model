@@ -4069,8 +4069,6 @@
 <http://aksw.org/Projects/QROWD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/QROWD> <http://www.w3.org/2000/01/rdf-schema#label> "QROWD - Project"@de .
 <http://aksw.org/Projects/QROWD> <http://www.w3.org/2000/01/rdf-schema#label> "QROWD"@en .
-<http://aksw.org/Projects/QROWD> <http://xmlns.com/foaf/0.1/homepage> <http://qrowd-project.eu/> .
-<http://aksw.org/Projects/QROWD> <http://xmlns.com/foaf/0.1/logo> <http://qrowd-project.eu/wp-content/uploads/2017/02/logo-header.png> .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/hookline> "A Query Federation Suite for SPARQL" .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/publicationTag> "quetsal" .
 <http://aksw.org/Projects/QUETSAL> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/tcga> .
