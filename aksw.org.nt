@@ -4766,7 +4766,7 @@
 <http://aksw.org/RobertRoesling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RobertRoesling> <http://xmlns.com/foaf/0.1/familyName> "R\u00F6sling" .
 <http://aksw.org/RobertRoesling> <http://xmlns.com/foaf/0.1/name> "Robert R\u00F6sling" .
-<http://aksw.org/RoyMeissner> <http://aksw.org/schema/publicationTag> "" .
+<http://aksw.org/RoyMeissner> <http://aksw.org/schema/publicationTag> "meissner" .
 <http://aksw.org/RoyMeissner> <http://aksw.org/schema/room> "33" .
 <http://aksw.org/RoyMeissner> <http://aksw.org/schema/supervisorTag> "RoyMeissner" .
 <http://aksw.org/RoyMeissner> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
