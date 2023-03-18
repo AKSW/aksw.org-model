@@ -1176,7 +1176,7 @@
 <http://aksw.org/Groups/AKSW> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web" .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NadineJochimsen> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraBartsch> .
+<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraPraetor> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SimoneAngermann> .
 <http://aksw.org/Groups/ES> <http://aksw.org/schema/publicationTag> "ES" .
