@@ -1002,7 +1002,7 @@
 <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://schema.org/startDate> "2019-05-22"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#label> "7. Leipziger Semantic Web Tag (LSWT2019)" .
-<http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
 <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2014/SEMANTiCS> .
 <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
 <http://aksw.org/Events/2020/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2020" .
@@ -1042,7 +1042,7 @@
 <http://aksw.org/Events/2022/DataWeek> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2022/DataWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/Events/2022/DataWeek> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022"@de .
-<http://aksw.org/Events/2022/DataWeek> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2022/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2022/DataWeek> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2022/LeipzigerSemanticWebTag> .
 <http://aksw.org/Events/2022/DataWeek> <http://www.w3.org/2002/07/owl#sameAs> <https://2022.dataweek.de/> .
 <http://aksw.org/Events/2022/DataWeek> <http://xmlns.com/foaf/0.1/homepage> <https://2022.dataweek.de/> .
 <http://aksw.org/Events/2022/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2022" .
