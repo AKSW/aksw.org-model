@@ -1072,7 +1072,7 @@
 <http://aksw.org/Events/2023/DataWeek> <http://schema.org/startDate> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Events/2023/DataWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://aksw.org/Events/2023/DataWeek> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2023"@de .
-<http://aksw.org/Events/2023/DataWeek> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2023/LeipzigerSemanticWebTag/> .
+<http://aksw.org/Events/2023/DataWeek> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> .
 <http://aksw.org/Events/2023/DataWeek> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/> .
 <http://aksw.org/Events/2023/DataWeek> <http://xmlns.com/foaf/0.1/homepage> <https://2023.dataweek.de/> .
 <http://aksw.org/Events/2023/LeipzigerSemanticWebTag> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "LSWT2023" .
