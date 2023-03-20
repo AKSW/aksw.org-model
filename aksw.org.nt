@@ -360,7 +360,7 @@
 <http://aksw.org/AmitKirschenbaum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Amit Kirschenbaum" .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MMoOn> .
-<http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/AmitKirschenbaum> .
+<http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/AmitKirschenbaum> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/familyName> "Kirschenbaum" .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/mbox> <mailto:amit@informatik.uni-leipzig.de> .
 <http://aksw.org/AmitKirschenbaum> <http://xmlns.com/foaf/0.1/name> "Amit Kirschenbaum" .
@@ -371,7 +371,7 @@
 <http://aksw.org/AmrapaliZaveri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AmrapaliZaveri> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "AmrapaliZaveri" .
 <http://aksw.org/AmrapaliZaveri> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Amrapali Zaveri" .
-<http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Zaveri/gn/Amrapali> .
+<http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Zaveri/gn/Amrapali> .
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/familyName> "Zaveri" .
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/homepage> <https://sites.google.com/site/amrapalizaveri/> .
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/mbox> <mailto:zaveri@informatik.uni-leipzig.de> .
@@ -402,7 +402,7 @@
 <http://aksw.org/AndreasNareike> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AndreasNareike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AndreasNareike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/AndreasNareike> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Nareike/gn/Andreas> .
+<http://aksw.org/AndreasNareike> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Nareike/gn/Andreas> .
 <http://aksw.org/AndreasNareike> <http://xmlns.com/foaf/0.1/familyName> "Nareike" .
 <http://aksw.org/AndreasNareike> <http://xmlns.com/foaf/0.1/mbox> <mailto:nareike@informatik.uni-leipzig.de> .
 <http://aksw.org/AndreasNareike> <http://xmlns.com/foaf/0.1/name> "Andreas Nareike" .
@@ -458,7 +458,7 @@
 <http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SLIPO> .
 <http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SemanticQuran> .
 <http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/conTEXT> .
-<http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Ngonga%20Ngomo> .
+<http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Ngonga%20Ngomo> .
 <http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/familyName> "Ngonga" .
 <http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/mbox> <mailto:ngonga@informatik.uni-leipzig.de> .
 <http://aksw.org/AxelNgonga> <http://xmlns.com/foaf/0.1/name> "Axel Ngonga" .
@@ -512,7 +512,7 @@
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SLIPO> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SemMap> .
-<http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Stadler/gn/Claus> .
+<http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Stadler/gn/Claus> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/familyName> "Stadler" .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/mbox> <mailto:cstadler@informatik.uni-leipzig.de> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/name> "Claus Stadler" .
@@ -660,7 +660,7 @@
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpediaDQ> .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpediaDQCrowd> .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFUnit> .
-<http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Kontokostas/gn/Dimitris> .
+<http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Kontokostas/gn/Dimitris> .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/familyName> "Kontokostas" .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/mbox> <mailto:kontokostas@informatik.uni-leipzig.de> .
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/name> "Dimitris Kontokostas" .
@@ -672,7 +672,7 @@
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFSlice> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
-<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Marx/gn/Edgard> .
+<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Marx/gn/Edgard> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/familyName> "Marx" .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://emarx.org> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/mbox> <mailto:edgard.marx@htwk-leipzig.de> .
@@ -1354,7 +1354,7 @@
 <http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/HOBBIT> .
 <http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LODStats> .
 <http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
-<http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Ermilov/gn/Ivan> .
+<http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Ermilov/gn/Ivan> .
 <http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/familyName> "Ermilov" .
 <http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/mbox> <mailto:iermilov@informatik.uni-leipzig.de> .
 <http://aksw.org/IvanErmilov> <http://xmlns.com/foaf/0.1/name> "Ivan Ermilov" .
@@ -1394,7 +1394,7 @@
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Sparqlify> .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/TripleCheckMate> .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/VeriLinks> .
-<http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Lehmann/gn/Jens> .
+<http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Lehmann/gn/Jens> .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/familyName> "Lehmann" .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/homepage> <http://jens-lehmann.org/> .
 <http://aksw.org/JensLehmann> <http://xmlns.com/foaf/0.1/mbox> <mailto:lehmann@informatik.uni-leipzig.de> .
@@ -1416,7 +1416,7 @@
 <http://aksw.org/JoergUnbehauen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/JoergUnbehauen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JoergUnbehauen> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SparqlMap> .
-<http://aksw.org/JoergUnbehauen> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Unbehauen/gn/J\u00F6rg> .
+<http://aksw.org/JoergUnbehauen> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Unbehauen/gn/J\u00F6rg> .
 <http://aksw.org/JoergUnbehauen> <http://xmlns.com/foaf/0.1/familyName> "Unbehauen" .
 <http://aksw.org/JoergUnbehauen> <http://xmlns.com/foaf/0.1/mbox> <mailto:unbehauen@informatik.uni-leipzig.de> .
 <http://aksw.org/JoergUnbehauen> <http://xmlns.com/foaf/0.1/name> "J\u00F6rg Unbehauen" .
@@ -1555,7 +1555,7 @@
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/BIG> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LinkedSpending> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Hoeffner/gn/Konrad> .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Hoeffner/gn/Konrad> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/familyName> "H\u00F6ffner" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/homepage> <https://konradhoeffner.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/mbox> <mailto:konrad.hoeffner@uni-leipzig.de> .
@@ -1588,7 +1588,7 @@
 <http://aksw.org/KurtJunghanns> <http://aksw.org/schema/supervisorTag> "KurtJunghanns" .
 <http://aksw.org/KurtJunghanns> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Junghanns/gn/Kurt> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Junghanns/gn/Kurt> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/familyName> "Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/mbox> <mailto:kjunghanns@informatik.uni-leipzig.de> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
@@ -1642,7 +1642,7 @@
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SMLBench> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SPARQL2NL> .
-<http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/B\u00FChmann/gn/Lorenz> .
+<http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/B\u00FChmann/gn/Lorenz> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/familyName> "B\u00FChmann" .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/mbox> <mailto:buehmann@informatik.uni-leipzig.de> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/name> "Lorenz B\u00FChmann" .
@@ -1654,7 +1654,7 @@
 <http://aksw.org/LuisGarcia> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "LuisGarcia" .
 <http://aksw.org/LuisGarcia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lu\u00EDs Paulo Faina Garcia" .
 <http://aksw.org/LuisGarcia> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/QROWD> .
-<http://aksw.org/LuisGarcia> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Faina%20Garcia> .
+<http://aksw.org/LuisGarcia> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Faina%20Garcia> .
 <http://aksw.org/LuisGarcia> <http://xmlns.com/foaf/0.1/familyName> "Faina Garcia" .
 <http://aksw.org/LuisGarcia> <http://xmlns.com/foaf/0.1/mbox> <mailto:lpfgarcia@gmail.com> .
 <http://aksw.org/LuisGarcia> <http://xmlns.com/foaf/0.1/name> "Lu\u00EDs Paulo Faina Garcia" .
@@ -1667,7 +1667,7 @@
 <http://aksw.org/MarkusAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MarkusAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarkusAckermann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Markus Ackermann" .
-<http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Ackermann/gn/Markus> .
+<http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Ackermann/gn/Markus> .
 <http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/familyName> "Ackermann" .
 <http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/mbox> <mailto:markus.ackermann@eccenca.com> .
 <http://aksw.org/MarkusAckermann> <http://xmlns.com/foaf/0.1/name> "Markus Ackermann" .
@@ -1700,7 +1700,7 @@
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NIF4OGGD> .
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SmartDataWeb> .
-<http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Bruemmer/gn/Martin> .
+<http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Bruemmer/gn/Martin> .
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/familyName> "Br\u00FCmmer" .
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/mbox> <mailto:martin.bruemmer@eccenca.com> .
 <http://aksw.org/MartinBruemmer> <http://xmlns.com/foaf/0.1/name> "Martin Br\u00FCmmer" .
@@ -1709,7 +1709,7 @@
 <http://aksw.org/MarvinFrommhold> <http://schema.org/affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/MarvinFrommhold> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
 <http://aksw.org/MarvinFrommhold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Frommhold/gn/Marvin> .
+<http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Frommhold/gn/Marvin> .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/familyName> "Frommhold" .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/mbox> <mailto:frommhold@informatik.uni-leipzig.de> .
 <http://aksw.org/MarvinFrommhold> <http://xmlns.com/foaf/0.1/name> "Marvin Frommhold" .
@@ -1807,7 +1807,7 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/ReDDObservatory> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWikiEU> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SparqlAnalytics> .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/MichaelMartin> .
+<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/familyName> "Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/mbox> <mailto:martin@informatik.uni-leipzig.de> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
@@ -1826,7 +1826,7 @@
 <http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
 <http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/HOBBIT> .
 <http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/N3NERNEDNIF> .
-<http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Roeder/gn/Michael> .
+<http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Roeder/gn/Michael> .
 <http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/familyName> "R\u00F6der" .
 <http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/mbox> <mailto:michael.roeder@uni-paderborn.de> .
 <http://aksw.org/MichaelRoeder> <http://xmlns.com/foaf/0.1/name> "Michael R\u00F6der" .
@@ -1858,7 +1858,7 @@
 <http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoLift> .
 <http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/USPatents> .
-<http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Hassan/gn/Mofeed> .
+<http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Hassan/gn/Mofeed> .
 <http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/familyName> "Hassan" .
 <http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/mbox> <mailto:mounir@informatik.uni-leipzig.de> .
 <http://aksw.org/MofeedHassan> <http://xmlns.com/foaf/0.1/name> "Mofeed Hassan" .
@@ -1897,7 +1897,7 @@
 <http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LinkedIdioms> .
 <http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LinkingLOD> .
 <http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SAKE> .
-<http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Sherif/gn/Mohamed> .
+<http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Sherif/gn/Mohamed> .
 <http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/familyName> "Sherif" .
 <http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/mbox> <mailto:sherif@informatik.uni-leipzig.de> .
 <http://aksw.org/MohamedSherif> <http://xmlns.com/foaf/0.1/name> "Mohamed Sherif" .
@@ -1945,7 +1945,7 @@
 <http://aksw.org/NadineJaenicke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
 <http://aksw.org/NadineJaenicke> <http://www.w3.org/2002/07/owl#sameAs> <http://aksw.org/NadineJochimsen> .
 <http://aksw.org/NadineJaenicke> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "NadineJochimsen" .
-<http://aksw.org/NadineJaenicke> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Jochimsen/gn/Nadine> .
+<http://aksw.org/NadineJaenicke> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Jochimsen/gn/Nadine> .
 <http://aksw.org/NadineJaenicke> <http://xmlns.com/foaf/0.1/familyName> "Jochimsen" .
 <http://aksw.org/NadineJaenicke> <http://xmlns.com/foaf/0.1/mbox> <mailto:jaenicke@uni-leipzig.de> .
 <http://aksw.org/NadineJaenicke> <http://xmlns.com/foaf/0.1/name> "Nadine Jochimsen" .
@@ -1967,7 +1967,7 @@
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SLIPO> .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SlideWikiEU> .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SmartDataWeb> .
-<http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Jochimsen/gn/Nadine> .
+<http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Jochimsen/gn/Nadine> .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/familyName> "Jochimsen" .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/mbox> <mailto:jochimsen@informatik.uni-leipzig.de> .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/name> "Nadine Jochimsen" .
@@ -2000,7 +2000,7 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Erfurt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/JekyllRDF> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/OntoWiki> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/NatanaelArndt> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/familyName> "Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://natanael.arndt.xyz/> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/mbox> <mailto:natanael.arndt@eccenca.com> .
@@ -2062,7 +2062,7 @@
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DSSN> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Quit> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Xodx> .
-<http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Radtke/gn/Norman> .
+<http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Radtke/gn/Norman> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/familyName> "Radtke" .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/mbox> <mailto:radtke@informatik.uni-leipzig.de> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/name> "Norman Radtke" .
@@ -2689,7 +2689,7 @@
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SANSA_Stack> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SMLBench> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Sparqlify> .
-<http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Westphal/gn/Patrick> .
+<http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Westphal/gn/Patrick> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/familyName> "Westphal" .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/mbox> <mailto:patrick.westphal@informatik.uni-leipzig.de> .
 <http://aksw.org/PatrickWestphal> <http://xmlns.com/foaf/0.1/name> "Patrick Westphal" .
@@ -2714,7 +2714,7 @@
 <http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/KeyNodeJS> .
 <http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/OntoWiki> .
 <http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Triplify> .
-<http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Frischmuth/gn/Philipp> .
+<http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Frischmuth/gn/Philipp> .
 <http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/familyName> "Frischmuth" .
 <http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/mbox> <mailto:frischmuth@informatik.uni-leipzig.de> .
 <http://aksw.org/PhilippFrischmuth> <http://xmlns.com/foaf/0.1/name> "Philipp Frischmuth" .
@@ -4732,7 +4732,7 @@
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Ricardo Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
-<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Usbeck/gn/Ricardo> .
+<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Usbeck/gn/Ricardo> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/familyName> "Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/mbox> <mailto:ricardo.usbeck@uni-hamburg.de> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/name> "Ricardo Usbeck" .
@@ -4811,13 +4811,13 @@
 <http://aksw.org/SandraBartsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
 <http://aksw.org/SandraBartsch> <http://www.w3.org/2002/07/owl#sameAs> <http://aksw.org/SandraFuchs> .
 <http://aksw.org/SandraBartsch> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "SandraFuchs" .
-<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Fuchs/gn/Sandra> .
+<http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Fuchs/gn/Sandra> .
 <http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/familyName> "Fuchs" .
 <http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/mbox> <mailto:sbartsch@informatik.uni-leipzig.de> .
 <http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
 <http://aksw.org/SandraBartsch> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903752> .
 <http://aksw.org/SandraFuchs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Fuchs/gn/Sandra> .
+<http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Fuchs/gn/Sandra> .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/familyName> "Fuchs" .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/mbox> <mailto:sbartsch@informatik.uni-leipzig.de> .
 <http://aksw.org/SandraFuchs> <http://xmlns.com/foaf/0.1/name> "Sandra Fuchs" .
@@ -4830,7 +4830,7 @@
 <http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/ALIGNED> .
 <http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/FREME> .
-<http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Pr\u00E4tor/gn/Sandra> .
+<http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Pr\u00E4tor/gn/Sandra> .
 <http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/familyName> "Pr\u00E4tor" .
 <http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/mbox> <mailto:praetor@informatik.uni-leipzig.de> .
 <http://aksw.org/SandraPraetor> <http://xmlns.com/foaf/0.1/name> "Sandra Pr\u00E4tor" .
@@ -4988,7 +4988,7 @@
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NLP2RDF> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFUnit> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/SmartDataWeb> .
-<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Hellmann/gn/Sebastian> .
+<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Hellmann/gn/Sebastian> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/familyName> "Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/mbox> <mailto:hellmann@informatik.uni-leipzig.de> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Hellmann" .
@@ -5029,7 +5029,7 @@
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "stramp" .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
-<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/SebastianTramp> .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/familyName> "Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/mbox> <mailto:sebastian.tramp@eccenca.com> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
@@ -5067,7 +5067,7 @@
 <http://aksw.org/SimonBin> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CoyPu> .
-<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/depiction> <http://ldap.aksw.org/pic/sn/Bin> .
+<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Bin> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/familyName> "Bin" .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/mbox> <mailto:sbin@informatik.uni-leipzig.de> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/name> "Simon Bin" .
