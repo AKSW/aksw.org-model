@@ -49,6 +49,7 @@
 <http://aksw.org/092d283d-003a-4fd4-8e2a-9f3f8770e5c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://aksw.org/092d283d-003a-4fd4-8e2a-9f3f8770e5c5> <http://www.w3.org/2000/01/rdf-schema#label> "Active Project"@en .
 <http://aksw.org/092d283d-003a-4fd4-8e2a-9f3f8770e5c5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Project> .
+<http://aksw.org/092d283d-003a-4fd4-8e2a-9f3f8770e5c5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/8cefe783-0167-415b-9465-dd0b8793654f> <http://purl.org/dc/terms/modified> "2023-03-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/8cefe783-0167-415b-9465-dd0b8793654f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://aksw.org/8cefe783-0167-415b-9465-dd0b8793654f> <http://www.w3.org/2000/01/rdf-schema#label> "Active Member"@en .
