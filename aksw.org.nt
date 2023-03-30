@@ -432,6 +432,7 @@
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/AxelNgonga> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "" .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "AxelNgonga" .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Axel-C. Ngonga Ngomo" .
