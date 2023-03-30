@@ -3124,7 +3124,7 @@
 <http://aksw.org/Projects/CubeViz> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
 <http://aksw.org/Projects/CubeViz> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
 <http://aksw.org/Projects/CubeViz> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/cubeviz.ontowiki/wiki> .
-<http://aksw.org/Projects/CubeViz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/CubeViz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/CubeViz> <http://www.w3.org/2000/01/rdf-schema#label> "CubeViz" .
 <http://aksw.org/Projects/CubeViz> <http://xmlns.com/foaf/0.1/logo> <http://lh3.ggpht.com/-Iii5-Scrdz8/UO_cASYmcvI/AAAAAAAABMs/0-zo5sCFq_w/CubeViz_Logo2012_rgb.jpg> .
 <http://aksw.org/Projects/DBPSB> <http://aksw.org/schema/hookline> "a pure RDF benchmark based on actually posed queries" .
@@ -3915,7 +3915,7 @@
 <http://aksw.org/Projects/MMoOn> <http://purl.org/dc/terms/abstract> "In the last years a rapid emergence of lexical resources evolved in the Semantic Web. Whereas most of the linguistic information is already machine-readable, we found that morphological information is either absent or only contained in semi-structured strings. While a plethora of linguistic resources for the lexical domain already exist and are highly reused, there is still a great gap for equivalent morphological datasets and ontologies. In order to enable the capturing of the semantics of expressions beneath the word-level, the Multilingual Morpheme Ontology (MMoOn) has been developed. It is designed for the creation of machine-processable and interoperable morpheme inventories of a given natural language. As such, any MMoOn dataset contains not only semantic information of whole words and word-forms but also information on the meaningful parts of which they consist, including inflectional and derivational affixes, stems and bases as well as a wide range of their underlying meanings." .
 <http://aksw.org/Projects/MMoOn> <http://usefulinc.com/ns/doap#browse> <https://github.com/aksw/mmoon> .
 <http://aksw.org/Projects/MMoOn> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/BettinaKlimek> .
-<http://aksw.org/Projects/MMoOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/MMoOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/MMoOn> <http://www.w3.org/2000/01/rdf-schema#label> "MMoOn" .
 <http://aksw.org/Projects/MMoOn> <http://xmlns.com/foaf/0.1/homepage> <http://mmoon.org> .
 <http://aksw.org/Projects/MMoOn> <http://xmlns.com/foaf/0.1/logo> <http://mmoon.org/wp-content/uploads/2015/11/MMoOn_Logo_2015-1024x682.png> .
@@ -4626,7 +4626,7 @@
 <http://aksw.org/Projects/Triplify> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/projects/triplify/feed/> .
 <http://aksw.org/Projects/Triplify> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/Triplify> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
-<http://aksw.org/Projects/Triplify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Triplify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Triplify> <http://www.w3.org/2000/01/rdf-schema#label> "Triplify" .
 <http://aksw.org/Projects/Triplify> <http://xmlns.com/foaf/0.1/homepage> <http://triplify.org> .
 <http://aksw.org/Projects/Triplify> <http://xmlns.com/foaf/0.1/logo> <http://lh3.ggpht.com/-rvVhwgpYdsw/TlzV2Ik-6cI/AAAAAAAAAps/9zs0HPF7Y1E/s800/logo-triplify.png> .
