@@ -3246,6 +3246,7 @@
 <http://aksw.org/Projects/DINOBBIO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/Projects/DINOBBIO> <http://vocab.ox.ac.uk/projectfunding#endDate> "2024-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/DINOBBIO> <http://vocab.ox.ac.uk/projectfunding#startDate> "2021-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/DINOBBIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/092d283d-003a-4fd4-8e2a-9f3f8770e5c5> .
 <http://aksw.org/Projects/DINOBBIO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/DINOBBIO> <http://www.w3.org/2000/01/rdf-schema#label> "DINOBBIO" .
 <http://aksw.org/Projects/DINOBBIO> <http://xmlns.com/foaf/0.1/homepage> <http://dinobbio.aksw.org> .
@@ -4752,6 +4753,7 @@
 <http://aksw.org/Projects/pcp-on-web> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/Projects/pcp-on-web> <http://vocab.ox.ac.uk/projectfunding#endDate> "2023-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/pcp-on-web> <http://vocab.ox.ac.uk/projectfunding#startDate> "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/pcp-on-web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/092d283d-003a-4fd4-8e2a-9f3f8770e5c5> .
 <http://aksw.org/Projects/pcp-on-web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/pcp-on-web> <http://www.w3.org/2000/01/rdf-schema#label> "PCP on Web" .
 <http://aksw.org/Projects/pcp-on-web> <http://xmlns.com/foaf/0.1/homepage> <https://pcp-on-web.htwk-leipzig.de/project/> .
