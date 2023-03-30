@@ -5924,10 +5924,10 @@
 <http://www.nittka.de/index_e.html#me> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Xturtle> .
 <http://www.nittka.de/index_e.html#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.nittka.de/index_e.html> .
 <http://www.nittka.de/index_e.html#me> <http://xmlns.com/foaf/0.1/name> "Dr. Alexander Nittka" .
-<http://www.nowick-lab.info/?page_id=11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.nowick-lab.info/?page_id=11> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CognitiveEvolutionLD> .
-<http://www.nowick-lab.info/?page_id=11> <http://xmlns.com/foaf/0.1/familyName> "Nowick" .
-<http://www.nowick-lab.info/?page_id=11> <http://xmlns.com/foaf/0.1/name> "Katja Nowick" .
+<http://www.nowick-lab.info/page_id=11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.nowick-lab.info/page_id=11> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CognitiveEvolutionLD> .
+<http://www.nowick-lab.info/page_id=11> <http://xmlns.com/foaf/0.1/familyName> "Nowick" .
+<http://www.nowick-lab.info/page_id=11> <http://xmlns.com/foaf/0.1/name> "Katja Nowick" .
 <http://www.ontos.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Ontos AG" .
 <http://www.retresco.de/#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://www.retresco.de/#id> <http://www.w3.org/2000/01/rdf-schema#label> "Retresco" .
