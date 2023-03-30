@@ -1291,7 +1291,7 @@
 <http://aksw.org/Groups/SIMBA> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/Groups/SIMBA> <http://purl.org/dc/terms/abstract> "SIMBA's focus in supporting the transition of non-semantic applications to knowledge-driven applications. Hence we support all major steps from legacy data to rich semantic applications. This includes but is not limited to knowledge storage (triple stores, federated queries), knowledge extraction (RDF extraction from text, structured data, etc.), knowledge integration (link discovery, data fusion), knowledge access (keyword-based search, question answering and rich interfaces) and knowledge consumption within semantic applications . For this purpose, SIMBA develops novel and scalable approaches for data ranging from small to Big Data. In addition, SIMBA provides tools and frameworks that implement these approaches and allow for their swift integration into industry projects." .
 <http://aksw.org/Groups/SIMBA> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
-<http://aksw.org/Groups/SIMBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
+<http://aksw.org/Groups/SIMBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
 <http://aksw.org/Groups/SIMBA> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Abstraction" .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AdnanAkhter> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AlexanderBigerl> .
@@ -5455,6 +5455,10 @@
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#VCard> .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2000/01/rdf-schema#label> "[InfAI Office Leipzig]" .
 <http://aksw.org/VCard/InfAIOfficeLeipzig> <http://www.w3.org/2006/vcard/ns#adr> <http://aksw.org/Address/vCard/Goerdelerring9> .
+<http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> <http://purl.org/dc/terms/modified> "2023-03-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> <http://www.w3.org/2000/01/rdf-schema#label> "Former Research Group"@en .
+<http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/Site/classTemplate> "project" .
 <http://aksw.org/schema/AlumniProject> <http://ns.ontowiki.net/SysOnt/creationLabel> "Projects" .
 <http://aksw.org/schema/AlumniProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
