@@ -2966,7 +2966,7 @@
 <http://aksw.org/Projects/AutoSlides> <http://usefulinc.com/ns/doap#maintainer> <https://github.com/luckyos-code> .
 <http://aksw.org/Projects/AutoSlides> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/AutoSlides> <http://usefulinc.com/ns/doap#repository> <https://github.com/AKSW/Auto-Slides> .
-<http://aksw.org/Projects/AutoSlides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/AutoSlides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/AutoSlides> <http://www.w3.org/2000/01/rdf-schema#label> "AutoSlides" .
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/hookline> "Big Data Europe" .
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/partner> <http://www.iais.fraunhofer.de/#id> .
@@ -3316,7 +3316,7 @@
 <http://aksw.org/Projects/DockerConverter> <http://usefulinc.com/ns/doap#maintainer> <https://github.com/guitarmarx> .
 <http://aksw.org/Projects/DockerConverter> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/DockerConverter> <http://usefulinc.com/ns/doap#repository> <https://github.com/guitarmarx/DockerConverter> .
-<http://aksw.org/Projects/DockerConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/DockerConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DockerConverter> <http://www.w3.org/2000/01/rdf-schema#label> "DockerConverter" .
 <http://aksw.org/Projects/ERM> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/Projects/AMSL> .
 <http://aksw.org/Projects/ERM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
@@ -3808,7 +3808,7 @@
 <http://aksw.org/Projects/LSQ> <http://usefulinc.com/ns/doap#maintainer> <https://www.deri.ie/users/muhammad-intizar-ali> .
 <http://aksw.org/Projects/LSQ> <http://usefulinc.com/ns/doap#maintainer> <https://www.deri.ie/users/qaiser-mehmood> .
 <http://aksw.org/Projects/LSQ> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/LSQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/LSQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LSQ> <http://www.w3.org/2000/01/rdf-schema#label> "LSQ" .
 <http://aksw.org/Projects/LSQ> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.github.io/LSQ/> .
 <http://aksw.org/Projects/LSQ> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/LSQ.png> .
@@ -3903,7 +3903,7 @@
 <http://aksw.org/Projects/MEX> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Mexproject/issues> .
 <http://aksw.org/Projects/MEX> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/mexproject/tree/master/proof> .
 <http://aksw.org/Projects/MEX> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/DiegoEsteves> .
-<http://aksw.org/Projects/MEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/MEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/MEX> <http://www.w3.org/2000/01/rdf-schema#label> "MEX Vocabulary" .
 <http://aksw.org/Projects/MEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/AKSW/mexproject/tree/master/proof> .
 <http://aksw.org/Projects/MEX> <https://github.com/AKSW/mexproject/tree/master/proof> "examples of mexfiles" .
