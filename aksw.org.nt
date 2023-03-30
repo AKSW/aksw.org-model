@@ -3105,7 +3105,6 @@
 <http://aksw.org/Projects/CubeQA> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KonradHoeffner> .
 <http://aksw.org/Projects/CubeQA> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/CubeQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
-<http://aksw.org/Projects/CubeQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Projects/CubeQA> <http://www.w3.org/2000/01/rdf-schema#label> "CubeQA" .
 <http://aksw.org/Projects/CubeQA> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/cubeqa> .
 <http://aksw.org/Projects/CubeViz> <http://aksw.org/schema/hookline> "The RDF DataCube Browser." .
@@ -3201,7 +3200,6 @@
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
-<http://aksw.org/Projects/DEER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF Data Extraction and Enrichment Framework"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/2000/01/rdf-schema#label> "DEER" .
 <http://aksw.org/Projects/DEER> <http://xmlns.com/foaf/0.1/logo> <https://lh3.googleusercontent.com/-H_fQApzdKM0/Va4zVCGKYMI/AAAAAAAABmA/3r4UBZaHYoo/s720-Ic42/DEER_Logo_2015_circle_rgb.jpg> .
@@ -3515,7 +3513,7 @@
 <http://aksw.org/Projects/HAWK> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/hawk/issues> .
 <http://aksw.org/Projects/HAWK> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/RicardoUsbeck> .
 <http://aksw.org/Projects/HAWK> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/HAWK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/HAWK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/HAWK> <http://www.w3.org/2000/01/rdf-schema#label> "HAWK" .
 <http://aksw.org/Projects/HERObservatory> <http://aksw.org/schema/hookline> "Using Linked Data to Build an Observatory of Societal Progress Leveraging on Data Quality" .
 <http://aksw.org/Projects/HERObservatory> <http://aksw.org/schema/publicationTag> "lodsem" .
@@ -4097,7 +4095,7 @@
 <http://aksw.org/Projects/Palmetto> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Palmetto/issues> .
 <http://aksw.org/Projects/Palmetto> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelRoeder> .
 <http://aksw.org/Projects/Palmetto> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/Palmetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Palmetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Palmetto> <http://www.w3.org/2000/01/rdf-schema#label> "Palmetto" .
 <http://aksw.org/Projects/Palmetto> <http://xmlns.com/foaf/0.1/logo> <http://139.18.2.164/mroeder/palmetto/palmetto_64px.png> .
 <http://aksw.org/Projects/Pfarrerbuch> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/CatalogusProfessorum> .
@@ -4156,7 +4154,7 @@
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Quetsal/issues> .
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MuhammadSaleem> .
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/QUETSAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/QUETSAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QUETSAL> <http://www.w3.org/2000/01/rdf-schema#label> "QUETSAL" .
 <http://aksw.org/Projects/QUETSAL> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/quetsal_logo.png> .
 <http://aksw.org/Projects/QualisBrasil> <http://aksw.org/schema/hookline> "Linked Open Data for supporting scientometric studies" .
@@ -4255,7 +4253,7 @@
 <http://aksw.org/Projects/REX> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/REX> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/REX> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/REX/wiki> .
-<http://aksw.org/Projects/REX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/REX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/REX> <http://www.w3.org/2000/01/rdf-schema#label> "REX" .
 <http://aksw.org/Projects/REX> <http://www.w3.org/2004/02/skos/core#altLabel> "Web RDF Extraction Framework" .
 <http://aksw.org/Projects/REX> <http://xmlns.com/foaf/0.1/logo> <http://www.gallery.puffbird.net/wp-content/uploads/2010/09/TRex-Skull.jpg> .
@@ -4336,8 +4334,7 @@
 <http://aksw.org/Projects/SANSA_Stack> <http://purl.org/dc/terms/abstract> "Semantic Analytics Stack" .
 <http://aksw.org/Projects/SANSA_Stack> <http://rdfs.org/sioc/ns#feed> <http://sansa-stack.net/feed/> .
 <http://aksw.org/Projects/SANSA_Stack> <http://usefulinc.com/ns/doap#download-page> <https://github.com/SANSA-Stack> .
-<http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
-<http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/2000/01/rdf-schema#label> "SANSA-Stack" .
 <http://aksw.org/Projects/SANSA_Stack> <http://xmlns.com/foaf/0.1/homepage> <http://sansa-stack.net/> .
 <http://aksw.org/Projects/SANSA_Stack> <http://xmlns.com/foaf/0.1/logo> <http://sansa-stack.net/wp-content/uploads/2016/04/sansa-logo-blue.png> .
