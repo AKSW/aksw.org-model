@@ -3490,7 +3490,6 @@
 <http://aksw.org/Projects/GeoKnow> <http://usefulinc.com/ns/doap#wiki> <http://wiki.geoknow.eu> .
 <http://aksw.org/Projects/GeoKnow> <http://vocab.ox.ac.uk/projectfunding#endDate> "2015-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/GeoKnow> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/GeoKnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/GeoKnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/GeoKnow> <http://www.w3.org/2000/01/rdf-schema#label> "GeoKnow" .
 <http://aksw.org/Projects/GeoKnow> <http://xmlns.com/foaf/0.1/homepage> <http://geoknow.eu> .
@@ -3887,7 +3886,6 @@
 <http://aksw.org/Projects/LinkingLOD> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/LinkingLOD> <http://vocab.ox.ac.uk/projectfunding#endDate> "2014-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LinkingLOD> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-07-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/2000/01/rdf-schema#label> "LinkingLOD" .
 <http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/hookline> "Effiziente Schnittstellen f\u00FCr Datenbereitsteller" .
@@ -4332,7 +4330,6 @@
 <http://aksw.org/Projects/SAKE> <http://usefulinc.com/ns/doap#wiki> "https://ok-jira.iais.fraunhofer.de/wiki/display/SAKEEXT" .
 <http://aksw.org/Projects/SAKE> <http://vocab.ox.ac.uk/projectfunding#endDate> "2017-12-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/SAKE> <http://vocab.ox.ac.uk/projectfunding#startDate> "2014-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/SAKE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/2000/01/rdf-schema#label> "SAKE - Semantische Analyse Komplexer Ereignisse"@de .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/2000/01/rdf-schema#label> "SAKE"@en .
