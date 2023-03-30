@@ -3900,6 +3900,7 @@
 <http://aksw.org/Projects/MCLIENT> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/LisaWenige> .
 <http://aksw.org/Projects/MCLIENT> <http://vocab.ox.ac.uk/projectfunding#endDate> "2020-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/MCLIENT> <http://vocab.ox.ac.uk/projectfunding#startDate> "2021-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/MCLIENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/MCLIENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/MCLIENT> <http://www.w3.org/2000/01/rdf-schema#label> "mCLIENT" .
 <http://aksw.org/Projects/MCLIENT> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/projekt-zur-beschleunigten-publikation-von-mobilitaets-daten/> .
