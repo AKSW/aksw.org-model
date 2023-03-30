@@ -2824,7 +2824,7 @@
 <http://aksw.org/Projects/AGDISTIS> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/AGDISTIS/issues> .
 <http://aksw.org/Projects/AGDISTIS> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/RicardoUsbeck> .
 <http://aksw.org/Projects/AGDISTIS> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/AGDISTIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/AGDISTIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/AGDISTIS> <http://www.w3.org/2000/01/rdf-schema#label> "AGDISTIS" .
 <http://aksw.org/Projects/AGDISTIS> <http://xmlns.com/foaf/0.1/logo> <https://hobbitdata.informatik.uni-leipzig.de/homes/rusbeck/agdistis/agdistislogo.png> .
 <http://aksw.org/Projects/AKSWorg/Documentation> <http://ns.ontowiki.net/SysOnt/Site/content> "\n{{toc tag=\"ul\" depth=\"3\"}}\n\n# Big-Picture\nThis web page consists of linked data enabled resources.\nEach resource has a specific HTML5 representation (besides its RDF representation).\nThis HTML representation is rendered by using a template and fill its variable parts with the content from these sources:\n\n* values (Literals) of specific attributes from the resource\n* output of helper markup (see below)\n* content rendered from sub-templates\n\n# Resources and Properties\nThe following attributes and classes are used by the templates.\n\n## Classes\nCurrently, there are templates for the following classes of resources:\n\n* [[foaf:Document]]: a basic web page without specific lists and queries\n* [[aiiso:ResearchGroup]]: a (sub) research group with lists of member, research areas and projects\n* [[foaf:Person]]: a person with lists of projects and research areas\n* [[foaf:Project]]: an AKSW project.\nCan be a funded, a community or an open-source project.\n\n## Properties\nThese properties can be applied to all resources:\n\n* [[rdfs:label]]: This is the overall headline, name or title of a resource.\n* [[site:menuLabel]]: If the resource title is too long for the menu, use this property in addition to [[rdfs:label]].\n* [[site:content]]: The main content property.\nThe literal value should be of datatype [[sysont:Markdown]].\n* [[dcterms:abstract]]: This is a plain text attribute (no markup).\nThe content of this attribute is used in extended lists and build the header of the resource as a first summary paragraph.\n* [[aksw:hookline]]: This a less than 100 character description of the resource.\nHooklines are especially important for projects to advertise them in lists and on top of the project page.\n* [[sioc:feed]]: Use this object property to relate a RSS or Atom feed to this resource.\nThe content of this feed is shown in the right side content column.\n\nIn addition to the general properties, these class specific properties can be used:\n\n* for Projects: [[foaf:homepage]]\n* for Groups: [[aksw:researchAreas]], [[foaf:member]]\n* for Person: [[foaf:name]], [[foaf:currentProject]], [[foaf:pastProject]], [[foaf:mbox]], [[aksw:room]], [[aksw:publicationTag]] (for the publication list)\n\n# Main Content\nThe suggested markup language to write pages is [Markdown](http://daringfireball.net/projects/markdown/).\nMarkdown is a text-to-HTML conversion language for web writers.\nMarkdown is intended to be as easy-to-read and easy-to-write as is feasible.\n\nAll details on Markdown syntax are available on the [syntax page](http://daringfireball.net/projects/markdown/syntax).\nBesides its readability, one main advantage of Markdown is its integration with HTML.\nWherever you need HTML markup, you can use it without any quote or special syntax as [inline HTML](http://daringfireball.net/projects/markdown/syntax#html).\nHave a look at the sources of this document to copy/paste specific style elements which you want to reuse, or add new stuff and share it.\n\nThe main content of each resource is saved as a Literal object with the attribute [[site:content]].\nSee the description of this property for details about its usage.\nIn general: All attributes and classes have a proper documentation, so you just need to click on them inside of OntoWiki for more details.\n\n## Helper Markup\nHelper markup is used in the same way as wiki actions.\nThe general syntax of a helper tag is: `{{tagname p1=\"value1\" ... \"pX\"=\"valueX\"}}`.\n\nThe following helper exists so far.\n\n### Table of Content helper\nThe `toc` helper creates an javascript generated table of contents at the position where the helper tag was written.\n\nThe following options can be used\n\n* `tag`: the toc type can be `ol`, `ul` or `div`, default is `ol`\n* `startlevel`: which heading level to start? default is `1`\n* `depth`: how many TOC levels you want? default is `2`\n\nExamples (use a single `=` instead of `==`):\n\n* `{{toc depth==\"2\"}}`\n\n### link helper\nThe `link` helper creates an internal page link to a specific resource.\nIf you need to link to an aksw.org resource, you should use this helper instead of using plain HTML-links or Markdown link syntax.\n\nPossible parameters are:\n\n* `literal`: search for this literal and link to its resource (the first found).\n  * short form: `l`\n* 'uri': instead of searching for a resource, use the given qname or uri string\n  * short form: `r`\n* `property`: search only for literals of the given property.\n  * short form: `p`\n* `text`: instead of using the resource title, use the given string as link text.\n  * short form: `t`\n\nExamples (use a single `=` instead of `==`):\n\n* `{{link uri==\"http://aksw.org/About\"}}`\n  * result: {{link uri=\"http://aksw.org/About\"}}\n* `{{link r==\"foaf:Person\"}}`\n  * result: {{link r=\"foaf:Person\"}}\n  * comment: use qnames where possible, use short values\n* `{{link literal==\"Projects\"}}`\n  * result: {{link literal=\"Projects\"}}\n* `{{link text==\"our projects\" literal=\"Projects\"}}`\n  * result: {{link text=\"our projects\" literal=\"Projects\"}}\n* `{{link property==\"site:menuLabel\" literal=\"About\"}}`\n  * result: {{link property=\"site:menuLabel\" literal=\"About\"}}\n* `{{link literal==\"MyPage\"}}`\n  * result: {{link literal=\"MyPage\"}}\n  * comment: no links to non existing resources\n* `{{link uri==\"no/uri\"}}`\n  * result: {{link uri=\"no/uri\"}}\n  * comment: wrong usage is indicated in this way, a mouseover tooltip over the error gives you more information about the problem\n* `{{link p==\"foaf:nick\" l=\"Seebi\" t=\"my page\"}}`\n  * result: {{link p=\"foaf:nick\" l=\"Seebi\" t=\"my page\"}}\n  * comment: Example with short parameters, qname and given link text\n\n## Style Elements\nThere are specific style elements as two column sections or tables which you can add to your documents by using HTML markup.\n\n### Multi Columns\n\n<div class=\"multicolumns2\">\n<strong>first columns</strong>\n<p>...</p>\n<p>...</p>\n<strong>second column</strong>\n<p>...</p>\n<p>...</p>\n</div>\n\n### Tables\nUse standard HTML tables with table head and cell tags to achieve a look like this\n\n<table>\n<thead>\n<tr>\n<th>Tabelle Head</th>\n<th>Tabelle Head</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Development</td>\n<td>methods, tools and applications</td>\n</tr>\n<tr>\n<td>applications</td>\n<td>adaptive Knowledge Engineering</td>\n</tr>\n</tbody>\n</table>\n\n# Navigation Structures\n\nMenus are [[rdf:Seq]] resources of type [[aksw:Navigation]].\nThe rdf properties `rdf:_1` till `rdf:_x` are used to arrange an ordererd list of resources which a used to render a navigation menu.\nCurrently, we have these navigation resources:\n\n* {{link literal=\"Main Navigation\"}}\n* {{link literal=\"Top Navigation\"}}\n\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
@@ -2904,7 +2904,6 @@
 <http://aksw.org/Projects/ARTeFACT> <http://purl.org/dc/terms/abstract> "The marketing of cultural goods in the digital world often takes place without having defined and standardized business processes. Technical implementation in applications and interfaces do not exist. A challenge of this market is that many market participants are small and micro enterprises that can not initiate this without the definition of standardized processes and implementations for an industry-wide information and knowledge management. The need for a media artefact management as the basis of the information and technical support in the market is very high due to the large number of market participants and is clearly evidenced by the annual amount of unallocated compensation to owners. The project addressed the challenge by allowing an artefact management through the use of information technologies and the data flow between market participants is guaranteed. As artefacts traded units such as a designated track." .
 <http://aksw.org/Projects/ARTeFACT> <http://vocab.ox.ac.uk/projectfunding#endDate> "2014-12-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/ARTeFACT> <http://vocab.ox.ac.uk/projectfunding#startDate> "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/ARTeFACT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/ARTeFACT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/ARTeFACT> <http://www.w3.org/2000/01/rdf-schema#label> "ART-e-FACT" .
 <http://aksw.org/Projects/ARTeFACT> <http://xmlns.com/foaf/0.1/homepage> <http://artefact.uni-leipzig.de/> .
@@ -2967,7 +2966,7 @@
 <http://aksw.org/Projects/AutoSlides> <http://usefulinc.com/ns/doap#maintainer> <https://github.com/luckyos-code> .
 <http://aksw.org/Projects/AutoSlides> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/AutoSlides> <http://usefulinc.com/ns/doap#repository> <https://github.com/AKSW/Auto-Slides> .
-<http://aksw.org/Projects/AutoSlides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/AutoSlides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/AutoSlides> <http://www.w3.org/2000/01/rdf-schema#label> "AutoSlides" .
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/hookline> "Big Data Europe" .
 <http://aksw.org/Projects/BDE> <http://aksw.org/schema/partner> <http://www.iais.fraunhofer.de/#id> .
@@ -2981,7 +2980,6 @@
 <http://aksw.org/Projects/BDE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/HajiraJabeen> .
 <http://aksw.org/Projects/BDE> <http://vocab.ox.ac.uk/projectfunding#endDate> "2017-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/BDE> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/BDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/BDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/BDE> <http://www.w3.org/2000/01/rdf-schema#label> "BDE" .
 <http://aksw.org/Projects/BDE> <http://xmlns.com/foaf/0.1/homepage> <http://www.big-data-europe.eu> .
@@ -3040,7 +3038,6 @@
 <http://aksw.org/Projects/BioASQ> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/BioASQ> <http://vocab.ox.ac.uk/projectfunding#endDate> "2014-09-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/BioASQ> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/BioASQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/BioASQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/BioASQ> <http://www.w3.org/2000/01/rdf-schema#label> "BioASQ" .
 <http://aksw.org/Projects/BioASQ> <http://xmlns.com/foaf/0.1/homepage> <http://bioasq.org> .
@@ -3093,6 +3090,7 @@
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://purl.org/dc/terms/abstract> "Cognition is determined by the function and interplay of several hundreds, if not thousands, of genes with a considerable overlap in the disease phenotypes they can cause if mutated. We argue that, in order to understand the biological basis of cognition, these genes have to be investigated together with their evolutionary history and the diseases they are implicated in. This requires the integration of data from different research disciplines. To allow researchers to answer complicated questions related to cognition, a task that is usually very time-consuming, we propose to use Linked Data publication. Such data integration and querying methods have already been successfully used in other life science domains. In our initial effort presented here, we converted and integrated 11 different datasets and provide a first demonstration of the added value of Linked Data by showing how a set of relevant queries over the integrated data can be answered.\n" .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/2000/01/rdf-schema#label> "Analyzing Cognitive Evolution using Linked Data" .
+<http://aksw.org/Projects/CoyPu> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/CoyPu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/CoyPu> <http://www.w3.org/2000/01/rdf-schema#label> "CoyPu" .
 <http://aksw.org/Projects/CubeQA> <http://aksw.org/schema/hookline> "Question Answering on Statistical Linked Data" .
@@ -3106,7 +3104,7 @@
 <http://aksw.org/Projects/CubeQA> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/cubeqa/issues> .
 <http://aksw.org/Projects/CubeQA> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KonradHoeffner> .
 <http://aksw.org/Projects/CubeQA> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/CubeQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/CubeQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/CubeQA> <http://www.w3.org/2000/01/rdf-schema#label> "CubeQA" .
 <http://aksw.org/Projects/CubeQA> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/cubeqa> .
 <http://aksw.org/Projects/CubeViz> <http://aksw.org/schema/hookline> "The RDF DataCube Browser." .
@@ -3126,7 +3124,7 @@
 <http://aksw.org/Projects/CubeViz> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
 <http://aksw.org/Projects/CubeViz> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
 <http://aksw.org/Projects/CubeViz> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/cubeviz.ontowiki/wiki> .
-<http://aksw.org/Projects/CubeViz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/CubeViz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/CubeViz> <http://www.w3.org/2000/01/rdf-schema#label> "CubeViz" .
 <http://aksw.org/Projects/CubeViz> <http://xmlns.com/foaf/0.1/logo> <http://lh3.ggpht.com/-Iii5-Scrdz8/UO_cASYmcvI/AAAAAAAABMs/0-zo5sCFq_w/CubeViz_Logo2012_rgb.jpg> .
 <http://aksw.org/Projects/DBPSB> <http://aksw.org/schema/hookline> "a pure RDF benchmark based on actually posed queries" .
@@ -3202,7 +3200,6 @@
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
-<http://aksw.org/Projects/DEER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF Data Extraction and Enrichment Framework"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/2000/01/rdf-schema#label> "DEER" .
 <http://aksw.org/Projects/DEER> <http://xmlns.com/foaf/0.1/logo> <https://lh3.googleusercontent.com/-H_fQApzdKM0/Va4zVCGKYMI/AAAAAAAABmA/3r4UBZaHYoo/s720-Ic42/DEER_Logo_2015_circle_rgb.jpg> .
@@ -3219,7 +3216,7 @@
 <http://aksw.org/Projects/DIESEL> <http://aksw.org/schema/partner> <http://aksw.org/Partner/Metaphacts> .
 <http://aksw.org/Projects/DIESEL> <http://aksw.org/schema/partner> <http://aksw.org/Partner/Zazuko> .
 <http://aksw.org/Projects/DIESEL> <http://aksw.org/schema/publicationTag> "diesel" .
-<http://aksw.org/Projects/DIESEL> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/DIESEL> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/DIESEL> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 09/2015–09/2018\n* Funding Programme: Eurostars Eureka\n</br>\n<img src=\"https://diesel-project.eu/wp-content/uploads/2015/08/eurostars_eureka_eu_logos-ese-fundingbodies-768x167.jpg\" alt=\"Logo Funding\" width=\"400\">\n<img src=\"http://pt-ad.pt-dlr.de/_img/article/Logo_BMBF-gef-mit.jpg\" alt=\"Logo Funding\" width=\"100\">\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/DIESEL> <http://open.vocab.org/terms/screenshot> <http://diesel-project.eu/wordpress/wp-content/uploads/2015/10/DIESEL_Logo_2015_rgb.png> .
 <http://aksw.org/Projects/DIESEL> <http://purl.org/dc/terms/abstract> "What we want to do: Develop a generic keyword search and question answering infrastructure for distributed and structured enterprise data. Our framework will exploit the distribution of the data to improve both the interpretation and the federated execution of user queries while abiding by the users’ access restrictions. We will deliver an open-source version of the framework that implements keyword search functionality as well as prototypical extensions of the partners’ product suites and use case studies.\n" .
@@ -3270,7 +3267,7 @@
 <http://aksw.org/Projects/DLLearner> <http://usefulinc.com/ns/doap#download-page> <https://github.com/SmartDataAnalytics/DL-Learner/releases> .
 <http://aksw.org/Projects/DLLearner> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
 <http://aksw.org/Projects/DLLearner> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/DLLearner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/DLLearner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DLLearner> <http://www.w3.org/2000/01/rdf-schema#label> "DL-Learner" .
 <http://aksw.org/Projects/DLLearner> <http://xmlns.com/foaf/0.1/homepage> <http://dl-learner.org> .
 <http://aksw.org/Projects/DLLearner> <http://xmlns.com/foaf/0.1/logo> <http://lh6.ggpht.com/-zlbGRGr3yqQ/TlzV0wfOKNI/AAAAAAAAApE/fy4lmGAAOjk/s800/DL-Learner.gif> .
@@ -3319,7 +3316,7 @@
 <http://aksw.org/Projects/DockerConverter> <http://usefulinc.com/ns/doap#maintainer> <https://github.com/guitarmarx> .
 <http://aksw.org/Projects/DockerConverter> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/DockerConverter> <http://usefulinc.com/ns/doap#repository> <https://github.com/guitarmarx/DockerConverter> .
-<http://aksw.org/Projects/DockerConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/DockerConverter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DockerConverter> <http://www.w3.org/2000/01/rdf-schema#label> "DockerConverter" .
 <http://aksw.org/Projects/ERM> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/Projects/AMSL> .
 <http://aksw.org/Projects/ERM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
@@ -3347,7 +3344,7 @@
 <http://aksw.org/Projects/FEASIBLE> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Fesible/issues> .
 <http://aksw.org/Projects/FEASIBLE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MuhammadSaleem> .
 <http://aksw.org/Projects/FEASIBLE> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/FEASIBLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/FEASIBLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/FEASIBLE> <http://www.w3.org/2000/01/rdf-schema#label> "FEASIBLE" .
 <http://aksw.org/Projects/FEASIBLE> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/FeasibleLogo.png> .
 <http://aksw.org/Projects/FOX> <http://aksw.org/schema/demonstrates> <http://fox-demo.aksw.org/> .
@@ -3360,7 +3357,7 @@
 <http://aksw.org/Projects/FOX> <http://usefulinc.com/ns/doap#browse> "https://github.com/AKSW/fox" .
 <http://aksw.org/Projects/FOX> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/fox/issues> .
 <http://aksw.org/Projects/FOX> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
-<http://aksw.org/Projects/FOX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/FOX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/FOX> <http://www.w3.org/2000/01/rdf-schema#label> "FOX" .
 <http://aksw.org/Projects/FOX> <http://xmlns.com/foaf/0.1/logo> <http://lh3.ggpht.com/-d79marTMEUo/TlzV1DPGXZI/AAAAAAAAApY/HOpg8PyJT0o/s800/fox.png> .
 <http://aksw.org/Projects/FREME> <http://aksw.org/schema/funding> "595625"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -3373,14 +3370,13 @@
 <http://aksw.org/Projects/FREME> <http://aksw.org/schema/partner> <http://aksw.org/Partner/Wripl> .
 <http://aksw.org/Projects/FREME> <http://aksw.org/schema/partner> <http://aksw.org/Partner/iMinds> .
 <http://aksw.org/Projects/FREME> <http://aksw.org/schema/publicationTag> "freme" .
-<http://aksw.org/Projects/FREME> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/FREME> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/FREME> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 02/2015–01/2017\r\n* Funding Programme: EU H2020"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/FREME> <http://purl.org/dc/terms/abstract> "The general objective of the FREME innovation action is to build an open innovative commercial- grade framework of e-services for multilingual and semantic enrichment of digital content. FREME will empower digital content managers with its advantages and benefits it brings to the market. FREME addresses the general systemic and technological challenges to validate that multilingual and semantic technologies are ready for their integration in real life business cases in innovative way. These technologies are capable to process (harvest and analyse) content, capture datasets, and add value throughout content and data value chains across sectors, countries, and languages." .
 <http://aksw.org/Projects/FREME> <http://rdfs.org/sioc/ns#feed> <https://twitter.com/H2020_FREME> .
 <http://aksw.org/Projects/FREME> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/Projects/FREME> <http://vocab.ox.ac.uk/projectfunding#endDate> "2017-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/FREME> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/FREME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/FREME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/FREME> <http://www.w3.org/2000/01/rdf-schema#label> "FREME" .
 <http://aksw.org/Projects/FREME> <http://xmlns.com/foaf/0.1/homepage> <http://www.freme-project.eu/> .
@@ -3420,7 +3416,6 @@
 <http://aksw.org/Projects/GEISER> <http://aksw.org/schema/publicationTag> "geiser" .
 <http://aksw.org/Projects/GEISER> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/BDE> .
 <http://aksw.org/Projects/GEISER> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/GeoKnow> .
-<http://aksw.org/Projects/GEISER> <http://aksw.org/schema/status> "active" .
 <http://aksw.org/Projects/GEISER> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/GEISER> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 2016–2019\n* Funding Programme: [BMWi - Smart Service Welt](http://www.bmwi.de/DE/Themen/Digitale-Welt/Digitale-Technologien/smart-service-welt.html \"BMWi - Smart Service Welt\")\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/GEISER> <http://ns.ontowiki.net/SysOnt/Site/content> "Tasks\r\n=====\r\n\r\nLeipzig University will develop processes for data acquisition, integration and fusion. For data acquisition, we will develop a unified, intelligent and extensible framework for representing data from diverse heterogeneous sources (automotive sensors, Twitter, OpenStreetMap, DBpedia, etc.) in RDF format. The acquired data has to be integrated to be useful for higher-value services. In order to process the high volume of complex geospatial data, we will develop scalable algorithms for efficiently detecting geospatial relations using machine learning techniques. Finally, we will survey if supervised machine learning can reduce the effort required for setting up data fusion pipelines. This will enable an efficient provisioning of fused data to geospatial services."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
@@ -3485,7 +3480,7 @@
 <http://aksw.org/Projects/GeoKnow> <http://aksw.org/schema/partner> <http://aksw.org/Partner/brox> .
 <http://aksw.org/Projects/GeoKnow> <http://aksw.org/schema/publicationTag> "geoknow" .
 <http://aksw.org/Projects/GeoKnow> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LinkedGeoData> .
-<http://aksw.org/Projects/GeoKnow> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/GeoKnow> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/GeoKnow> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 2012–2015\n* Funding Programme: FP7-ICT-2011–8 (Collaborative Project - STReP)\n\n# What\n\n* Bring geospatial knowledge integration to the Linked Data Web\n* Billion-triple geospatial reasoning and data provenance\n* Qualitative interlinking and fusing of geospatial and semantic information\n* Adaptive geospatial exploration, authoring and curation\n\n# Why\n\n* Unlock isolated islands of geographic information\n* 80% of all data has some spatial dimension, most of it is not processable today\n* Geographic data authoring with millions of users requires powerful tools\n\n# For whom\n\n* Added value for the companies and the Linked Data Web community\n* Cost-effective data integration for SMEs\n* Enterprises can add value to their data with volunteered geographic information\n* Users from travel industry will benefit from more background information\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/GeoKnow> <http://purl.org/dc/terms/abstract> "GeoKnow addresses a bold challenge in the area of intelligent information management: the exploitation of the Web as a platform for geospatial knowledge integration as well as for exploration of geographic information." .
 <http://aksw.org/Projects/GeoKnow> <http://rdfs.org/sioc/ns#feed> <http://blog.geoknow.eu/feed/> .
@@ -3493,7 +3488,6 @@
 <http://aksw.org/Projects/GeoKnow> <http://usefulinc.com/ns/doap#wiki> <http://wiki.geoknow.eu> .
 <http://aksw.org/Projects/GeoKnow> <http://vocab.ox.ac.uk/projectfunding#endDate> "2015-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/GeoKnow> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/GeoKnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/GeoKnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/GeoKnow> <http://www.w3.org/2000/01/rdf-schema#label> "GeoKnow" .
 <http://aksw.org/Projects/GeoKnow> <http://xmlns.com/foaf/0.1/homepage> <http://geoknow.eu> .
@@ -3519,7 +3513,7 @@
 <http://aksw.org/Projects/HAWK> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/hawk/issues> .
 <http://aksw.org/Projects/HAWK> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/RicardoUsbeck> .
 <http://aksw.org/Projects/HAWK> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/HAWK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/HAWK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/HAWK> <http://www.w3.org/2000/01/rdf-schema#label> "HAWK" .
 <http://aksw.org/Projects/HERObservatory> <http://aksw.org/schema/hookline> "Using Linked Data to Build an Observatory of Societal Progress Leveraging on Data Quality" .
 <http://aksw.org/Projects/HERObservatory> <http://aksw.org/schema/publicationTag> "lodsem" .
@@ -3541,13 +3535,12 @@
 <http://aksw.org/Projects/HOBBIT> <http://aksw.org/schema/partner> <http://www.iais.fraunhofer.de/#id> .
 <http://aksw.org/Projects/HOBBIT> <http://aksw.org/schema/partner> <http://www.usu.de/> .
 <http://aksw.org/Projects/HOBBIT> <http://aksw.org/schema/publicationTag> "projecthobbit" .
-<http://aksw.org/Projects/HOBBIT> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/HOBBIT> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/HOBBIT> <http://ns.ontowiki.net/SysOnt/Site/content> "<img src=\"http://project-hobbit.eu/wordpress/wp-content/uploads/2015/12/cropped-Hobbit_Logo_Claim_2015_rgb_300_130.png\" alt=\"HOBBIT Logo\" align=\"left\">\r\n\r\n# Summary\r\nBig Data is one of the key assets of the future. However, the cost and efforts required for introducing Big Data technology in a value chain is significant. Mastering the creation of value from Big Data will enhance European competitiveness will result in economic growth and jobs and will deliver societal benefit. To facilitate the use of Big Linked Data, the European Union funds a research and innovation project called \"HOBBIT\". A European consortium, led by the Institute for Applied Informatics (InfAI) e.V., aims to develop a holistic benchmarking platform for big linked data and corresponding industry-grade benchmarks.\r\n\r\n# Premises\r\nA key step towards abolishing the barriers to the adoption and deployment of Big Data is to provide European companies with open benchmarking reports that allow them to assess the fitness of existing solutions for their purposes. Achieving this goal demands:\r\nThe deployment of benchmarks on data that reflects reality within realistic settings.\r\nThe provision of corresponding industry-relevant key performance indicators.\r\nThe computation of comparable results on standardized hardware.\r\n\r\n# Goals\r\nHOBBIT aims to address these tasks by means of a strong team composed of leading research institutes, large industry customers and innovative small and medium-sized enterprises. In particular, the consortium will aim to achieve the following goals:\r\nDefine benchmarks for domains of industrial relevance in Europe that make use of Big Linked Data.\r\nDetermine the key performance indicators for processing Big Linked Data by collaborating with stakeholders from industry and research.\r\nCreate an open benchmarking platform to evaluate the performance of state-of-the-art systems on standardized hardware. \r\nOrganize yearly evaluation campaigns, using the platform and the industry-defined KPIs.\r\n\r\n# About HOBBIT\r\nHOBBIT is a project within the EU’s \"Horizon 2020\" framework program and started on December 1st, 2015. The consortium consists of InfAI (coordinator, Germany), Fraunhofer IAIS (Germany), FORTH (Greece), NCSR \"Demokritos\" (Greece), iMinds (Belgium), USU Software AG (Germany), Ontos AG (Switzerland), OpenLink Software (UK), AGT Group R&D GmbH (Germany) and TomTom (Poland).\r\n\r\n* Duration: 12/2015–11/2018\r\n* Funding Programme: EU H2020 Research and Innovation Program"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/HOBBIT> <http://purl.org/dc/terms/abstract> "HOBBIT is a European project that develops a holistic open-source platform and industry-grade benchmarks for benchmarking big linked data." .
 <http://aksw.org/Projects/HOBBIT> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/HOBBIT> <http://vocab.ox.ac.uk/projectfunding#endDate> "2018-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/HOBBIT> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/HOBBIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/HOBBIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/HOBBIT> <http://www.w3.org/2000/01/rdf-schema#label> "HOBBIT" .
 <http://aksw.org/Projects/HOBBIT> <http://xmlns.com/foaf/0.1/homepage> <http://project-hobbit.eu/> .
@@ -3575,7 +3568,7 @@
 <http://aksw.org/Projects/Jassa> <http://usefulinc.com/ns/doap#browse> <https://github.com/GeoKnow/Jassa-UI-Angular> .
 <http://aksw.org/Projects/Jassa> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ClausStadler> .
 <http://aksw.org/Projects/Jassa> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
-<http://aksw.org/Projects/Jassa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Jassa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Jassa> <http://www.w3.org/2000/01/rdf-schema#label> "Jassa" .
 <http://aksw.org/Projects/JekyllRDF> <http://aksw.org/schema/hookline> "Transform your RDF Knowledge Graph into static websites and blogs" .
 <http://aksw.org/Projects/JekyllRDF> <http://aksw.org/schema/publicationTag> "jekyllrdf" .
@@ -3601,7 +3594,7 @@
 <http://aksw.org/Projects/KupferDigital> <http://aksw.org/schema/partner> <http://aksw.org/Partner/InfAI> .
 <http://aksw.org/Projects/KupferDigital> <http://aksw.org/schema/publicationTag> "kupferdigital" .
 <http://aksw.org/Projects/KupferDigital> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/STREAM> .
-<http://aksw.org/Projects/KupferDigital> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/KupferDigital> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/KupferDigital> <http://purl.org/dc/terms/abstract> "Im Projekt KupferDigital werden Methoden und Konzepte erforscht, um den Lebenszyklus am Beispiel von Kupfer – von der Erzgewinnung bis zum Recycling – digital zu erfassen. Ziel ist es, einen Demonstrator für ein digitales Datenökosystem zu erstellen, der der Digitalisierung der Materialforschung und der metallverarbeitenden Industrie als zukunftsfähige Plattform zur Verfügung stehen soll." .
 <http://aksw.org/Projects/KupferDigital> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/LisaWenige> .
 <http://aksw.org/Projects/KupferDigital> <http://vocab.ox.ac.uk/projectfunding#endDate> "2021-03-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3668,7 +3661,6 @@
 <http://aksw.org/Projects/LE4SW> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/LE4SW> <http://vocab.ox.ac.uk/projectfunding#endDate> "2010-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LE4SW> <http://vocab.ox.ac.uk/projectfunding#startDate> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/LE4SW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LE4SW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LE4SW> <http://www.w3.org/2000/01/rdf-schema#label> "LE4SW" .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/funding> "1500000" .
@@ -3710,7 +3702,7 @@
 <http://aksw.org/Projects/LIDER> <http://aksw.org/schema/partner> <http://aksw.org/Partner/TCD> .
 <http://aksw.org/Projects/LIDER> <http://aksw.org/schema/partner> <http://aksw.org/Partner/UNIBI> .
 <http://aksw.org/Projects/LIDER> <http://aksw.org/schema/partner> <http://aksw.org/Partner/UNIROMA> .
-<http://aksw.org/Projects/LIDER> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/LIDER> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/LIDER> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 10/2013–09/2015\r\n* Funding Programme: EU FP7"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/LIDER> <http://purl.org/dc/terms/abstract> "We aim at providing an ecosystem for the establishment of a new Linked Open Data (LOD) based ecosystem of free, interlinked, and semantically interoperable language resources (corpora, dictionaries, lexical and syntactic metadata, etc.) and media resources (image, video, etc. metadata) that will allow for free and open exploitation of such resources in multilingual, cross-media content analytics across the EU and beyond, with specific use cases in industries related to social media, financial services, localization, and other multimedia content providers and consumers. In some cases, we will explore new business model and hybrid licensing schemes for using of Linguistic Linked Data in commercial settings for Free but not Open resources." .
 <http://aksw.org/Projects/LIDER> <http://rdfs.org/sioc/ns#feed> <http://lider-project.eu/rss.xml> .
@@ -3732,7 +3724,7 @@
 <http://aksw.org/Projects/LIMBO> <http://aksw.org/schema/partner> <http://www.iais.fraunhofer.de/#id> .
 <http://aksw.org/Projects/LIMBO> <http://aksw.org/schema/partner> <http://www.usu.de/> .
 <http://aksw.org/Projects/LIMBO> <http://aksw.org/schema/publicationTag> "limboproject" .
-<http://aksw.org/Projects/LIMBO> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/LIMBO> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/LIMBO> <http://purl.org/dc/terms/abstract> "In Open Data schlummert ein enormes Potential, aber die Angebote in Deutschland sind über viele Portale verteilt, verschieden strukturiert und beschrieben. Mit der mCLOUD und dem MDM stellt das BMVI für den Mobilitätsbereich ein bundesweites Angebot bereit.\r\nDas zentrale Ziel des Projektes LIMBO besteht in der Verbesserung der Daten und damit einem erleichterten Zugang. Durch einen Mobility Data Space sollen die Daten des Bundesministeriums für Verkehrs & digitale Infrastruktur für die breite Masse verfügbar gemacht werden. LIMBO vereinheitlicht und veredelt die Daten und schafft so die Grundlage für viele neue, innovative Apps und Anwendungen." .
 <http://aksw.org/Projects/LIMBO> <http://rdfs.org/sioc/ns#feed> <https://www.limbo-project.org/feed/> .
 <http://aksw.org/Projects/LIMBO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelMartin> .
@@ -3752,13 +3744,13 @@
 <http://aksw.org/Projects/LIMES> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/LIMES-dev/issues> .
 <http://aksw.org/Projects/LIMES> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/LIMES-dev/> .
 <http://aksw.org/Projects/LIMES> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
-<http://aksw.org/Projects/LIMES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/LIMES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LIMES> <http://www.w3.org/2000/01/rdf-schema#label> "LIMES" .
 <http://aksw.org/Projects/LIMES> <http://xmlns.com/foaf/0.1/logo> <http://lh4.ggpht.com/-u3xaJ9mAcfY/TlzV1f0OluI/AAAAAAAAApU/z0V6VURN_tI/s800/limes.png> .
 <http://aksw.org/Projects/LION> <http://aksw.org/schema/hookline> "Induction of Link Specifications using Refinement Operators" .
 <http://aksw.org/Projects/LION> <http://ns.ontowiki.net/SysOnt/Site/content> "LION is a learning algorithm targeting the automatic discovery of links between RDF resources within the [LIMES](http://aksw.org/Projects/LIMES.html \"LIMES\") framework. \nLION is based on constructing a partial order over link specifications and the definition of a refinement operator, which allows the traversal of this partially ordered space.\n\nAn extended paper presenting LION can be found [here](http://139.18.2.164:8080/eswc2016_full.pdf \"Extended paper\")"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/LION> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KlausLyko> .
-<http://aksw.org/Projects/LION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/LION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LION> <http://www.w3.org/2000/01/rdf-schema#label> "LION" .
 <http://aksw.org/Projects/LOD2> <http://aksw.org/schema/funding> "1333901"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://aksw.org/Projects/LOD2> <http://aksw.org/schema/hookline> "Creating Knowledge out of Interlinked Data" .
@@ -3789,7 +3781,6 @@
 <http://aksw.org/Projects/LOD2> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/LOD2> <http://vocab.ox.ac.uk/projectfunding#endDate> "2014-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LOD2> <http://vocab.ox.ac.uk/projectfunding#startDate> "2010-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/LOD2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LOD2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LOD2> <http://www.w3.org/2000/01/rdf-schema#label> "LOD2" .
 <http://aksw.org/Projects/LOD2> <http://xmlns.com/foaf/0.1/logo> <http://www.semantic-web.at/newsletter/lod2/logo.png> .
@@ -3817,7 +3808,7 @@
 <http://aksw.org/Projects/LSQ> <http://usefulinc.com/ns/doap#maintainer> <https://www.deri.ie/users/muhammad-intizar-ali> .
 <http://aksw.org/Projects/LSQ> <http://usefulinc.com/ns/doap#maintainer> <https://www.deri.ie/users/qaiser-mehmood> .
 <http://aksw.org/Projects/LSQ> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/LSQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/LSQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LSQ> <http://www.w3.org/2000/01/rdf-schema#label> "LSQ" .
 <http://aksw.org/Projects/LSQ> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.github.io/LSQ/> .
 <http://aksw.org/Projects/LSQ> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/LSQ.png> .
@@ -3891,18 +3882,16 @@
 <http://aksw.org/Projects/LinkingLOD> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/LinkingLOD> <http://vocab.ox.ac.uk/projectfunding#endDate> "2014-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LinkingLOD> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-07-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LinkingLOD> <http://www.w3.org/2000/01/rdf-schema#label> "LinkingLOD" .
 <http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/hookline> "Effiziente Schnittstellen für Datenbereitsteller" .
 <http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/partner> <http://aksw.org/Partner/CISS> .
 <http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/publicationTag> "mclient" .
-<http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/MCLIENT> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/MCLIENT> <http://purl.org/dc/terms/abstract> "Zahlreiche Einrichtungen der Kommunen und der Länder besitzen hochgradig relevante Datenschätze aus dem Mobilitätsbereich, die sie gern einer breiten Öffentlichkeit zur Verfügung stellen möchten. Der potenzielle Nutzerkreis ist groß: Unternehmen und Behörden, aber auch Journalisten, Wissenschaftler oder Bürger haben Interesse an der Nutzung. Oftmals existiert vor Ort jedoch kein Werkzeug, um die Daten direkt in bundesweite Datenportale einzuspielen. Deshalb planen die Projektpartner, eine Softwarelösung für die automatisierte Veröffentlichung von Daten zu erstellen: den mCLIENT. Der mCLIENT soll in der Lage sein, Datensammlungen auf Qualität zu prüfen, semantisch zu beschreiben und im PUSH-Modus in zentrale Datenportale zu überführen." .
 <http://aksw.org/Projects/MCLIENT> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/LisaWenige> .
 <http://aksw.org/Projects/MCLIENT> <http://vocab.ox.ac.uk/projectfunding#endDate> "2020-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/MCLIENT> <http://vocab.ox.ac.uk/projectfunding#startDate> "2021-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/MCLIENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/MCLIENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/MCLIENT> <http://www.w3.org/2000/01/rdf-schema#label> "mCLIENT" .
 <http://aksw.org/Projects/MCLIENT> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/projekt-zur-beschleunigten-publikation-von-mobilitaets-daten/> .
@@ -3914,7 +3903,7 @@
 <http://aksw.org/Projects/MEX> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Mexproject/issues> .
 <http://aksw.org/Projects/MEX> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/mexproject/tree/master/proof> .
 <http://aksw.org/Projects/MEX> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/DiegoEsteves> .
-<http://aksw.org/Projects/MEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/MEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/MEX> <http://www.w3.org/2000/01/rdf-schema#label> "MEX Vocabulary" .
 <http://aksw.org/Projects/MEX> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/AKSW/mexproject/tree/master/proof> .
 <http://aksw.org/Projects/MEX> <https://github.com/AKSW/mexproject/tree/master/proof> "examples of mexfiles" .
@@ -3925,7 +3914,7 @@
 <http://aksw.org/Projects/MMoOn> <http://purl.org/dc/terms/abstract> "In the last years a rapid emergence of lexical resources evolved in the Semantic Web. Whereas most of the linguistic information is already machine-readable, we found that morphological information is either absent or only contained in semi-structured strings. While a plethora of linguistic resources for the lexical domain already exist and are highly reused, there is still a great gap for equivalent morphological datasets and ontologies. In order to enable the capturing of the semantics of expressions beneath the word-level, the Multilingual Morpheme Ontology (MMoOn) has been developed. It is designed for the creation of machine-processable and interoperable morpheme inventories of a given natural language. As such, any MMoOn dataset contains not only semantic information of whole words and word-forms but also information on the meaningful parts of which they consist, including inflectional and derivational affixes, stems and bases as well as a wide range of their underlying meanings." .
 <http://aksw.org/Projects/MMoOn> <http://usefulinc.com/ns/doap#browse> <https://github.com/aksw/mmoon> .
 <http://aksw.org/Projects/MMoOn> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/BettinaKlimek> .
-<http://aksw.org/Projects/MMoOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/MMoOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/MMoOn> <http://www.w3.org/2000/01/rdf-schema#label> "MMoOn" .
 <http://aksw.org/Projects/MMoOn> <http://xmlns.com/foaf/0.1/homepage> <http://mmoon.org> .
 <http://aksw.org/Projects/MMoOn> <http://xmlns.com/foaf/0.1/logo> <http://mmoon.org/wp-content/uploads/2015/11/MMoOn_Logo_2015-1024x682.png> .
@@ -4036,7 +4025,7 @@
 <http://aksw.org/Projects/ORE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/LorenzBuehmann> .
 <http://aksw.org/Projects/ORE> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/ORE> <http://usefulinc.com/ns/doap#wiki> <https://github.com/SmartDataAnalytics/ORE/wiki> .
-<http://aksw.org/Projects/ORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/ORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/ORE> <http://www.w3.org/2000/01/rdf-schema#label> "ORE" .
 <http://aksw.org/Projects/ORE> <http://xmlns.com/foaf/0.1/homepage> <http://ore-tool.net> .
 <http://aksw.org/Projects/OntoWiki> <http://aksw.org/schema/hookline> "a tool providing support for agile, distributed knowledge engineering scenarios" .
@@ -4065,7 +4054,7 @@
 <http://aksw.org/Projects/OntoWiki> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
 <http://aksw.org/Projects/OntoWiki> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
 <http://aksw.org/Projects/OntoWiki> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/OntoWiki/wiki> .
-<http://aksw.org/Projects/OntoWiki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/OntoWiki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/OntoWiki> <http://www.w3.org/2000/01/rdf-schema#label> "OntoWiki" .
 <http://aksw.org/Projects/OntoWiki> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/OntoWiki> .
 <http://aksw.org/Projects/OntoWiki> <http://xmlns.com/foaf/0.1/homepage> <http://ontowiki.net> .
@@ -4082,7 +4071,6 @@
 <http://aksw.org/Projects/OntoWikiEU> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/OntoWikiEU> <http://vocab.ox.ac.uk/projectfunding#endDate> "2010-10-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/OntoWikiEU> <http://vocab.ox.ac.uk/projectfunding#startDate> "2008-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/OntoWikiEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/OntoWikiEU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/OntoWikiEU> <http://www.w3.org/2000/01/rdf-schema#label> "OntoWiki.eu" .
 <http://aksw.org/Projects/OntoWikiEU> <http://xmlns.com/foaf/0.1/homepage> <http://ontowiki.eu> .
@@ -4107,7 +4095,7 @@
 <http://aksw.org/Projects/Palmetto> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Palmetto/issues> .
 <http://aksw.org/Projects/Palmetto> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelRoeder> .
 <http://aksw.org/Projects/Palmetto> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/Palmetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Palmetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Palmetto> <http://www.w3.org/2000/01/rdf-schema#label> "Palmetto" .
 <http://aksw.org/Projects/Palmetto> <http://xmlns.com/foaf/0.1/logo> <http://139.18.2.164/mroeder/palmetto/palmetto_64px.png> .
 <http://aksw.org/Projects/Pfarrerbuch> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/CatalogusProfessorum> .
@@ -4130,7 +4118,7 @@
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/partner> <http://aksw.org/Partner/saltlux> .
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/partner> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/publicationTag> "qamel" .
-<http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/QAMEL> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 11/2015–11/2018\r\n* Funding Programme: Eurostars Eureka"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/QAMEL> <http://open.vocab.org/terms/screenshot> <http://qamel.eu/wordpress/wp-content/uploads/2015/12/qamel-slogan-e1449756102489.png> .
 <http://aksw.org/Projects/QAMEL> <http://purl.org/dc/terms/abstract> "In QAMEL, we will develop a resource-aware and generic multimodal question answering (QA) framework for mobile devices. QAMEL will support speech, text and gestures as input. Moreover, QAMEL will use the distribution of the data to improve the execution of queries in both offline and online modes. We will deliver an open-source framework that implements (1) multimodal QA, (2) feedback processing functionality as well as (3) prototypical extensions of the partners’ product suites and use case studies" .
@@ -4138,7 +4126,6 @@
 <http://aksw.org/Projects/QAMEL> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/QAMEL> <http://vocab.ox.ac.uk/projectfunding#endDate> "2018-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/QAMEL> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/QAMEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QAMEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/QAMEL> <http://www.w3.org/2000/01/rdf-schema#label> "QAMEL" .
 <http://aksw.org/Projects/QAMEL> <http://xmlns.com/foaf/0.1/homepage> <http://qamel.eu/> .
@@ -4148,7 +4135,7 @@
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/publicationTag> "qrowd" .
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/Projects/QROWD> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/SANSA_Stack> .
-<http://aksw.org/Projects/QROWD> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/QROWD> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/QROWD> <http://ns.ontowiki.net/SysOnt/Site/content> "- Funding Programme: EU"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/QROWD> <http://purl.org/dc/terms/abstract> "  " .
 <http://aksw.org/Projects/QROWD> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
@@ -4167,7 +4154,7 @@
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Quetsal/issues> .
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MuhammadSaleem> .
 <http://aksw.org/Projects/QUETSAL> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/QUETSAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/QUETSAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QUETSAL> <http://www.w3.org/2000/01/rdf-schema#label> "QUETSAL" .
 <http://aksw.org/Projects/QUETSAL> <http://xmlns.com/foaf/0.1/logo> <https://sites.google.com/site/saleemsweb/home/quetsal_logo.png> .
 <http://aksw.org/Projects/QualisBrasil> <http://aksw.org/schema/hookline> "Linked Open Data for supporting scientometric studies" .
@@ -4266,7 +4253,7 @@
 <http://aksw.org/Projects/REX> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/REX> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/REX> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/REX/wiki> .
-<http://aksw.org/Projects/REX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/REX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/REX> <http://www.w3.org/2000/01/rdf-schema#label> "REX" .
 <http://aksw.org/Projects/REX> <http://www.w3.org/2004/02/skos/core#altLabel> "Web RDF Extraction Framework" .
 <http://aksw.org/Projects/REX> <http://xmlns.com/foaf/0.1/logo> <http://www.gallery.puffbird.net/wp-content/uploads/2010/09/TRex-Skull.jpg> .
@@ -4289,7 +4276,7 @@
 <http://aksw.org/Projects/Rocker> <http://usefulinc.com/ns/doap#browse> "https://github.com/AKSW/rocker" .
 <http://aksw.org/Projects/Rocker> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/rocker/issues> .
 <http://aksw.org/Projects/Rocker> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/TommasoSoru> .
-<http://aksw.org/Projects/Rocker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Rocker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Rocker> <http://www.w3.org/2000/01/rdf-schema#label> "Rocker" .
 <http://aksw.org/Projects/Rocker> <http://xmlns.com/foaf/0.1/logo> <https://static.aksw.org/aksw.org/rocker-logo.png> .
 <http://aksw.org/Projects/SAGE> <http://aksw.org/schema/hookline> "Semantic Geospatial Analytics" .
@@ -4300,14 +4287,13 @@
 <http://aksw.org/Projects/SAGE> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DEER> .
 <http://aksw.org/Projects/SAGE> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/FOX> .
 <http://aksw.org/Projects/SAGE> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIMES> .
-<http://aksw.org/Projects/SAGE> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/SAGE> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/SAGE> <http://ns.ontowiki.net/SysOnt/Site/content> "Data integration is one of the main barriers to harnessing the full power of data in companies. Business-relevant data can be distributed across thousands of data silos in different formats in large companies. For companies driven by geospatial data (e.g., disaster management, automobile), the knowledge to be managed accounts for billions of rapidly changing facts (Big Data). Developing dedicated solutions for managing such large amounts of geospatial data is of central importance to improve the efficiency and effectiveness of data delivery for business-critical applications. However, dealing with geospatial data demands specific solutions for dealing with their intrinsic complexity (up to 5 dimensions) and the rapid changes in the data.\n\nSAGE addresses exactly this challenge by aiming to develop dedicated algorithms for the management of big geospatial data. We will develop time-efficient storage and querying strategies for geospatial data by extending the GeoSPARQL standard so as to deal with continuous queries. A time-efficient knowledge extraction framework dedicated to recognizing geospatial entities will also be developed. In addition, we will focus on developing scalable link discovery approaches for streams of RDF data that will interplay with the storage solution while running on distributed solutions such as FLINK.\n\nSAGE’s main result will be a set of interoperable solutions that implement time-efficient geospatial analytics that can be integrated into a high-performance solutions. These procedures will enable the fast deployment of SAGE-driven solutions such as triple store geospatial benchmarking, geographic based marketing, disaster management and the continuous delivery of big interlinked geospatial data. Using SAGE in data-driven companies promises to increase the reuse of company internal knowledge, the productivity of employees, the reduction of parallel development and a better use of company-internal resources."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SAGE> <http://purl.org/dc/terms/abstract> "Data integration is one of the main barriers to harnessing the full power of data in companies.\nSAGE addresses this challenge by aiming to develop dedicated algorithms for the management of big geospatial data.\nSAGE’s main result will be a set of interoperable solutions that implement time-efficient geospatial analytics that can be integrated into a high-performance solutions." .
 <http://aksw.org/Projects/SAGE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/SAGE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
 <http://aksw.org/Projects/SAGE> <http://vocab.ox.ac.uk/projectfunding#endDate> "2020-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/SAGE> <http://vocab.ox.ac.uk/projectfunding#startDate> "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/SAGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SAGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/SAGE> <http://www.w3.org/2000/01/rdf-schema#label> "SAGE" .
 <http://aksw.org/Projects/SAIM> <http://aksw.org/schema/demonstrates> <http://saim.aksw.org/> .
@@ -4329,14 +4315,13 @@
 <http://aksw.org/Projects/SAKE> <http://aksw.org/schema/publicationTag> "sake" .
 <http://aksw.org/Projects/SAKE> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DLLearner> .
 <http://aksw.org/Projects/SAKE> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIMES> .
-<http://aksw.org/Projects/SAKE> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/SAKE> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/SAKE> <http://ns.ontowiki.net/SysOnt/Site/content> "- Duration: 12/2014 - 12/2017\n- Funding Programme: BWMi (Federal Ministry for Economic Affairs and Energy)"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SAKE> <http://purl.org/dc/terms/abstract> "The increasing use of automation in machine and plant construction has inevitably led to a large growth in the number of industrial production processes being recorded and monitored by sensors. If the vast quantities of data this generates could be centrally evaluated in real time it would be possible for the results to be used to optimize internal processes and drastically reduce production costs. Unfortunately, the most commonly used data analysis tools are simply not designed to handle such enormous amounts of real time data. The SAKE project has been set up to resolve this problem by developing a framework specifically designed to analyze these vast streams of data. By implementing prefabricated modules it will also be possible to use individual applications in a number of different roles. The modules will be evaluated in real-life industrial environments by the project's industrial partners.  " .
 <http://aksw.org/Projects/SAKE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/SAKE> <http://usefulinc.com/ns/doap#wiki> "https://ok-jira.iais.fraunhofer.de/wiki/display/SAKEEXT" .
 <http://aksw.org/Projects/SAKE> <http://vocab.ox.ac.uk/projectfunding#endDate> "2017-12-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/SAKE> <http://vocab.ox.ac.uk/projectfunding#startDate> "2014-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/SAKE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/2000/01/rdf-schema#label> "SAKE - Semantische Analyse Komplexer Ereignisse"@de .
 <http://aksw.org/Projects/SAKE> <http://www.w3.org/2000/01/rdf-schema#label> "SAKE"@en .
@@ -4349,8 +4334,7 @@
 <http://aksw.org/Projects/SANSA_Stack> <http://purl.org/dc/terms/abstract> "Semantic Analytics Stack" .
 <http://aksw.org/Projects/SANSA_Stack> <http://rdfs.org/sioc/ns#feed> <http://sansa-stack.net/feed/> .
 <http://aksw.org/Projects/SANSA_Stack> <http://usefulinc.com/ns/doap#download-page> <https://github.com/SANSA-Stack> .
-<http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
-<http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SANSA_Stack> <http://www.w3.org/2000/01/rdf-schema#label> "SANSA-Stack" .
 <http://aksw.org/Projects/SANSA_Stack> <http://xmlns.com/foaf/0.1/homepage> <http://sansa-stack.net/> .
 <http://aksw.org/Projects/SANSA_Stack> <http://xmlns.com/foaf/0.1/logo> <http://sansa-stack.net/wp-content/uploads/2016/04/sansa-logo-blue.png> .
@@ -4358,7 +4342,7 @@
 <http://aksw.org/Projects/SCARO> <http://ns.ontowiki.net/SysOnt/Site/content> "SCARO is an application for loss-less and efficient compression of RDF data sets. The basic idea is to describe RDF triples as rules. A rule combines statements of different subjects sharing the same property-object relation.\n\n[An extended paper presenting SCARO can be found here ](http://139.18.2.164:8080/scaro_extended.pdf \"Extended paper\")"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SCARO> <http://usefulinc.com/ns/doap#download-page> <http://github.com/KLyko/RDFCompressor-SCARO> .
 <http://aksw.org/Projects/SCARO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KlausLyko> .
-<http://aksw.org/Projects/SCARO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/SCARO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SCARO> <http://www.w3.org/2000/01/rdf-schema#label> "SCARO" .
 <http://aksw.org/Projects/SCMS> <http://aksw.org/schema/funding> "349639"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://aksw.org/Projects/SCMS> <http://aksw.org/schema/hookline> "Semantic Content Management Systems" .
@@ -4412,7 +4396,7 @@
 <http://aksw.org/Projects/SLIPO> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/GeoKnow> .
 <http://aksw.org/Projects/SLIPO> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIMES> .
 <http://aksw.org/Projects/SLIPO> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/Sparqlify> .
-<http://aksw.org/Projects/SLIPO> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/SLIPO> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/SLIPO> <http://purl.org/dc/terms/abstract> "POIs are the content of any application, service, and product even remotely related to our physical surroundings. From navigation applications, to social networks, to tourism, and logistics, we use POIs to search, communicate, decide, and plan our actions. The Big Data assets for POIs and the evolved POI value chain introduced opportunities for growth, but also complexity, intensifying the challenges relating to their quality-assured integration, enrichment, and data sharing. POI data are by nature semantically diverse and spatiotemporally evolving, representing different entities and associations depending on their geographical, temporal, and thematic context. Pioneered by the FP7 project GeoKnow, linked data technologies have been applied to effectively extract the maximum possible value from open, crowdsourced and proprietary Big Data sources. Validated in the domains of tourism and logistics, these technologies have proven their benefit as a cost-effective and scalable foundation for the quality-assured integration, enrichment, and sharing of generic-purpose geospatial data In SLIPO, we argue that linked data technologies can address the limitations, gaps and challenges of the current landscape in integrating, enriching, and sharing POI data. Our goal is to transfer the research output generated by our work in project GeoKnow, to the specific challenge of POI data, introducing validated and cost-effective innovations across their value chain." .
 <http://aksw.org/Projects/SLIPO> <http://purl.org/dc/terms/abstract> "POIs are the content of any application, service, and product even remotely related to our physical surroundings. From navigation applications, to social networks, to tourism, and logistics, we use POIs to search, communicate, decide, and plan our actions. The Big Data assets for POIs and the evolved POI value chain introduced opportunities for growth, but also complexity, intensifying the challenges relating to their quality-assured integration, enrichment, and data sharing. POI data are by nature\nsemantically diverse and spatiotemporally evolving, representing different entities and associations depending on their geographical, temporal, and thematic context. Pioneered by the FP7 project GeoKnow, linked data technologies have been applied to effectively extract the maximum possible value from open, crowdsourced and proprietary Big Data sources. Validated in the domains of tourism and logistics, these technologies have proven their benefit as a cost-effective and scalable foundation for the quality-assured integration, enrichment, and sharing of generic-purpose geospatial data In SLIPO, we argue that linked data technologies can address the limitations, gaps and challenges of the current landscape in integrating, enriching, and sharing POI data. Our goal is to transfer the research output generated by our work in project GeoKnow, to the specific challenge of POI data, introducing validated and cost-effective innovations across their value chain." .
 <http://aksw.org/Projects/SLIPO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
@@ -4434,7 +4418,7 @@
 <http://aksw.org/Projects/SMLBench> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
 <http://aksw.org/Projects/SMLBench> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/SMLBench> <http://usefulinc.com/ns/doap#programming-language> "Prolog" .
-<http://aksw.org/Projects/SMLBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/SMLBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SMLBench> <http://www.w3.org/2000/01/rdf-schema#label> "SML-Bench" .
 <http://aksw.org/Projects/SMLBench> <http://xmlns.com/foaf/0.1/homepage> <http://sml-bench.aksw.org> .
 <http://aksw.org/Projects/SPARQL2NL> <http://aksw.org/schema/demonstrates> <http://sparql2nl.aksw.org/demo> .
@@ -4515,14 +4499,14 @@
 <http://aksw.org/Projects/SlideWiki> <http://usefulinc.com/ns/doap#repository> <https://github.com/slidewiki> .
 <http://aksw.org/Projects/SlideWiki> <http://vocab.ox.ac.uk/projectfunding#endDate> "2018-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/SlideWiki> <http://vocab.ox.ac.uk/projectfunding#startDate> "2016-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://aksw.org/Projects/SlideWiki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/SlideWiki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SlideWiki> <http://www.w3.org/2000/01/rdf-schema#label> "SlideWiki" .
 <http://aksw.org/Projects/SlideWiki> <http://xmlns.com/foaf/0.1/homepage> <https://slidewiki.github.io/> .
 <http://aksw.org/Projects/SlideWiki> <http://xmlns.com/foaf/0.1/logo> <https://slidewiki.eu/wp-content/uploads/2016/04/cropped-slidewiki-1.png> .
 <http://aksw.org/Projects/SlideWikiEU> <http://aksw.org/schema/hookline> "Large-scale pilots for collaborative OpenCourseWare authoring, multiplatform delivery and Learning Analytics." .
 <http://aksw.org/Projects/SlideWikiEU> <http://aksw.org/schema/partner> <http://www.iais.fraunhofer.de/#id> .
 <http://aksw.org/Projects/SlideWikiEU> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/SlideWiki> .
-<http://aksw.org/Projects/SlideWikiEU> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/SlideWikiEU> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/SlideWikiEU> <http://ns.ontowiki.net/SysOnt/Site/content> "A major obstacle to increasing the efficiency, effectiveness and quality of education in Europe is the lack of widely available, accessible, multilingual, timely, engaging and high-quality educational material (i.e. OpenCourseWare). The creation and maintenance of comprehensive OpenCourseWare (OCW) is tedious, time-consuming and expensive, with the effect that often courseware employed by teachers, instructors and professors is incomplete, outdated, dull and inaccessible to those with disabilities.\r\n\r\nSlideWiki is one of the major EU approaches to tackle these problems and to provide a free and libre OCW platform with free and libre OCW content. On the basis of the award winning (OpenCourseWare Consortium’s Excellence Award in 2014) software project [SlideWiki](http://aksw.org/Projects/SlideWiki.html \"SlideWiki\"), that is already used by hundreds of educators and thousands of learners, as well as with the help of 17 international partners from all over europe, we will extend SlideWiki’s approach to learning content creation and sharing to a next level. Thus, SlideWiki is planned to become a free to use, modern and global software that helps learners to find accessible learning content, share their insights and contribute improvements, as well as to help educators to create great learning content, reuse superior content of others and to reach out to a large amount of learners. In the end, we want to become the default hub for learning content, similar to what Wikipedia has achieved with encyclopedias today.\r\n\r\nTo achieve this high goal, we constructed 12 work packages that focus for the one half on the implementation side and for the other half on the trail/pilot side, so our product is developed for what learners and educators except and envision. As SlideWiki is not tailored to higher education only, our pilot work packages focus on secondary and higher education, professional and vocational training, as well as open community education. In case you are interested in participating as part of one of our pilots or to become a pilot itself, don’t hesitate to contact us. We want to achieve something outstanding - and the key to success is teamwork."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SlideWikiEU> <http://open.vocab.org/terms/screenshot> <https://slidewiki.eu/wp-content/uploads/2016/04/cropped-slidewiki-1.png> .
 <http://aksw.org/Projects/SlideWikiEU> <http://purl.org/dc/terms/abstract> "The SlideWiki EU project started 2016 with seventeen partners from Europe and Brazil using the award-winning open-source SlideWiki platform from germany as a basis. All project goals aiming at creating a large scale accessible learning and teaching platform using educational technology, skill recognition and global collaboration." .
@@ -4539,10 +4523,9 @@
 <http://aksw.org/Projects/SmartDataWeb> <http://aksw.org/schema/partner> <http://aksw.org/Partner/Vico> .
 <http://aksw.org/Projects/SmartDataWeb> <http://aksw.org/schema/partner> <http://aksw.org/Partner/uberMetrics> .
 <http://aksw.org/Projects/SmartDataWeb> <http://aksw.org/schema/publicationTag> "sdw" .
-<http://aksw.org/Projects/SmartDataWeb> <http://aksw.org/schema/status> "active" .
+<http://aksw.org/Projects/SmartDataWeb> <http://aksw.org/schema/status> "finished" .
 <http://aksw.org/Projects/SmartDataWeb> <http://ns.ontowiki.net/SysOnt/Site/content> "[Smart Data Web](http://smartdataweb.de/) is a [BMWi](http://www.bmwi.de/EN/) funded project. The central goal of the [Smart Data Web project](http://smartdataweb.de/) is to leverage state-of-the-art data extraction and enrichment technologies as well as Linked Data to create value-added systems for the German industry. Knowledge which is relevant to decision-making processes will be extracted from government and industry data, official web pages and social media. Then the data will be analyzed using natural language processing frameworks and then it will be integrated into knowledge graphs. These knowledge graphs will be accessible via dashboards and APIs, as well as via Linked Data. Special concern will be given to legal questions, such as data licensing as well as data security and privacy.\r\n\r\n[AKSW](http://www.aksw.org), which is representing the University of Leipzig in this project, will develop the Knowledge Graph, which is the central aggregation and integration interface of [Smart Data Web](http://smartdataweb.de/). Unlike most current Linked Data knowledge bases, the German Knowledge Graph will focus on industry-relevant data. The graph will be developed in an iterative extraction, integration and interlinking process, building on proven technologies of the [Linked Data Stack](http://stack.linkeddata.org/). Data quality and persistence are a special priority of the German Knowledge Graph since consistency has to be guaranteed at all times. [RDFUnit](http://aksw.org/Projects/RDFUnit.html) is our tool of choice to accomplish this task.\r\n\r\nSmart Data Web will contribute significantly to overcome the barriers that hinder the integration of Semantic Web technologies, Web 2.0 data and data analysis for commercial applications."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SmartDataWeb> <http://purl.org/dc/terms/abstract> "The Smart Data Web project has to goal to create an industry knowledge base for the German industry."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/2000/01/rdf-schema#label> "Smart Data Web" .
 <http://aksw.org/Projects/SmartDataWeb> <http://xmlns.com/foaf/0.1/homepage> <http://smartdataweb.de/> .
@@ -4622,7 +4605,7 @@
 <http://aksw.org/Projects/Tapioca> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/Tapioca/issues> .
 <http://aksw.org/Projects/Tapioca> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelRoeder> .
 <http://aksw.org/Projects/Tapioca> <http://usefulinc.com/ns/doap#programming-language> "Java" .
-<http://aksw.org/Projects/Tapioca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Tapioca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Tapioca> <http://www.w3.org/2000/01/rdf-schema#label> "Tapioca" .
 <http://aksw.org/Projects/TripleCheckMate> <http://aksw.org/schema/hookline> "Crowdsourcing the evaluation of Linked Data" .
 <http://aksw.org/Projects/TripleCheckMate> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DBpediaDQ> .
@@ -4641,7 +4624,7 @@
 <http://aksw.org/Projects/Triplify> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/projects/triplify/feed/> .
 <http://aksw.org/Projects/Triplify> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/Triplify> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
-<http://aksw.org/Projects/Triplify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Triplify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Triplify> <http://www.w3.org/2000/01/rdf-schema#label> "Triplify" .
 <http://aksw.org/Projects/Triplify> <http://xmlns.com/foaf/0.1/homepage> <http://triplify.org> .
 <http://aksw.org/Projects/Triplify> <http://xmlns.com/foaf/0.1/logo> <http://lh3.ggpht.com/-rvVhwgpYdsw/TlzV2Ik-6cI/AAAAAAAAAps/9zs0HPF7Y1E/s800/logo-triplify.png> .
@@ -6012,6 +5995,7 @@
 <http://www.linkedin.com/in/milandojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ProfilePage> .
 <http://www.linkedin.com/in/milandojchinovski> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/MilanDojchinovski> .
 <http://www.linkedtv.eu/> <http://aksw.org/schema/hookline> "Television linked to the Web." .
+<http://www.linkedtv.eu/> <http://aksw.org/schema/status> "finished" .
 <http://www.linkedtv.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://www.linkedtv.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "LinkedTV" .
 <http://www.mi.fu-berlin.de/inf/groups/ag-csw/Members/almashraee.html#id> <http://aksw.org/schema/affiliation> <http://www.fu-berlin.de#id> .
