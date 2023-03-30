@@ -2981,6 +2981,7 @@
 <http://aksw.org/Projects/BDE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/HajiraJabeen> .
 <http://aksw.org/Projects/BDE> <http://vocab.ox.ac.uk/projectfunding#endDate> "2017-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/BDE> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/BDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/BDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/BDE> <http://www.w3.org/2000/01/rdf-schema#label> "BDE" .
 <http://aksw.org/Projects/BDE> <http://xmlns.com/foaf/0.1/homepage> <http://www.big-data-europe.eu> .
@@ -3377,6 +3378,7 @@
 <http://aksw.org/Projects/FREME> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/Projects/FREME> <http://vocab.ox.ac.uk/projectfunding#endDate> "2017-03-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/FREME> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-02-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/FREME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/FREME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/FREME> <http://www.w3.org/2000/01/rdf-schema#label> "FREME" .
 <http://aksw.org/Projects/FREME> <http://xmlns.com/foaf/0.1/homepage> <http://www.freme-project.eu/> .
@@ -3663,6 +3665,7 @@
 <http://aksw.org/Projects/LE4SW> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Projects/LE4SW> <http://vocab.ox.ac.uk/projectfunding#endDate> "2010-12-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/LE4SW> <http://vocab.ox.ac.uk/projectfunding#startDate> "2009-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/LE4SW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LE4SW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/LE4SW> <http://www.w3.org/2000/01/rdf-schema#label> "LE4SW" .
 <http://aksw.org/Projects/LEDS> <http://aksw.org/schema/funding> "1500000" .
@@ -4121,6 +4124,7 @@
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/partner> <http://aksw.org/Partner/KAIST> .
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/partner> <http://aksw.org/Partner/bitstars> .
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/partner> <http://aksw.org/Partner/saltlux> .
+<http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/partner> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/publicationTag> "qamel" .
 <http://aksw.org/Projects/QAMEL> <http://aksw.org/schema/status> "active" .
 <http://aksw.org/Projects/QAMEL> <http://ns.ontowiki.net/SysOnt/Site/content> "* Duration: 11/2015\u201311/2018\r\n* Funding Programme: Eurostars Eureka"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
@@ -4130,6 +4134,7 @@
 <http://aksw.org/Projects/QAMEL> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AxelNgonga> .
 <http://aksw.org/Projects/QAMEL> <http://vocab.ox.ac.uk/projectfunding#endDate> "2018-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/QAMEL> <http://vocab.ox.ac.uk/projectfunding#startDate> "2015-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/QAMEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QAMEL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/QAMEL> <http://www.w3.org/2000/01/rdf-schema#label> "QAMEL" .
 <http://aksw.org/Projects/QAMEL> <http://xmlns.com/foaf/0.1/homepage> <http://qamel.eu/> .
@@ -4531,6 +4536,7 @@
 <http://aksw.org/Projects/SmartDataWeb> <http://aksw.org/schema/status> "active" .
 <http://aksw.org/Projects/SmartDataWeb> <http://ns.ontowiki.net/SysOnt/Site/content> "[Smart Data Web](http://smartdataweb.de/) is a [BMWi](http://www.bmwi.de/EN/) funded project. The central goal of the [Smart Data Web project](http://smartdataweb.de/) is to leverage state-of-the-art data extraction and enrichment technologies as well as Linked Data to create value-added systems for the German industry. Knowledge which is relevant to decision-making processes will be extracted from government and industry data, official web pages and social media. Then the data will be analyzed using natural language processing frameworks and then it will be integrated into knowledge graphs. These knowledge graphs will be accessible via dashboards and APIs, as well as via Linked Data. Special concern will be given to legal questions, such as data licensing as well as data security and privacy.\r\n\r\n[AKSW](http://www.aksw.org), which is representing the University of Leipzig in this project, will develop the Knowledge Graph, which is the central aggregation and integration interface of [Smart Data Web](http://smartdataweb.de/). Unlike most current Linked Data knowledge bases, the German Knowledge Graph will focus on industry-relevant data. The graph will be developed in an iterative extraction, integration and interlinking process, building on proven technologies of the [Linked Data Stack](http://stack.linkeddata.org/). Data quality and persistence are a special priority of the German Knowledge Graph since consistency has to be guaranteed at all times. [RDFUnit](http://aksw.org/Projects/RDFUnit.html) is our tool of choice to accomplish this task.\r\n\r\nSmart Data Web will contribute significantly to overcome the barriers that hinder the integration of Semantic Web technologies, Web 2.0 data and data analysis for commercial applications."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SmartDataWeb> <http://purl.org/dc/terms/abstract> "The Smart Data Web project has to goal to create an industry knowledge base for the German industry."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/SmartDataWeb> <http://www.w3.org/2000/01/rdf-schema#label> "Smart Data Web" .
 <http://aksw.org/Projects/SmartDataWeb> <http://xmlns.com/foaf/0.1/homepage> <http://smartdataweb.de/> .
