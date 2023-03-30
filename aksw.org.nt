@@ -433,7 +433,6 @@
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/AxelNgonga> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
-<http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "" .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "AxelNgonga" .
@@ -670,15 +669,16 @@
 <http://aksw.org/DimitrisKontokostas> <http://xmlns.com/foaf/0.1/name> "Dimitris Kontokostas" .
 <http://aksw.org/EdgardMarx> <http://aksw.org/schema/publicationTag> "marx" .
 <http://aksw.org/EdgardMarx> <http://aksw.org/schema/room> "Z512" .
-<http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "I am a researcher at the Leipzig University of Applied Sciences (HTWK). I work on Natural Language Processing (NLP) focusing on Question Answering and Semantic Search systems. I am also an active member of the Semantic and NLP academic community participating as a reviewer in conferences and working groups such as AAAI (Conference on Artificial Intelligence) and QALD (Open Challenge on Question Answering over Linked Data) as well as publishing several peer-reviewed publications in the area."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "I am a Linked Data Expert @eccenca and Project Manager at the Leipzig University of Applied Sciences (HTWK) working on Natural Language Processing (NLP) focusing on Question Answering, Semantic Search systems, Data Management, and Digital Twins for large enterprises. \nI have 10+ years of experience in software engineering, project management, and designing innovative solutions. \n\nHighlights:\n* (Co-)inventor of Neural SPARQL Machines (NSpM) and Data Dependency Management\n* Member of the W3C Reconciliation and Machine Learning Schema working groups\n* Founder of W3C SPARQL Protocol and RDF Query Language for Machine Learning (SPARQL-ML) working group\n* Awarded for the best European method for fact validation (3rd Global) at WSDM World Cup 2017\n* Contributing to shaping the Semantic and NLP fields by providing expert services as a reviewer and/or chair in conferences and working groups such as AAAI (Conference on Artificial Intelligence), ICSC (International Conference on Semantic Computing) and QALD (Open Challenge on Question Answering over Linked Data)\n* (Co-)authored over 40 peer-reviewed publications in international journals, conferences, and workshops\n* Mentor of Google Summer of Code\n* Over a dozen talks at Companies, Events, and Conferences"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/EdgardMarx> <http://schema.org/location> <http://aksw.org/Address/HTWK-IMN> .
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/EdgardMarx> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edgard Marx" .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFSlice> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Marx/gn/Edgard> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/familyName> "Marx" .
-<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://emarx.org> .
+<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <https://edgardmarx.github.io> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/mbox> <mailto:edgard.marx@htwk-leipzig.de> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-3076-6421> .
@@ -1370,6 +1370,7 @@
 <http://aksw.org/JensLehmann> <http://aksw.org/schema/room> "A109" .
 <http://aksw.org/JensLehmann> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/JensLehmann> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/2002/07/owl#sameAs> <http://jens-lehmann.org/foaf.rdf#i> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "JensLehmann" .
@@ -1804,6 +1805,7 @@
 <http://aksw.org/MichaelMartin> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Dr. Michael Martin is a postdoctoral researcher at the University of Leipzig and heads the research group Emergent Semantics, which is part of the AKSW network. His research interests include Engineering of Web Applications using Semantic Web Technologies, Data Science and Management of Linked (Open) Data and Open Data. Michael is currently involved in several research projects, such as LEDS - Linked Enterprise Data Services (funded by the German Federal Ministry of Education and Research - BmBF) and the EU funded project SlideWiki. In the past years, he was amongst others involved in the multi-national Research and Software development projects LOD2, LATC, LE4SW, OntoWiki, CubeViz and the Open Data Portal as well as the Digital Agenda Scoreboard of the European Commission. Furthermore, he has (co-)authored more than 40 peer-reviewed publications at international journals, conferences and workshops and holds lectures as well as seminars at the University of Leipzig in the research areas E-Business, Software Engineering and Software Management."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/MichaelMartin> <http://schema.org/location> <http://aksw.org/Address/Goerdellering904109Leipzig> .
+<http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
