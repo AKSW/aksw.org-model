@@ -434,6 +434,7 @@
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/AxelNgonga> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "" .
+<http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "AxelNgonga" .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Axel-C. Ngonga Ngomo" .
@@ -632,6 +633,7 @@
 <http://aksw.org/DiegoEsteves> <http://aksw.org/schema/publicationTag> "esteves" .
 <http://aksw.org/DiegoEsteves> <http://aksw.org/schema/room> "A120" .
 <http://aksw.org/DiegoEsteves> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/DiegoEsteves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/DiegoEsteves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DiegoEsteves> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DeFacto> .
 <http://aksw.org/DiegoEsteves> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MEX> .
