@@ -389,6 +389,7 @@
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/USPatents> .
 <http://aksw.org/AndreValdestilhas> <http://aksw.org/schema/publicationTag> "Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Andr\u00E9 Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
@@ -1737,6 +1738,7 @@
 <http://aksw.org/MatthiasWauer> <http://ns.ontowiki.net/SysOnt/Site/content> "# Retrospective\r\n## 2016\r\n- I've started working at AKSW as a postdoc researcher and will primarily be involved in the GEISER project.\r\n- The GeoKnow project in which I worked for Unister was completed successfully.\r\n\r\n## 2017\r\n- Contributing to the HOBBIT WP1 Dissemination activities.\r\n- Starting the OPAL project.\r\n\r\nmore content to come"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/MatthiasWauer> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "simple" .
 <http://aksw.org/MatthiasWauer> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/MatthiasWauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MatthiasWauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MatthiasWauer> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "MatthiasWauer" .
 <http://aksw.org/MatthiasWauer> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "matthias" .
