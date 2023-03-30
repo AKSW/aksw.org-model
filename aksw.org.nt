@@ -1148,6 +1148,7 @@
 <http://aksw.org/GezimSejdiu> <http://aksw.org/schema/publicationTag> "sejdiu" .
 <http://aksw.org/GezimSejdiu> <http://aksw.org/schema/room> "A120" .
 <http://aksw.org/GezimSejdiu> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/GezimSejdiu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "GezimSejdiu" .
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Gezim Sejdiu" .
@@ -1322,6 +1323,7 @@
 <http://aksw.org/HajiraJabeen> <http://aksw.org/schema/publicationTag> "jabeen" .
 <http://aksw.org/HajiraJabeen> <http://aksw.org/schema/room> "A108" .
 <http://aksw.org/HajiraJabeen> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/HajiraJabeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/HajiraJabeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/HajiraJabeen> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "HajiraJabeen" .
 <http://aksw.org/HajiraJabeen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Hajira Jabeen" .
@@ -5143,6 +5145,7 @@
 <http://aksw.org/StudentWorker/OliverSkawronek> <http://xmlns.com/foaf/0.1/mbox> <mailto:oliver.skawronek@stud.htwk-leipzig.de> .
 <http://aksw.org/StudentWorker/OliverSkawronek> <http://xmlns.com/foaf/0.1/name> "Oliver Skawronek" .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/StudentWorker/SimeonAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CatalogusProfessorum> .
