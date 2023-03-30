@@ -389,6 +389,7 @@
 <http://aksw.org/AmrapaliZaveri> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/USPatents> .
 <http://aksw.org/AndreValdestilhas> <http://aksw.org/schema/publicationTag> "Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. André Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
@@ -432,6 +433,8 @@
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/AxelNgonga> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "" .
+<http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "AxelNgonga" .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Axel-C. Ngonga Ngomo" .
@@ -630,6 +633,7 @@
 <http://aksw.org/DiegoEsteves> <http://aksw.org/schema/publicationTag> "esteves" .
 <http://aksw.org/DiegoEsteves> <http://aksw.org/schema/room> "A120" .
 <http://aksw.org/DiegoEsteves> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/DiegoEsteves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/DiegoEsteves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DiegoEsteves> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DeFacto> .
 <http://aksw.org/DiegoEsteves> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/MEX> .
@@ -1144,6 +1148,7 @@
 <http://aksw.org/GezimSejdiu> <http://aksw.org/schema/publicationTag> "sejdiu" .
 <http://aksw.org/GezimSejdiu> <http://aksw.org/schema/room> "A120" .
 <http://aksw.org/GezimSejdiu> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/GezimSejdiu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "GezimSejdiu" .
 <http://aksw.org/GezimSejdiu> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Gezim Sejdiu" .
@@ -1318,6 +1323,7 @@
 <http://aksw.org/HajiraJabeen> <http://aksw.org/schema/publicationTag> "jabeen" .
 <http://aksw.org/HajiraJabeen> <http://aksw.org/schema/room> "A108" .
 <http://aksw.org/HajiraJabeen> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
+<http://aksw.org/HajiraJabeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/HajiraJabeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/HajiraJabeen> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "HajiraJabeen" .
 <http://aksw.org/HajiraJabeen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Hajira Jabeen" .
@@ -1520,6 +1526,7 @@
 <http://aksw.org/KleanthiGeorgala> <http://aksw.org/schema/publicationTag> "georgala" .
 <http://aksw.org/KleanthiGeorgala> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/KleanthiGeorgala> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Hainstrasse> .
+<http://aksw.org/KleanthiGeorgala> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KleanthiGeorgala> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KleanthiGeorgala> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "KleanthiGeorgala" .
 <http://aksw.org/KleanthiGeorgala> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleanthi Georgala" .
@@ -1571,6 +1578,7 @@
 <http://aksw.org/KunalJha> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/KunalJha> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
 <http://aksw.org/KunalJha> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
+<http://aksw.org/KunalJha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KunalJha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/KunalJha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KunalJha> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "KunalJha" .
@@ -1603,6 +1611,7 @@
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/mbox> <mailto:lpmeyer@infai.org> .
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
+<http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
@@ -1616,6 +1625,7 @@
 <http://aksw.org/LixiConrads> <http://ns.ontowiki.net/SysOnt/Site/content> "# About me\r\nHey, \r\nI am Felix, a C.S. student at the University Leipzig. I began working at the AKSW Group in Summer 2014  . I started by working on the next [DBpedia SPARQL Benchmark](http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/download/5168/5384) which evolved into [IGUANA](http://aksw.org/Projects/IGUANA.html). \r\n\r\nIGUANA is my major project and will be one of my favorite too. I wrote my BA thesis about it as well as my first paper. \r\n\r\nFurther on i currently work on EMU. EMU is built up on IGUANA and is trying to get the best configuration of one triple store for your dataset.\r\n\r\n# Highlights\r\n## 2016\r\n- I submitted my Bachelor thesis about [IGUANA](http://aksw.org/Projects/IGUANA.html).\r\n\r\n## 2014 \r\n- One of the three [Top Students](http://dbs.uni-leipzig.de/en/node/1537) at the Database Group Leipzig \r\n\r\n# Research Interest\r\n- Benchmarking\r\n- Semantic Web\r\n- Data Generation\r\n- Generic and Automated Solutions\r\n- (NLP)\r\n\r\n# Further Info\r\n- **[@Twitter](https://twitter.com/FelixCorrados)**\r\n- **[ORCID](http://orcid.org/0000-0002-8803-6758)**"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/LixiConrads> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/feed/> .
 <http://aksw.org/LixiConrads> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
+<http://aksw.org/LixiConrads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/LixiConrads> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
 <http://aksw.org/LixiConrads> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/IGUANA> .
@@ -1723,6 +1733,7 @@
 <http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/content> "tbd"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/MarvinHofer> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
@@ -1736,6 +1747,7 @@
 <http://aksw.org/MatthiasWauer> <http://ns.ontowiki.net/SysOnt/Site/content> "# Retrospective\r\n## 2016\r\n- I've started working at AKSW as a postdoc researcher and will primarily be involved in the GEISER project.\r\n- The GeoKnow project in which I worked for Unister was completed successfully.\r\n\r\n## 2017\r\n- Contributing to the HOBBIT WP1 Dissemination activities.\r\n- Starting the OPAL project.\r\n\r\nmore content to come"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/MatthiasWauer> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "simple" .
 <http://aksw.org/MatthiasWauer> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/MatthiasWauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MatthiasWauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MatthiasWauer> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "MatthiasWauer" .
 <http://aksw.org/MatthiasWauer> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "matthias" .
@@ -1834,6 +1846,7 @@
 <http://aksw.org/MilanDojchinovski> <http://aksw.org/schema/publicationTag> "dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://ns.ontowiki.net/SysOnt/Site/content> "# About\nMilan Dojchinovski is a research associate at the Knowledge Integration and Linked Data Technologies [KILT](http://aksw.org/Groups/KILT.html) at the [AKSW](http://aksw.org/About.html). He joined the AKSW group in March 2015 and is a project manager of the [H2020 FREME](http://aksw.org/Projects/FREME.html) project. His research interests are in Semantic Web, Web services, NLP and Data Integration technologies. Milan has 10+ years experience in the computer industry in Germany, Czech Republic and Slovenia. He has previously been involved in the [LOD2](http://aksw.org/Projects/LOD2) and [LinkedTV](http://www.linkedtv.eu/) FP7 European projects. Milan is the author of 20+ peer-reviewed scientific [publications](http://www.dojchinovski.mk/research/publications/). Milan is member of the W3C LD4LT and Open Annotation groups. He holds a MSc. degree in Computer Science from the University of Maribor in Slovenia.\nMilan is also affiliated with the Czech Technical University in Prague where he holds position of an Assistant Professor and he works on his PhD thesis with focus on Linked Data Access and Knowledge Extraction mechanisms.\n\n# Research Interests\n\n- Linked Data\n- Knowledge Extraction and NLP\n- Web Services and Web APIs\n\n# Awards and Nominations\n\n- [3rd place winner](https://twitter.com/lysander07/status/776084918640205824) of the vocabulary carnival at SEMANTiCS 2016 with the NIF 2.1 vocabulary\n- Best poster award at EKAW 2014 with the paper [Personalised, Serendipitous and Diverse Linked Data Resource Recommendations](http://www.dojchinovski.mk/public/data/EKAW2014p-DojchinovskiV.pdf)\n- Nominated for [best research paper award at ISWC 2012](http://iswc2012.semanticweb.org/awards.html) with the paper [Personalised Graph-based Selection of Web APIs](http://www.dojchinovski.mk/public/data/ISWC2012-DojchinovskiKVZ.pdf)\n- Nominated for [best lecturer](http://www.fit.cvut.cz/narozeniny/2013/fitak/nominace) in the study year 2012/13 at the Faculty of Information Technology, CTU in Prague\n\n# Community Service\n\nMilan has served the community as a programme committee member and reviewer for various conferences (WWW, ESWC, ICWE, COLING, SEMAPRO, NLDB, JIST), workshops (WS-REST, #Microposts, WIC) and journals (Semantic Web Journal, IEEE Transactions on Services Computing, Engineering Applications of Artificial Intelligence). Milan has also (co-)organized various events such as tutorials (FREME, Language Resources and Linked Data) workshops (NIF) and symposiums (Intelligent Web Services Meet Social Computing).\nFor complete list see [here](http://www.dojchinovski.mk/research/committees/). \n\n# Other\n\nYou can also find me at:\n\n- [Google Scholar](https://scholar.google.cz/citations?user=pELhXR4AAAAJ&hl=en) and check the list my publications\n- [SlideShare presentations](http://www.slideshare.net/m1ci) - shared presentations from various events\n- [LinkedIn profile](http://www.linkedin.com/in/milandojchinovski) - for my professional experience and education\n- [Twitter profile](https://twitter.com/m1ci) - stay up-to-data with my short message announcements.\n\n## Homepage\nFor more general information please check my [personal page](http://www.dojchinovski.mk/).\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/MilanDojchinovski> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "MilanDojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Milan Dojchinovski" .
@@ -1927,6 +1940,7 @@
 <http://aksw.org/MuhammadSaleem> <http://aksw.org/schema/publicationTag> "saleem" .
 <http://aksw.org/MuhammadSaleem> <http://aksw.org/schema/room> "P905" .
 <http://aksw.org/MuhammadSaleem> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
+<http://aksw.org/MuhammadSaleem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MuhammadSaleem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MuhammadSaleem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Muhammad Saleem" .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DIESEL> .
@@ -2423,6 +2437,7 @@
 <http://aksw.org/Partner/RolandBloch> <http://xmlns.com/foaf/0.1/mbox> <mailto:roland.bloch@hof.uni-halle.de> .
 <http://aksw.org/Partner/RolandBloch> <http://xmlns.com/foaf/0.1/name> "Dr. Roland Bloch" .
 <http://aksw.org/Partner/RolandBloch> <http://xmlns.com/foaf/0.1/phone> <tel:+49-3491-466-246> .
+<http://aksw.org/Partner/RonnyGey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/Partner/RonnyGey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/Partner/RonnyGey> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/ARTeFACT> .
 <http://aksw.org/Partner/RonnyGey> <http://xmlns.com/foaf/0.1/homepage> <http://bis.informatik.uni-leipzig.de/RonnyGey> .
@@ -5137,6 +5152,7 @@
 <http://aksw.org/StudentWorker/OliverSkawronek> <http://xmlns.com/foaf/0.1/mbox> <mailto:oliver.skawronek@stud.htwk-leipzig.de> .
 <http://aksw.org/StudentWorker/OliverSkawronek> <http://xmlns.com/foaf/0.1/name> "Oliver Skawronek" .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
+<http://aksw.org/StudentWorker/SimeonAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/StudentWorker/SimeonAckermann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CatalogusProfessorum> .
@@ -5315,6 +5331,7 @@
 <http://aksw.org/TimofeyErmilov> <http://aksw.org/schema/publicationTag> "ermilov" .
 <http://aksw.org/TimofeyErmilov> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/TimofeyErmilov> <http://rdfs.org/sioc/ns#feed> <https://github.com//yamalight.atom> .
+<http://aksw.org/TimofeyErmilov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/TimofeyErmilov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/TimofeyErmilov> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "TimofeyErmilov" .
 <http://aksw.org/TimofeyErmilov> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "yamalight" .
