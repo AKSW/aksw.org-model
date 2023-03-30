@@ -1526,6 +1526,7 @@
 <http://aksw.org/KleanthiGeorgala> <http://aksw.org/schema/publicationTag> "georgala" .
 <http://aksw.org/KleanthiGeorgala> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/KleanthiGeorgala> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Hainstrasse> .
+<http://aksw.org/KleanthiGeorgala> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KleanthiGeorgala> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KleanthiGeorgala> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "KleanthiGeorgala" .
 <http://aksw.org/KleanthiGeorgala> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleanthi Georgala" .
@@ -1609,6 +1610,7 @@
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/mbox> <mailto:lpmeyer@infai.org> .
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
+<http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
@@ -1935,6 +1937,7 @@
 <http://aksw.org/MuhammadSaleem> <http://aksw.org/schema/publicationTag> "saleem" .
 <http://aksw.org/MuhammadSaleem> <http://aksw.org/schema/room> "P905" .
 <http://aksw.org/MuhammadSaleem> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
+<http://aksw.org/MuhammadSaleem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MuhammadSaleem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MuhammadSaleem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Muhammad Saleem" .
 <http://aksw.org/MuhammadSaleem> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DIESEL> .
