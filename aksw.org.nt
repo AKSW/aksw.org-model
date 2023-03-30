@@ -673,12 +673,13 @@
 <http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "I am a researcher at the Leipzig University of Applied Sciences (HTWK). I work on Natural Language Processing (NLP) focusing on Question Answering and Semantic Search systems. I am also an active member of the Semantic and NLP academic community participating as a reviewer in conferences and working groups such as AAAI (Conference on Artificial Intelligence) and QALD (Open Challenge on Question Answering over Linked Data) as well as publishing several peer-reviewed publications in the area."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/EdgardMarx> <http://schema.org/location> <http://aksw.org/Address/HTWK-IMN> .
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/EdgardMarx> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edgard Marx" .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFSlice> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Marx/gn/Edgard> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/familyName> "Marx" .
-<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://emarx.org> .
+<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <https://edgardmarx.github.io> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/mbox> <mailto:edgard.marx@htwk-leipzig.de> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-3076-6421> .
