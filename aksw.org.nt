@@ -3750,7 +3750,7 @@
 <http://aksw.org/Projects/LION> <http://aksw.org/schema/hookline> "Induction of Link Specifications using Refinement Operators" .
 <http://aksw.org/Projects/LION> <http://ns.ontowiki.net/SysOnt/Site/content> "LION is a learning algorithm targeting the automatic discovery of links between RDF resources within the [LIMES](http://aksw.org/Projects/LIMES.html \"LIMES\") framework. \nLION is based on constructing a partial order over link specifications and the definition of a refinement operator, which allows the traversal of this partially ordered space.\n\nAn extended paper presenting LION can be found [here](http://139.18.2.164:8080/eswc2016_full.pdf \"Extended paper\")"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/LION> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KlausLyko> .
-<http://aksw.org/Projects/LION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/LION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LION> <http://www.w3.org/2000/01/rdf-schema#label> "LION" .
 <http://aksw.org/Projects/LOD2> <http://aksw.org/schema/funding> "1333901"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://aksw.org/Projects/LOD2> <http://aksw.org/schema/hookline> "Creating Knowledge out of Interlinked Data" .
@@ -4025,7 +4025,7 @@
 <http://aksw.org/Projects/ORE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/LorenzBuehmann> .
 <http://aksw.org/Projects/ORE> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/ORE> <http://usefulinc.com/ns/doap#wiki> <https://github.com/SmartDataAnalytics/ORE/wiki> .
-<http://aksw.org/Projects/ORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/ORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/ORE> <http://www.w3.org/2000/01/rdf-schema#label> "ORE" .
 <http://aksw.org/Projects/ORE> <http://xmlns.com/foaf/0.1/homepage> <http://ore-tool.net> .
 <http://aksw.org/Projects/OntoWiki> <http://aksw.org/schema/hookline> "a tool providing support for agile, distributed knowledge engineering scenarios" .
@@ -4276,7 +4276,7 @@
 <http://aksw.org/Projects/Rocker> <http://usefulinc.com/ns/doap#browse> "https://github.com/AKSW/rocker" .
 <http://aksw.org/Projects/Rocker> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/rocker/issues> .
 <http://aksw.org/Projects/Rocker> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/TommasoSoru> .
-<http://aksw.org/Projects/Rocker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/Rocker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Rocker> <http://www.w3.org/2000/01/rdf-schema#label> "Rocker" .
 <http://aksw.org/Projects/Rocker> <http://xmlns.com/foaf/0.1/logo> <https://static.aksw.org/aksw.org/rocker-logo.png> .
 <http://aksw.org/Projects/SAGE> <http://aksw.org/schema/hookline> "Semantic Geospatial Analytics" .
@@ -4342,7 +4342,7 @@
 <http://aksw.org/Projects/SCARO> <http://ns.ontowiki.net/SysOnt/Site/content> "SCARO is an application for loss-less and efficient compression of RDF data sets. The basic idea is to describe RDF triples as rules. A rule combines statements of different subjects sharing the same property-object relation.\n\n[An extended paper presenting SCARO can be found here ](http://139.18.2.164:8080/scaro_extended.pdf \"Extended paper\")"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SCARO> <http://usefulinc.com/ns/doap#download-page> <http://github.com/KLyko/RDFCompressor-SCARO> .
 <http://aksw.org/Projects/SCARO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KlausLyko> .
-<http://aksw.org/Projects/SCARO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
+<http://aksw.org/Projects/SCARO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SCARO> <http://www.w3.org/2000/01/rdf-schema#label> "SCARO" .
 <http://aksw.org/Projects/SCMS> <http://aksw.org/schema/funding> "349639"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://aksw.org/Projects/SCMS> <http://aksw.org/schema/hookline> "Semantic Content Management Systems" .
