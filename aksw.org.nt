@@ -1733,6 +1733,7 @@
 <http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/content> "tbd"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/MarvinHofer> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/MarvinHofer> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
+<http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/StudentWorker> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
