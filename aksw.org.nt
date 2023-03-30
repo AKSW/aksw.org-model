@@ -1210,7 +1210,7 @@
 <http://aksw.org/Groups/ES> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "ES" .
 <http://aksw.org/Groups/ES> <http://purl.org/dc/terms/abstract> "Research in Emergent Semantics revolves around supporting semantic collaboration scenarios in an adaptive way. This work includes especially research on engineering and adoption of semantic collaboration software, semantic collaboration protocols as well as research on distributed / federated semantic social networks. To bootstrap semantic collaboration and the semantic web in general, the Emergent Semantics group also investigates basic semantic technologies and semantic web infrastructures." .
 <http://aksw.org/Groups/ES> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
-<http://aksw.org/Groups/ES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
+<http://aksw.org/Groups/ES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
 <http://aksw.org/Groups/ES> <http://www.w3.org/2000/01/rdf-schema#label> "Emergent Semantics" .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AntjeSchlaf> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ClausStadler> .
@@ -1236,7 +1236,7 @@
 <http://aksw.org/Groups/KILT> <http://purl.org/dc/terms/abstract> "What kind of smart applications can we build, if we were able to integrate all available knowledge, data and language resources in a meaningful way? While Turing's imitation game is exciting, we are focussing on the actual knowledge engineering to build information machines that enable humans to perform more efficiently in their tasks. To achieve this goal, we believe the following two prerequisites must be met: \n\n  1. Knowledge and Data must be rendered discoverable and then transformed, linked, enriched and integrated homogeneously in a huge semantic knowledge graph ([DBpedia](DBpedia))  \n  2.  Language Technologies must be on the one hand leveraged to understand, categorize and structure available textual content in all its forms. On the other hand, language technology must assist in building adequate interfaces that allow humans to interact effectively with data and information via discovery, querying and reorganization. \n\nResearch in this group focusses on contextualising data and ontologies as well as capturing deep linguistic knowledge to improve machine understanding. Besides research, we are taking the extra effort to undertake transfer and innovation projects and support industrial applications such as in the [JURION use case](http://aligned-project.eu/jurion-demonstration-system/ \"JURION use case\"). \n\nMain contact: [Dr.-Ing. Sebastian Hellmann](http://aksw.org/SebastianHellmann \"Dr.-Ing. Sebastian Hellmann\")"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Groups/KILT> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/Groups/KILT> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
-<http://aksw.org/Groups/KILT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
+<http://aksw.org/Groups/KILT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
 <http://aksw.org/Groups/KILT> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge Integration and Linked Data Technologies" .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AmitKirschenbaum> .
 <http://aksw.org/Groups/KILT> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/BettinaKlimek> .
@@ -1261,7 +1261,7 @@
 <http://aksw.org/Groups/MOLE> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/Groups/MOLE> <http://purl.org/dc/terms/abstract> "The MOLE group focuses on combining Semantic Web and supervised Machine Learning technologies. The goal is to improve both quality and quantity of available knowledge by extracting, analysing, enriching and linking existing data. To make obtained results readily available for use in other applications, the group also provides several established open source tools, frameworks and demonstrators." .
 <http://aksw.org/Groups/MOLE> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
-<http://aksw.org/Groups/MOLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
+<http://aksw.org/Groups/MOLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
 <http://aksw.org/Groups/MOLE> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Learning and Ontology Engineering" .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ClausStadler> .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DiegoEsteves> .
