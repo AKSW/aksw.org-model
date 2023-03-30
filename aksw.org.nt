@@ -3487,6 +3487,7 @@
 <http://aksw.org/Projects/GeoKnow> <http://usefulinc.com/ns/doap#wiki> <http://wiki.geoknow.eu> .
 <http://aksw.org/Projects/GeoKnow> <http://vocab.ox.ac.uk/projectfunding#endDate> "2015-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/Projects/GeoKnow> <http://vocab.ox.ac.uk/projectfunding#startDate> "2012-09-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Projects/GeoKnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/GeoKnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/GeoKnow> <http://www.w3.org/2000/01/rdf-schema#label> "GeoKnow" .
 <http://aksw.org/Projects/GeoKnow> <http://xmlns.com/foaf/0.1/homepage> <http://geoknow.eu> .
