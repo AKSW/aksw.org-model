@@ -1622,7 +1622,7 @@
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Junghanns/gn/Kurt> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/familyName> "Junghanns" .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/mbox> <mailto:kjunghanns@informatik.uni-leipzig.de> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/mbox> <mailto:junghanns@infai.org> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AutoSlides> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LIMBO> .
