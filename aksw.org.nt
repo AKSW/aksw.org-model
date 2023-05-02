@@ -1618,9 +1618,8 @@
 <http://aksw.org/KurtJunghanns> <http://aksw.org/schema/room> "20" .
 <http://aksw.org/KurtJunghanns> <http://aksw.org/schema/supervisorTag> "KurtJunghanns" .
 <http://aksw.org/KurtJunghanns> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
-<http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Junghanns/gn/Kurt> .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/KurtJunghanns> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/familyName> "Junghanns" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/mbox> <mailto:junghanns@infai.org> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
