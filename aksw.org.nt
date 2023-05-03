@@ -3072,6 +3072,7 @@
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://aksw.org/schema/publicationTag> "cogevo" .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://purl.org/dc/terms/abstract> "Cognition is determined by the function and interplay of several hundreds, if not thousands, of genes with a considerable overlap in the disease phenotypes they can cause if mutated. We argue that, in order to understand the biological basis of cognition, these genes have to be investigated together with their evolutionary history and the diseases they are implicated in. This requires the integration of data from different research disciplines. To allow researchers to answer complicated questions related to cognition, a task that is usually very time-consuming, we propose to use Linked Data publication. Such data integration and querying methods have already been successfully used in other life science domains. In our initial effort presented here, we converted and integrated 11 different datasets and provide a first demonstration of the added value of Linked Data by showing how a set of relevant queries over the integrated data can be answered.\n" .
+<http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/2000/01/rdf-schema#label> "Analyzing Cognitive Evolution using Linked Data" .
 <http://aksw.org/Projects/CoyPu> <http://aksw.org/schema/status> "finished" .
@@ -4627,6 +4628,7 @@
 <http://aksw.org/Projects/TripleCheckMate> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/TripleCheckMate/issues> .
 <http://aksw.org/Projects/TripleCheckMate> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/TripleCheckMate/archive/master.zip> .
 <http://aksw.org/Projects/TripleCheckMate> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/DimitrisKontokostas> .
+<http://aksw.org/Projects/TripleCheckMate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/TripleCheckMate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/TripleCheckMate> <http://www.w3.org/2000/01/rdf-schema#label> "TripleCheckMate" .
 <http://aksw.org/Projects/TripleCheckMate> <http://xmlns.com/foaf/0.1/depiction> <http://lh6.ggpht.com/-f-mZrN-0Zcw/UKdwYpQU2vI/AAAAAAAABMU/RaudloTMVIc/dbpediadqtool.png> .
