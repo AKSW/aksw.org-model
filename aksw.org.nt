@@ -607,6 +607,7 @@
 <http://aksw.org/Demo/DBtrends> <http://purl.org/dc/terms/abstract> "Many ranking methods have been proposed for RDF data. These methods often use the structure behind the data to measure its importance. Recently, some of these methods have started to explore information from other sources such as the Wikipedia page graph for better ranking RDF data. In this work, we extensively evaluate the application of different ranking functions for entities, classes, and properties across two different countries as well as their combination." .
 <http://aksw.org/Demo/DBtrends> <http://usefulinc.com/ns/doap#browse> <http://dbtrends.aksw.org> .
 <http://aksw.org/Demo/DBtrends> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
+<http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
@@ -2945,6 +2946,7 @@
 <http://aksw.org/Projects/AutoSPARQL> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/AutoSPARQL/issues> .
 <http://aksw.org/Projects/AutoSPARQL> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/AutoSPARQL/downloads> .
 <http://aksw.org/Projects/AutoSPARQL> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
+<http://aksw.org/Projects/AutoSPARQL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/AutoSPARQL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/AutoSPARQL> <http://www.w3.org/2000/01/rdf-schema#label> "AutoSPARQL" .
 <http://aksw.org/Projects/AutoSPARQL> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/AutoSPARQL> .
@@ -3015,6 +3017,7 @@
 <http://aksw.org/Projects/BOA> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/DanielGerber> .
 <http://aksw.org/Projects/BOA> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/BOA> <http://usefulinc.com/ns/doap#wiki> <http://code.google.com/p/boa/wiki/General> .
+<http://aksw.org/Projects/BOA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/BOA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/BOA> <http://www.w3.org/2000/01/rdf-schema#label> "BOA" .
 <http://aksw.org/Projects/BOA> <http://xmlns.com/foaf/0.1/homepage> <http://code.google.com/p/boa/> .
@@ -3166,6 +3169,7 @@
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://purl.org/dc/terms/abstract> "In this work we look into the use of crowdsourcing as a means to handle Linked Data quality problems that are challenging to be solved automatically. We analyzed the most common errors encountered in Linked Data sources and classified them according to the extent to which they are likely to be amenable to a specific crowdsourcing approach. Based on this analysis, we implemented a quality assessment methodology for Linked Data that leverage the wisdom of the crowds in different ways: (i) a contest format targeting an expert crowd of researchers and Linked Data enthusiasts; and (ii) paid microtasks published on Amazon Mechanical Turk. We empirically evaluated the the capacity of crowdsourcing approaches to spot quality issues in DBpedia and investigated how the contributions of the two crowds could be optimally integrated into Linked Data curation processes. The results showed that the two styles of crowdsourcing are complementary, and that crowdsourcing-enabled quality assessment is a promising and affordable way to enhance the quality of Linked Data sets." .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/projects/dbpedia/feed/> .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AmrapaliZaveri> .
+<http://aksw.org/Projects/DBpediaDQCrowd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://www.w3.org/2000/01/rdf-schema#label> "DBpediaDQCrowd" .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://xmlns.com/foaf/0.1/depiction> <http://lh3.ggpht.com/-R-5Ucq9BGhQ/Ud8GZgbh38I/AAAAAAAABQ0/fm90LIdAj3g/crowdsourcingdq_workflow.jpg> .
@@ -3192,6 +3196,7 @@
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#license> <https://creativecommons.org/licenses/by-sa/3.0/> .
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
 <http://aksw.org/Projects/DEER> <http://usefulinc.com/ns/doap#programming-language> "Java" .
+<http://aksw.org/Projects/DEER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF Data Extraction and Enrichment Framework"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/DEER> <http://www.w3.org/2000/01/rdf-schema#label> "DEER" .
@@ -3296,6 +3301,7 @@
 <http://aksw.org/Projects/DeFacto> <http://usefulinc.com/ns/doap#browse> <https://github.com/AKSW/DeFacto> .
 <http://aksw.org/Projects/DeFacto> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/DeFacto/downloads> .
 <http://aksw.org/Projects/DeFacto> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
+<http://aksw.org/Projects/DeFacto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DeFacto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/DeFacto> <http://www.w3.org/2000/01/rdf-schema#label> "DeFacto" .
 <http://aksw.org/Projects/DockerConverter> <http://aksw.org/schema/hookline> "Analyse Docker images and convert them to Chef, Puppet or Ansible" .
@@ -3323,6 +3329,7 @@
 <http://aksw.org/Projects/Erfurt> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/PhilippFrischmuth> .
 <http://aksw.org/Projects/Erfurt> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
 <http://aksw.org/Projects/Erfurt> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/Erfurt/wiki> .
+<http://aksw.org/Projects/Erfurt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Erfurt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/Erfurt> <http://www.w3.org/2000/01/rdf-schema#label> "Erfurt" .
 <http://aksw.org/Projects/Erfurt> <http://xmlns.com/foaf/0.1/homepage> <http://erfurt-framework.org/> .
@@ -3381,6 +3388,7 @@
 <http://aksw.org/Projects/FTS> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
 <http://aksw.org/Projects/FTS> <http://purl.org/dc/terms/abstract> "The Financial Transparency System (FTS) of the European Commission contains information about grants for European Union projects starting from 2007. It allows users to get an overview on EU funding, including information on beneficiaries as well as the amount and type of expenditure and information on the responsible EU department. The original dataset is freely available on the European Commission website, where users can query the data using an HTML form and download it in CSV and most recently XML format. The result of the conversion allows interesting queries over the data, which were very difficult without it. The main benefit of the dataset is an increased financial transparency of EU project funding. The RDF version of the FTS dataset will become part of the EU Open Data Portal and eventually be hosted and maintained by the European Union itself.\n" .
 <http://aksw.org/Projects/FTS> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelMartin> .
+<http://aksw.org/Projects/FTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/FTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/FTS> <http://www.w3.org/2000/01/rdf-schema#label> "FTS" .
 <http://aksw.org/Projects/FTS> <http://xmlns.com/foaf/0.1/depiction> <http://fts.publicdata.eu/extensions/page/page/vocabularyNew.png> .
@@ -3448,6 +3456,7 @@
 <http://aksw.org/Projects/GHO> <http://purl.org/dc/terms/abstract> "The improvement of public health is one of the main indicators for societal progress. Statistical data for monitoring public health is highly relevant for a number of sectors, such as research (e.g. in the life sciences or economy), policy making, health care, pharmaceutical industry, insurances etc. Such data is meanwhile available even on a global scale, e.g. in the Global Health Observatory (GHO) of the United Nations’s World Health Organization (WHO). GHO comprises more than 50 different datasets, it covers all 198 WHO member countries and is updated as more recent or revised data becomes available or when there are changes to the methodology being used. However, this data is only accessible via complex spreadsheets and, therefore, queries over the 50 different datasets as well as combinations with other datasets are very tedious and require a significant amount of manual work. By making the data available as RDF, we lower the barrier for data re-use and integration." .
 <http://aksw.org/Projects/GHO> <http://usefulinc.com/ns/doap#download-page> <http://db0.aksw.org/downloads/ghodata.zip> .
 <http://aksw.org/Projects/GHO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AmrapaliZaveri> .
+<http://aksw.org/Projects/GHO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/GHO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/GHO> <http://www.w3.org/2000/01/rdf-schema#label> "GHO" .
 <http://aksw.org/Projects/GHO> <http://xmlns.com/foaf/0.1/homepage> <http://gho.aksw.org> .
@@ -3494,6 +3503,7 @@
 <http://aksw.org/Projects/GeoLift> <http://usefulinc.com/ns/doap#download-page> <https://github.com/GeoKnow/GeoLift/> .
 <http://aksw.org/Projects/GeoLift> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
 <http://aksw.org/Projects/GeoLift> <http://usefulinc.com/ns/doap#programming-language> "Java" .
+<http://aksw.org/Projects/GeoLift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/GeoLift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/GeoLift> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial mapping framework for enriching RDF datasets with Geo-spatial information.\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/GeoLift> <http://www.w3.org/2000/01/rdf-schema#label> "GeoLift" .
@@ -3785,6 +3795,7 @@
 <http://aksw.org/Projects/LODStats> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/LODStats/downloads> .
 <http://aksw.org/Projects/LODStats> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/IvanErmilov> .
 <http://aksw.org/Projects/LODStats> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/LODStats/wiki> .
+<http://aksw.org/Projects/LODStats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LODStats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/LODStats> <http://www.w3.org/2000/01/rdf-schema#label> "LODStats" .
 <http://aksw.org/Projects/LODStats> <http://xmlns.com/foaf/0.1/logo> <http://wiki.aksw.org/Projects/LODStats/files?get=logo.png> .
@@ -3819,6 +3830,7 @@
 <http://aksw.org/Projects/LinkedGeoData> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/LinkedGeoData> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
 <http://aksw.org/Projects/LinkedGeoData> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
+<http://aksw.org/Projects/LinkedGeoData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedGeoData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedGeoData> <http://www.w3.org/2000/01/rdf-schema#label> "LinkedGeoData" .
 <http://aksw.org/Projects/LinkedGeoData> <http://xmlns.com/foaf/0.1/homepage> <http://linkedgeodata.org> .
@@ -3834,6 +3846,7 @@
 <http://aksw.org/Projects/LinkedIdioms> <http://purl.org/dc/terms/abstract> "The LINKEDIDIOM dataset is a Multilingual RDF representation of idioms containing five different languages. The data set was crawled and integrated from various sources. For assuring the quality of the presented data set, all idioms were evaluated by at least two native speakers. We designed the dataset to be easily usable in natural-language processing applications with the goal of facilitating the translation content task. In particular, the dataset uses the best practices in accordance with Linguistic Linked Open Data Community (LLDO)." .
 <http://aksw.org/Projects/LinkedIdioms> <http://usefulinc.com/ns/doap#browse> <https://github.com/AKSW/LinkedIdioms> .
 <http://aksw.org/Projects/LinkedIdioms> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/DiegoMoussallem> .
+<http://aksw.org/Projects/LinkedIdioms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedIdioms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedIdioms> <http://www.w3.org/2000/01/rdf-schema#label> "LinkedIdioms" .
 <http://aksw.org/Projects/LinkedIdioms> <http://xmlns.com/foaf/0.1/homepage> <http://lid.aksw.org> .
@@ -3861,6 +3874,7 @@
 <http://aksw.org/Projects/LinkedTCGA> <http://ns.ontowiki.net/SysOnt/Site/content> "The 20.4 billion triples in LinkedTCGA remedy these problems by being a five-star Linked Data representation of the data made publicly available by TCGA. Researchers now need solely a small set of SPARQL queries to gather data represented in a standard format (RDF). Linked TCGA publishes different types of data (clinical, exon, methylation, miRNA etc.). The data to each tumor is have distributed into 3 different SPARQL endpoints. The federated query engine is powered by [TopFed](http://topfed.googlecode.com \"TopFed\"), a dedicated engine for the TCGA data that was shown to outperform state-of-the-art approaches significantly (see publications). More information on the LinkedTCGA data can be found on the project website."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/LinkedTCGA> <http://purl.org/dc/terms/abstract> "The Cancer Genome Atlas Database aims to characterize the changes that occur in genes due to cancer. Knowledge about such changes can be of central nature when aiming to predict the life expectancy as well as the medication or sequence of medication that should be administered to a patient to ensure his/her survival. So far, experts that needed this data had to wait in long data queues and write dedicated tools to analyze this data." .
 <http://aksw.org/Projects/LinkedTCGA> <http://usefulinc.com/ns/doap#download-page> <http://tcga.deri.ie/dumps/> .
+<http://aksw.org/Projects/LinkedTCGA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedTCGA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedTCGA> <http://www.w3.org/2000/01/rdf-schema#label> "Linked TCGA" .
 <http://aksw.org/Projects/LinkedTCGA> <http://xmlns.com/foaf/0.1/homepage> <http://tcga.deri.ie> .
@@ -4222,6 +4236,7 @@
 <http://aksw.org/Projects/RDFaCE> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/projects/rdface/feed/> .
 <http://aksw.org/Projects/RDFaCE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AliKhalili> .
 <http://aksw.org/Projects/RDFaCE> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
+<http://aksw.org/Projects/RDFaCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/RDFaCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/RDFaCE> <http://www.w3.org/2000/01/rdf-schema#label> "RDFaCE" .
 <http://aksw.org/Projects/RDFauthor> <http://aksw.org/schema/hookline> "is an editing solution for distributed and syndicated structured content on the World Wide Web" .
@@ -4472,6 +4487,7 @@
 <http://aksw.org/Projects/SemanticQuran> <http://purl.org/dc/terms/abstract> "The Semantic Quran dataset is a multilingual RDF representation of translations of the Quran. The dataset was created by integrating data from two different semi-structured sources. The dataset were aligned to an ontology designed to represent multilingual data from sources with a hierarchical structure. The resulting RDF data encompasses 43 different languages which belong to the most under represented languages in Linked Data, including Arabic, Amharic and Amazigh. We designed the dataset to be easily usable in natural-language processing applications with the goal of facilitating the development of knowledge extraction tools for these languages. In particular, the Semantic Quran is compatible with the Natural-Language Interchange Format and contains explicit morpho-syntactic information on the utilized terms." .
 <http://aksw.org/Projects/SemanticQuran> <http://usefulinc.com/ns/doap#download-page> <http://mlode.nlp2rdf.org/datasets/semanticquran.ttl.gz> .
 <http://aksw.org/Projects/SemanticQuran> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
+<http://aksw.org/Projects/SemanticQuran> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SemanticQuran> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/SemanticQuran> <http://www.w3.org/2000/01/rdf-schema#label> "SemanticQuran" .
 <http://aksw.org/Projects/SemanticQuran> <http://xmlns.com/foaf/0.1/homepage> <http://mlode.nlp2rdf.org/resource/semanticquran/quran1> .
@@ -4627,6 +4643,7 @@
 <http://aksw.org/Projects/USPatents> <http://usefulinc.com/ns/doap#download-page> <http://us.patents.aksw.org/export/RDFDump/> .
 <http://aksw.org/Projects/USPatents> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AmrapaliZaveri> .
 <http://aksw.org/Projects/USPatents> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MofeedHassan> .
+<http://aksw.org/Projects/USPatents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/USPatents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/USPatents> <http://www.w3.org/2000/01/rdf-schema#label> "USPatents" .
 <http://aksw.org/Projects/USPatents> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://datahub.io/dataset/linked-uspto-patent-data/> .
@@ -4709,6 +4726,7 @@
 <http://aksw.org/Projects/openQA> <http://usefulinc.com/ns/doap#browse> <https://bitbucket.org/emarx/openqa> .
 <http://aksw.org/Projects/openQA> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/Projects/openQA> <http://usefulinc.com/ns/doap#programming-language> "Poliglot" .
+<http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
@@ -5557,12 +5575,14 @@
 <http://asv.informatik.uni-leipzig.de/de/staff/Antje_Schlaf> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/AntjeSchlaf> .
 <http://autosparql.dl-learner.org/> <http://aksw.org/schema/hookline> "allows you to create queries for over RDF knowledge bases with low effort" .
 <http://autosparql.dl-learner.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/autosparql.png> .
+<http://autosparql.dl-learner.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://autosparql.dl-learner.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://autosparql.dl-learner.org/> <http://www.w3.org/2000/01/rdf-schema#label> "AutoSPARQL" .
 <http://blog.aksw.org> <http://www.w3.org/2000/01/rdf-schema#label> "Blog" .
 <http://browser.linkedgeodata.org/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/LinkedGeoData> .
 <http://browser.linkedgeodata.org/> <http://aksw.org/schema/hookline> "is a javascript-based fullscreen browser and editor for geo-spatial data." .
 <http://browser.linkedgeodata.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/lgd-browser.png> .
+<http://browser.linkedgeodata.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://browser.linkedgeodata.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://browser.linkedgeodata.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LGD Browser / Editor" .
 <http://cstadler.aksw.org/facete> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/Facete> .
@@ -5573,6 +5593,7 @@
 <http://cubeviz.aksw.org/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/CubeViz> .
 <http://cubeviz.aksw.org/> <http://aksw.org/schema/hookline> "The RDF DataCube Visualization Tool" .
 <http://cubeviz.aksw.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/screenshot2.png> .
+<http://cubeviz.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://cubeviz.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://cubeviz.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "CubeViz" .
 <http://dblp.uni-trier.de/pers/hd/a/Arndt%3aNatanael> <http://aksw.org/schema/buttonLabel> "@DBLP" .
@@ -5666,6 +5687,7 @@
 <http://master.demo.ontowiki.eu/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/OntoWiki> .
 <http://master.demo.ontowiki.eu/> <http://aksw.org/schema/hookline> "is a semantic data wiki for publishing and consuming Linked Data in agile, distributed knowledge engineering scenarios." .
 <http://master.demo.ontowiki.eu/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/ontowiki.png> .
+<http://master.demo.ontowiki.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://master.demo.ontowiki.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://master.demo.ontowiki.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "OntoWiki" .
 <http://metamatter.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
@@ -5761,6 +5783,7 @@
 <http://palmetto.aksw.org/palmetto-webapp/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/Palmetto> .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://aksw.org/schema/hookline> "Palmetto is a quality measuring tool for topics" .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/palmetto_screenshot.png> .
+<http://palmetto.aksw.org/palmetto-webapp/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://www.w3.org/2000/01/rdf-schema#label> "Palmetto" .
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -5795,6 +5818,7 @@
 <http://rdface.aksw.org/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/RDFaCE> .
 <http://rdface.aksw.org/> <http://aksw.org/schema/hookline> "is an RDFa Content Editor based on TinyMCE" .
 <http://rdface.aksw.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/rdface.png> .
+<http://rdface.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://rdface.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://rdface.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "RDFaCE" .
 <http://rdfs.org/ns/void#Dataset> <http://ns.ontowiki.net/SysOnt/hidden> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
