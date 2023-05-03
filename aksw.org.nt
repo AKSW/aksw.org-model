@@ -3382,6 +3382,7 @@
 <http://aksw.org/Projects/FTS> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
 <http://aksw.org/Projects/FTS> <http://purl.org/dc/terms/abstract> "The Financial Transparency System (FTS) of the European Commission contains information about grants for European Union projects starting from 2007. It allows users to get an overview on EU funding, including information on beneficiaries as well as the amount and type of expenditure and information on the responsible EU department. The original dataset is freely available on the European Commission website, where users can query the data using an HTML form and download it in CSV and most recently XML format. The result of the conversion allows interesting queries over the data, which were very difficult without it. The main benefit of the dataset is an increased financial transparency of EU project funding. The RDF version of the FTS dataset will become part of the EU Open Data Portal and eventually be hosted and maintained by the European Union itself.\n" .
 <http://aksw.org/Projects/FTS> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelMartin> .
+<http://aksw.org/Projects/FTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/FTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/FTS> <http://www.w3.org/2000/01/rdf-schema#label> "FTS" .
 <http://aksw.org/Projects/FTS> <http://xmlns.com/foaf/0.1/depiction> <http://fts.publicdata.eu/extensions/page/page/vocabularyNew.png> .
@@ -3820,6 +3821,7 @@
 <http://aksw.org/Projects/LinkedGeoData> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/LinkedGeoData> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
 <http://aksw.org/Projects/LinkedGeoData> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
+<http://aksw.org/Projects/LinkedGeoData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedGeoData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedGeoData> <http://www.w3.org/2000/01/rdf-schema#label> "LinkedGeoData" .
 <http://aksw.org/Projects/LinkedGeoData> <http://xmlns.com/foaf/0.1/homepage> <http://linkedgeodata.org> .
@@ -3835,6 +3837,7 @@
 <http://aksw.org/Projects/LinkedIdioms> <http://purl.org/dc/terms/abstract> "The LINKEDIDIOM dataset is a Multilingual RDF representation of idioms containing five different languages. The data set was crawled and integrated from various sources. For assuring the quality of the presented data set, all idioms were evaluated by at least two native speakers. We designed the dataset to be easily usable in natural-language processing applications with the goal of facilitating the translation content task. In particular, the dataset uses the best practices in accordance with Linguistic Linked Open Data Community (LLDO)." .
 <http://aksw.org/Projects/LinkedIdioms> <http://usefulinc.com/ns/doap#browse> <https://github.com/AKSW/LinkedIdioms> .
 <http://aksw.org/Projects/LinkedIdioms> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/DiegoMoussallem> .
+<http://aksw.org/Projects/LinkedIdioms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedIdioms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedIdioms> <http://www.w3.org/2000/01/rdf-schema#label> "LinkedIdioms" .
 <http://aksw.org/Projects/LinkedIdioms> <http://xmlns.com/foaf/0.1/homepage> <http://lid.aksw.org> .
@@ -3862,6 +3865,7 @@
 <http://aksw.org/Projects/LinkedTCGA> <http://ns.ontowiki.net/SysOnt/Site/content> "The 20.4 billion triples in LinkedTCGA remedy these problems by being a five-star Linked Data representation of the data made publicly available by TCGA. Researchers now need solely a small set of SPARQL queries to gather data represented in a standard format (RDF). Linked TCGA publishes different types of data (clinical, exon, methylation, miRNA etc.). The data to each tumor is have distributed into 3 different SPARQL endpoints. The federated query engine is powered by [TopFed](http://topfed.googlecode.com \"TopFed\"), a dedicated engine for the TCGA data that was shown to outperform state-of-the-art approaches significantly (see publications). More information on the LinkedTCGA data can be found on the project website."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/LinkedTCGA> <http://purl.org/dc/terms/abstract> "The Cancer Genome Atlas Database aims to characterize the changes that occur in genes due to cancer. Knowledge about such changes can be of central nature when aiming to predict the life expectancy as well as the medication or sequence of medication that should be administered to a patient to ensure his/her survival. So far, experts that needed this data had to wait in long data queues and write dedicated tools to analyze this data." .
 <http://aksw.org/Projects/LinkedTCGA> <http://usefulinc.com/ns/doap#download-page> <http://tcga.deri.ie/dumps/> .
+<http://aksw.org/Projects/LinkedTCGA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedTCGA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedTCGA> <http://www.w3.org/2000/01/rdf-schema#label> "Linked TCGA" .
 <http://aksw.org/Projects/LinkedTCGA> <http://xmlns.com/foaf/0.1/homepage> <http://tcga.deri.ie> .
