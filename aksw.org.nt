@@ -3167,6 +3167,7 @@
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://purl.org/dc/terms/abstract> "In this work we look into the use of crowdsourcing as a means to handle Linked Data quality problems that are challenging to be solved automatically. We analyzed the most common errors encountered in Linked Data sources and classified them according to the extent to which they are likely to be amenable to a specific crowdsourcing approach. Based on this analysis, we implemented a quality assessment methodology for Linked Data that leverage the wisdom of the crowds in different ways: (i) a contest format targeting an expert crowd of researchers and Linked Data enthusiasts; and (ii) paid microtasks published on Amazon Mechanical Turk. We empirically evaluated the the capacity of crowdsourcing approaches to spot quality issues in DBpedia and investigated how the contributions of the two crowds could be optimally integrated into Linked Data curation processes. The results showed that the two styles of crowdsourcing are complementary, and that crowdsourcing-enabled quality assessment is a promising and affordable way to enhance the quality of Linked Data sets." .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/projects/dbpedia/feed/> .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AmrapaliZaveri> .
+<http://aksw.org/Projects/DBpediaDQCrowd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://www.w3.org/2000/01/rdf-schema#label> "DBpediaDQCrowd" .
 <http://aksw.org/Projects/DBpediaDQCrowd> <http://xmlns.com/foaf/0.1/depiction> <http://lh3.ggpht.com/-R-5Ucq9BGhQ/Ud8GZgbh38I/AAAAAAAABQ0/fm90LIdAj3g/crowdsourcingdq_workflow.jpg> .
@@ -4228,6 +4229,7 @@
 <http://aksw.org/Projects/RDFaCE> <http://rdfs.org/sioc/ns#feed> <http://blog.aksw.org/category/projects/rdface/feed/> .
 <http://aksw.org/Projects/RDFaCE> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AliKhalili> .
 <http://aksw.org/Projects/RDFaCE> <http://usefulinc.com/ns/doap#programming-language> "JavaScript" .
+<http://aksw.org/Projects/RDFaCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/RDFaCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/RDFaCE> <http://www.w3.org/2000/01/rdf-schema#label> "RDFaCE" .
 <http://aksw.org/Projects/RDFauthor> <http://aksw.org/schema/hookline> "is an editing solution for distributed and syndicated structured content on the World Wide Web" .
