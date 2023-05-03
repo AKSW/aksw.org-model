@@ -2804,6 +2804,7 @@
 <http://aksw.org/Projects/A-skNow> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/AutoSPARQL/issues> .
 <http://aksw.org/Projects/A-skNow> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/AutoSPARQL/downloads> .
 <http://aksw.org/Projects/A-skNow> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohnishDubey> .
+<http://aksw.org/Projects/A-skNow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/A-skNow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/A-skNow> <http://www.w3.org/2000/01/rdf-schema#label> "AskNow" .
 <http://aksw.org/Projects/A-skNow> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/AskNow> .
@@ -2932,6 +2933,7 @@
 <http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/AutoSPARQL/issues> .
 <http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/AutoSPARQL/downloads> .
 <http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
+<http://aksw.org/Projects/AskNow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/AskNow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/AskNow> <http://www.w3.org/2000/01/rdf-schema#label> "AskNow" .
 <http://aksw.org/Projects/AskNow> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/AskNow> .
@@ -3275,6 +3277,7 @@
 <http://aksw.org/Projects/DQSurvey> <http://purl.org/dc/terms/abstract> "The survey covers 30 core papers, which focus on providing quality assessment methodologies for Linked Data specifically. A total of 18 data quality dimensions along with their definitions and 69 metrics are provided. Additionally, the survey contributes a comparison of 12 tools, which perform quality assessment of Linked Data." .
 <http://aksw.org/Projects/DQSurvey> <http://purl.org/dc/terms/description> "<iframe src=\"//e.infogr.am/linked-data-quality\" width=\"550\" height=\"677\" scrolling=\"no\" frameborder=\"0\" style=\"border:none;\"></iframe><div style=\"width:100%;border-top:1px solid #acacac;padding-top:3px;font-family:Arial;font-size:10px;text-align:center;\"><a target=\"_blank\" href=\"https://infogr.am/linked-data-quality\" style=\"color:#acacac;text-decoration:none;\">\u00A0 \u00A0 Linked Data Quality</a> | <a style=\"color:#acacac;text-decoration:none;\" href=\"https://infogr.am\" target=\"_blank\">Create infographics</a></div>"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/DQSurvey> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AmrapaliZaveri> .
+<http://aksw.org/Projects/DQSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/DQSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/DQSurvey> <http://www.w3.org/2000/01/rdf-schema#label> "Linked Data Quality Survey" .
 <http://aksw.org/Projects/DQSurvey> <http://xmlns.com/foaf/0.1/depiction> <https://lh5.googleusercontent.com/-ydKP_WTv9lE/VNRkWPP7OaI/AAAAAAAABl4/7X9u2OEuofU/w700-h331-no/LDQ.jpg> .
