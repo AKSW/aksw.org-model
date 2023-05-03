@@ -4174,6 +4174,7 @@
 <http://aksw.org/Projects/QueryCache> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/Projects/QueryCache> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/QueryCache> <http://usefulinc.com/ns/doap#programming-language> "PHP" .
+<http://aksw.org/Projects/QueryCache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QueryCache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/QueryCache> <http://www.w3.org/2000/01/rdf-schema#label> "Query Cache" .
 <http://aksw.org/Projects/Quit> <http://aksw.org/schema/hookline> "Quads in Git - Distributed Version Control for RDF Knowledge Bases" .
@@ -4702,6 +4703,7 @@
 <http://aksw.org/Projects/Xturtle> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/Projects/Xturtle> <http://usefulinc.com/ns/doap#programming-language> "Java" .
 <http://aksw.org/Projects/Xturtle> <http://usefulinc.com/ns/doap#wiki> <https://github.com/AKSW/Xturtle/wiki> .
+<http://aksw.org/Projects/Xturtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Xturtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/Xturtle> <http://www.w3.org/2000/01/rdf-schema#label> "Xturtle" .
 <http://aksw.org/Projects/conTEXT> <http://aksw.org/schema/hookline> "Lightweight Text Analytics using Linked Data" .
