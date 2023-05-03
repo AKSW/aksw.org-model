@@ -2922,21 +2922,6 @@
 <http://aksw.org/Projects/AgriNepalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/AgriNepalData> <http://www.w3.org/2000/01/rdf-schema#label> "AgriNepalData" .
 <http://aksw.org/Projects/AgriNepalData> <http://xmlns.com/foaf/0.1/homepage> <http://agrinepaldata.com> .
-<http://aksw.org/Projects/AskNow> <http://aksw.org/schema/hookline> "AskNow is a Question Answering (QA) system for RDF datasets. " .
-<http://aksw.org/Projects/AskNow> <http://aksw.org/schema/publicationTag> "autosparql" .
-<http://aksw.org/Projects/AskNow> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DLLearner> .
-<http://aksw.org/Projects/AskNow> <http://ns.ontowiki.net/SysOnt/Site/content> "The aim of AskNow is to ..."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/Projects/AskNow> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
-<http://aksw.org/Projects/AskNow> <http://open.vocab.org/terms/screenshot> <https://raw.github.com/wiki/AKSW/AskNow/screenshot.jpg> .
-<http://aksw.org/Projects/AskNow> <http://purl.org/dc/terms/abstract> "The underlying idea of the project is to convert a natural language expression to a SPARQL query, which can then retrieve the answer of a question from a given triple store." .
-<http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#browse> <https://github.com/AKSW/AutoSPARQL> .
-<http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/AutoSPARQL/issues> .
-<http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/AutoSPARQL/downloads> .
-<http://aksw.org/Projects/AskNow> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JensLehmann> .
-<http://aksw.org/Projects/AskNow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
-<http://aksw.org/Projects/AskNow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
-<http://aksw.org/Projects/AskNow> <http://www.w3.org/2000/01/rdf-schema#label> "AskNow" .
-<http://aksw.org/Projects/AskNow> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/AskNow> .
 <http://aksw.org/Projects/AutoSPARQL> <http://aksw.org/schema/hookline> "Convert a natural language expression to a SPARQL query" .
 <http://aksw.org/Projects/AutoSPARQL> <http://aksw.org/schema/publicationTag> "autosparql" .
 <http://aksw.org/Projects/AutoSPARQL> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DLLearner> .
@@ -4587,6 +4572,7 @@
 <http://aksw.org/Projects/SparqlMap> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/tomatophantastico/sparqlmap/issues> .
 <http://aksw.org/Projects/SparqlMap> <http://usefulinc.com/ns/doap#download-page> <https://github.com/tomatophantastico/sparqlmap/releases> .
 <http://aksw.org/Projects/SparqlMap> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/JoergUnbehauen> .
+<http://aksw.org/Projects/SparqlMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SparqlMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/SparqlMap> <http://www.w3.org/2000/01/rdf-schema#label> "SparqlMap" .
 <http://aksw.org/Projects/SparqlMap> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/tomatophantastico/sparqlmap/> .
@@ -4607,6 +4593,7 @@
 <http://aksw.org/Projects/Sparqlify> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/Sparqlify/downloads> .
 <http://aksw.org/Projects/Sparqlify> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ClausStadler> .
 <http://aksw.org/Projects/Sparqlify> <http://usefulinc.com/ns/doap#programming-language> "Java" .
+<http://aksw.org/Projects/Sparqlify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Sparqlify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/Sparqlify> <http://www.w3.org/2000/01/rdf-schema#label> "Sparqlify" .
 <http://aksw.org/Projects/Tapioca> <http://aksw.org/schema/hookline> "Tapioca is a search engine for topically similar RDF datasets." .
