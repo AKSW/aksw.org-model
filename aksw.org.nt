@@ -4166,6 +4166,7 @@
 <http://aksw.org/Projects/QualisBrasil> <http://aksw.org/schema/hookline> "Linked Open Data for supporting scientometric studies" .
 <http://aksw.org/Projects/QualisBrasil> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LDWPO> .
 <http://aksw.org/Projects/QualisBrasil> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SandroRautenberg> .
+<http://aksw.org/Projects/QualisBrasil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/QualisBrasil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/QualisBrasil> <http://www.w3.org/2000/01/rdf-schema#label> "QualisBrasil" .
 <http://aksw.org/Projects/QueryCache> <http://aksw.org/schema/hookline> "Adaptive SPARQL Query Cache" .
