@@ -5582,6 +5582,7 @@
 <http://browser.linkedgeodata.org/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/LinkedGeoData> .
 <http://browser.linkedgeodata.org/> <http://aksw.org/schema/hookline> "is a javascript-based fullscreen browser and editor for geo-spatial data." .
 <http://browser.linkedgeodata.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/lgd-browser.png> .
+<http://browser.linkedgeodata.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://browser.linkedgeodata.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://browser.linkedgeodata.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LGD Browser / Editor" .
 <http://cstadler.aksw.org/facete> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/Facete> .
@@ -5817,6 +5818,7 @@
 <http://rdface.aksw.org/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/RDFaCE> .
 <http://rdface.aksw.org/> <http://aksw.org/schema/hookline> "is an RDFa Content Editor based on TinyMCE" .
 <http://rdface.aksw.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/rdface.png> .
+<http://rdface.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://rdface.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://rdface.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "RDFaCE" .
 <http://rdfs.org/ns/void#Dataset> <http://ns.ontowiki.net/SysOnt/hidden> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
