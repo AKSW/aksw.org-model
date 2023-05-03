@@ -5096,7 +5096,6 @@
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/SebastianTramp> <http://schema.org/faxNumber> <tel:+49-341-35115771> .
 <http://aksw.org/SebastianTramp> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
-<http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2002/07/owl#sameAs> <http://sebastian.tramp.name> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Sebastian Dietzold" .
