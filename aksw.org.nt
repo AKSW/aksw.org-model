@@ -3860,6 +3860,7 @@
 <http://aksw.org/Projects/LinkedSpending> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/KonradHoeffner/linkedspending.aksw.org/issues> .
 <http://aksw.org/Projects/LinkedSpending> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/KonradHoeffner> .
 <http://aksw.org/Projects/LinkedSpending> <http://usefulinc.com/ns/doap#programming-language> "Java" .
+<http://aksw.org/Projects/LinkedSpending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LinkedSpending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/LinkedSpending> <http://www.w3.org/2000/01/rdf-schema#label> "LinkedSpending" .
 <http://aksw.org/Projects/LinkedSpending> <http://xmlns.com/foaf/0.1/homepage> <http://linkedspending.aksw.org> .
