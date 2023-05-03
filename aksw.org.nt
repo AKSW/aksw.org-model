@@ -5106,6 +5106,7 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/familyName> "Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/mbox> <mailto:sebastian.tramp@eccenca.com> .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/Partner/Eccenca> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/nick> "Seebi" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag> .
