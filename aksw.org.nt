@@ -4709,6 +4709,7 @@
 <http://aksw.org/Projects/openQA> <http://usefulinc.com/ns/doap#browse> <https://bitbucket.org/emarx/openqa> .
 <http://aksw.org/Projects/openQA> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/Projects/openQA> <http://usefulinc.com/ns/doap#programming-language> "Poliglot" .
+<http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/openQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
