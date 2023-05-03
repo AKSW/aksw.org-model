@@ -1503,7 +1503,6 @@
 <http://aksw.org/JuliaHolze> <http://aksw.org/schema/room> "101 (first floor)" .
 <http://aksw.org/JuliaHolze> <http://ns.ontowiki.net/SysOnt/Site/content> "# Short Bio\r\n   Julia Holze works side by side with Sandra Praetor as a communications manager for the DBpedia Association in Leipzig. She helps organize the upcoming events DBpedia Community Meeting (The Hague) and SEMANTiCS 2016. Before starting at the [AKSW group](http://aksw.org/Team) in Leipzig she studied Media & Communications at the University of Leipzig and worked as a student assistant for the University Computing Center."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/JuliaHolze> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
-<http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> <http://wiki.dbpedia.org/sites/default/files/julia%20%288%29.jpg?dialogFeatures=protocol=http#overlay-context=users/juliaholze> .
