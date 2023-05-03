@@ -5575,6 +5575,7 @@
 <http://asv.informatik.uni-leipzig.de/de/staff/Antje_Schlaf> <http://xmlns.com/foaf/0.1/primaryTopic> <http://aksw.org/AntjeSchlaf> .
 <http://autosparql.dl-learner.org/> <http://aksw.org/schema/hookline> "allows you to create queries for over RDF knowledge bases with low effort" .
 <http://autosparql.dl-learner.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/autosparql.png> .
+<http://autosparql.dl-learner.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://autosparql.dl-learner.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://autosparql.dl-learner.org/> <http://www.w3.org/2000/01/rdf-schema#label> "AutoSPARQL" .
 <http://blog.aksw.org> <http://www.w3.org/2000/01/rdf-schema#label> "Blog" .
@@ -5591,6 +5592,7 @@
 <http://cubeviz.aksw.org/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/CubeViz> .
 <http://cubeviz.aksw.org/> <http://aksw.org/schema/hookline> "The RDF DataCube Visualization Tool" .
 <http://cubeviz.aksw.org/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/screenshot2.png> .
+<http://cubeviz.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://cubeviz.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://cubeviz.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "CubeViz" .
 <http://dblp.uni-trier.de/pers/hd/a/Arndt%3aNatanael> <http://aksw.org/schema/buttonLabel> "@DBLP" .
@@ -5684,6 +5686,7 @@
 <http://master.demo.ontowiki.eu/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/OntoWiki> .
 <http://master.demo.ontowiki.eu/> <http://aksw.org/schema/hookline> "is a semantic data wiki for publishing and consuming Linked Data in agile, distributed knowledge engineering scenarios." .
 <http://master.demo.ontowiki.eu/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/ontowiki.png> .
+<http://master.demo.ontowiki.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://master.demo.ontowiki.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://master.demo.ontowiki.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "OntoWiki" .
 <http://metamatter.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
@@ -5779,6 +5782,7 @@
 <http://palmetto.aksw.org/palmetto-webapp/> <http://aksw.org/schema/demonstrates> <http://aksw.org/Projects/Palmetto> .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://aksw.org/schema/hookline> "Palmetto is a quality measuring tool for topics" .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://open.vocab.org/terms/screenshot> <https://static.aksw.org/aksw.org/palmetto_screenshot.png> .
+<http://palmetto.aksw.org/palmetto-webapp/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://palmetto.aksw.org/palmetto-webapp/> <http://www.w3.org/2000/01/rdf-schema#label> "Palmetto" .
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
