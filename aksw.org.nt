@@ -3961,6 +3961,7 @@
 <http://aksw.org/Projects/NIF4OGGD> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/Events/2013/LeipzigerSemanticWebTag/Presenter/AndreasBoth> .
 <http://aksw.org/Projects/NIF4OGGD> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
 <http://aksw.org/Projects/NIF4OGGD> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/Partners/SandroCoelho> .
+<http://aksw.org/Projects/NIF4OGGD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/NIF4OGGD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/NIF4OGGD> <http://www.w3.org/2000/01/rdf-schema#label> "NIF4OGGD" .
 <http://aksw.org/Projects/NIF> <http://aksw.org/schema/hookline> "an RDF/OWL-based format that allows to combine and chain several NLP tools in a flexible, light-weight way" .
@@ -4682,6 +4683,7 @@
 <http://aksw.org/Projects/Xodx> <http://usefulinc.com/ns/doap#browse> <https://github.com/white-gecko/xodx> .
 <http://aksw.org/Projects/Xodx> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/white-gecko/xodx/issues> .
 <http://aksw.org/Projects/Xodx> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/NatanaelArndt> .
+<http://aksw.org/Projects/Xodx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Xodx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/Xodx> <http://www.w3.org/2000/01/rdf-schema#label> "Xodx" .
 <http://aksw.org/Projects/Xodx> <http://xmlns.com/foaf/0.1/depiction> <http://xodx.dssn.org/resources/xodx-screenshot-dashboard.png> .
