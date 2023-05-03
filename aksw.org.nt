@@ -4078,6 +4078,7 @@
 <http://aksw.org/Projects/OpenResearch> <http://aksw.org/schema/hookline> "Semantic Wiki for the Sciences" .
 <http://aksw.org/Projects/OpenResearch> <http://purl.org/dc/terms/abstract> "A semantic Wiki for collecting and sharing scientific meta-data such as CfPs, tool descriptions, research profiles, conference statistics etc." .
 <http://aksw.org/Projects/OpenResearch> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SoerenAuer> .
+<http://aksw.org/Projects/OpenResearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/OpenResearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/OpenResearch> <http://www.w3.org/2000/01/rdf-schema#label> "OpenResearch" .
 <http://aksw.org/Projects/OpenResearch> <http://xmlns.com/foaf/0.1/homepage> <http://openresearch.org/> .
@@ -4194,6 +4195,7 @@
 <http://aksw.org/Projects/RDFSlice> <http://usefulinc.com/ns/doap#download-page> <https://bitbucket.org/emarx/rdfslice/downloads> .
 <http://aksw.org/Projects/RDFSlice> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/Projects/RDFSlice> <http://usefulinc.com/ns/doap#programming-language> "Java" .
+<http://aksw.org/Projects/RDFSlice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/RDFSlice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/RDFSlice> <http://www.w3.org/2000/01/rdf-schema#label> "RDFSlice" .
 <http://aksw.org/Projects/RDFSlice> <http://xmlns.com/foaf/0.1/homepage> <https://bitbucket.org/emarx/rdfslice> .
@@ -4379,6 +4381,7 @@
 <http://aksw.org/Projects/SINA> <http://purl.org/dc/terms/abstract> "Knowledge bases published on the Web of Data can be used to answer challenging questions about a wide range of topics. They usually offer a SPARQL endpoint, which can be queried by the user. However, a novice user needs to acquire both knowledge about the underlying ontology and proficiency in formulating SPARQL queries in order to actually formulate a SPARQL query. In this project, we are working on constructing SPARQL queries based on user-supplied keywords. As a result ordinary users are empowered to formulate relatively expressive queries without knowledge of SPARQL and the underlying ontology structure." .
 <http://aksw.org/Projects/SINA> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SaeedehShekarpour> .
 <http://aksw.org/Projects/SINA> <http://usefulinc.com/ns/doap#wiki> "http://wiki.aksw.org/Projects/lodquery" .
+<http://aksw.org/Projects/SINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SINA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/SINA> <http://www.w3.org/2000/01/rdf-schema#label> "SINA" .
 <http://aksw.org/Projects/SINA> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/Projects/FederatedQuery> .
@@ -4559,6 +4562,7 @@
 <http://aksw.org/Projects/SparqlAnalytics> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/SparqlAnalytics/issues> .
 <http://aksw.org/Projects/SparqlAnalytics> <http://usefulinc.com/ns/doap#download-page> <https://github.com/AKSW/Sparqlify/downloads> .
 <http://aksw.org/Projects/SparqlAnalytics> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ClausStadler> .
+<http://aksw.org/Projects/SparqlAnalytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SparqlAnalytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/SparqlAnalytics> <http://www.w3.org/2000/01/rdf-schema#label> "SparqlAnalytics" .
 <http://aksw.org/Projects/SparqlMap> <http://aksw.org/schema/hookline> "is a SPARQL-to-SQL rewriter" .
