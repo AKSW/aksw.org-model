@@ -4473,6 +4473,7 @@
 <http://aksw.org/Projects/SemanticQuran> <http://purl.org/dc/terms/abstract> "The Semantic Quran dataset is a multilingual RDF representation of translations of the Quran. The dataset was created by integrating data from two different semi-structured sources. The dataset were aligned to an ontology designed to represent multilingual data from sources with a hierarchical structure. The resulting RDF data encompasses 43 different languages which belong to the most under represented languages in Linked Data, including Arabic, Amharic and Amazigh. We designed the dataset to be easily usable in natural-language processing applications with the goal of facilitating the development of knowledge extraction tools for these languages. In particular, the Semantic Quran is compatible with the Natural-Language Interchange Format and contains explicit morpho-syntactic information on the utilized terms." .
 <http://aksw.org/Projects/SemanticQuran> <http://usefulinc.com/ns/doap#download-page> <http://mlode.nlp2rdf.org/datasets/semanticquran.ttl.gz> .
 <http://aksw.org/Projects/SemanticQuran> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MohamedSherif> .
+<http://aksw.org/Projects/SemanticQuran> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SemanticQuran> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/SemanticQuran> <http://www.w3.org/2000/01/rdf-schema#label> "SemanticQuran" .
 <http://aksw.org/Projects/SemanticQuran> <http://xmlns.com/foaf/0.1/homepage> <http://mlode.nlp2rdf.org/resource/semanticquran/quran1> .
@@ -4628,6 +4629,7 @@
 <http://aksw.org/Projects/USPatents> <http://usefulinc.com/ns/doap#download-page> <http://us.patents.aksw.org/export/RDFDump/> .
 <http://aksw.org/Projects/USPatents> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/AmrapaliZaveri> .
 <http://aksw.org/Projects/USPatents> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/MofeedHassan> .
+<http://aksw.org/Projects/USPatents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/USPatents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/DatasetProject> .
 <http://aksw.org/Projects/USPatents> <http://www.w3.org/2000/01/rdf-schema#label> "USPatents" .
 <http://aksw.org/Projects/USPatents> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://datahub.io/dataset/linked-uspto-patent-data/> .
