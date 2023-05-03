@@ -607,6 +607,7 @@
 <http://aksw.org/Demo/DBtrends> <http://purl.org/dc/terms/abstract> "Many ranking methods have been proposed for RDF data. These methods often use the structure behind the data to measure its importance. Recently, some of these methods have started to explore information from other sources such as the Wikipedia page graph for better ranking RDF data. In this work, we extensively evaluate the application of different ranking functions for entities, classes, and properties across two different countries as well as their combination." .
 <http://aksw.org/Demo/DBtrends> <http://usefulinc.com/ns/doap#browse> <http://dbtrends.aksw.org> .
 <http://aksw.org/Demo/DBtrends> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/EdgardMarx> .
+<http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/Demo> .
 <http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Demo/DBtrends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/OpenSourceProject> .
