@@ -3393,6 +3393,7 @@
 <http://aksw.org/Projects/Facete> <http://usefulinc.com/ns/doap#download-page> <https://github.com/GeoKnow/Facete/downloads> .
 <http://aksw.org/Projects/Facete> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/ClausStadler> .
 <http://aksw.org/Projects/Facete> <http://usefulinc.com/ns/doap#wiki> <https://github.com/GeoKnow/Facete/wiki> .
+<http://aksw.org/Projects/Facete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Facete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/Facete> <http://www.w3.org/2000/01/rdf-schema#label> "Facete" .
 <http://aksw.org/Projects/GEISER> <http://aksw.org/schema/hookline> "Von Sensordaten zu internetbasierten Geo-Services" .
@@ -3635,6 +3636,7 @@
 <http://aksw.org/Projects/LDWPO> <http://purl.org/dc/terms/description> "Maintaining Linked Data datasets is a time-consuming and resource-intensive activity. \nThe cost for maintaining Linked Data can, however, be reduced by using a workflow framework, which provides methods to systematically support the lifecycle of RDF datasets. \nWe present the main component of such a framework, an ontology for orchestrating Linked Data processing workflows dubbed the Linked Data Workflow Project ontology. \nWe introduce the Plan, Method, and Execution classes, which allow describing important maintenance tasks. \nWe show that our ontology facilitates the description of the complete production workflow for RDF datasets, the explication of the methods and tools utilized in such a workflow and the execution of these workflows in a (semi-)automatized fashion. Hence, our approach enables the reproducibility and repeatability of Linked Data processing steps."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/LDWPO> <http://usefulinc.com/ns/doap#bug-database> <https://github.com/AKSW/ldwpo/issues> .
 <http://aksw.org/Projects/LDWPO> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SandroRautenberg> .
+<http://aksw.org/Projects/LDWPO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/LDWPO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/LDWPO> <http://www.w3.org/2000/01/rdf-schema#label> "LDWPO" .
 <http://aksw.org/Projects/LDWPO> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/AKSW/ldwpo> .
@@ -3929,6 +3931,7 @@
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://xmlns.com/foaf/0.1/logo> <http://g1.gstatic.com/android/market/org.aksw.mssw/hi-124-2> .
 <http://aksw.org/Projects/Mosquito/1> <http://aksw.org/schema/hookline> "SPARQL benchmark" .
 <http://aksw.org/Projects/Mosquito/1> <http://purl.org/dc/terms/abstract> "A SPARQL benchmark." .
+<http://aksw.org/Projects/Mosquito/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/Mosquito/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/Mosquito/1> <http://www.w3.org/2000/01/rdf-schema#label> "Mosquito" .
 <http://aksw.org/Projects/N3NERNEDNIF> <http://aksw.org/schema/hookline> "N3 - A Collection of Datasets for Named Entity Recognition and Disambiguation in the NLP Interchange Format" .
@@ -4469,6 +4472,7 @@
 <http://aksw.org/Projects/SemanticPingback> <http://ns.ontowiki.net/SysOnt/Site/content> "Semantic Pingback tackles the quality, timeliness and coherence as well as direct end user benefits of the emerging Linked Data Web. Semantic Pingback extends the well-known Pingback method, which is technological cornerstone of the blogosphere. It is based on the advertising of an RPC service for propagating typed RDF links between Data Web resources. It is downwards compatible with conventional Pingback implementations, thus allowing to connect and interlink resources on the Social Web with resources on the Data Web."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/Projects/SemanticPingback> <http://purl.org/dc/terms/abstract> "The Semantic Pingback mechanism is an extension of the well-known Pingback method, a technological cornerstone of the blogosphere, thus supporting the interlinking within the Data Web." .
 <http://aksw.org/Projects/SemanticPingback> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/SebastianTramp> .
+<http://aksw.org/Projects/SemanticPingback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/AlumniProject> .
 <http://aksw.org/Projects/SemanticPingback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/SemanticPingback> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Pingback" .
 <http://aksw.org/Projects/SemanticPingback> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.github.io/SemanticPingback/> .
