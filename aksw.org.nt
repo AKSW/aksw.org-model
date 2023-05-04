@@ -1580,7 +1580,6 @@
 <http://aksw.org/KonradHoeffner> <http://aksw.org/schema/publicationTag> "hoeffner" .
 <http://aksw.org/KonradHoeffner> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/KonradHoeffner> <http://schema.org/location> <http://www.imise.uni-leipzig.de/Address> .
-<http://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "KonradHoeffner" .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Konrad Höffner" .
