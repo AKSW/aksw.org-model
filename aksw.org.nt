@@ -1259,6 +1259,7 @@
 <http://aksw.org/Groups/MOLE> <http://purl.org/dc/terms/abstract> "The MOLE group focuses on combining Semantic Web and supervised Machine Learning technologies. The goal is to improve both quality and quantity of available knowledge by extracting, analysing, enriching and linking existing data. To make obtained results readily available for use in other applications, the group also provides several established open source tools, frameworks and demonstrators." .
 <http://aksw.org/Groups/MOLE> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/Groups/MOLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
+<http://aksw.org/Groups/MOLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
 <http://aksw.org/Groups/MOLE> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Learning and Ontology Engineering" .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ClausStadler> .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DiegoEsteves> .
@@ -1289,6 +1290,7 @@
 <http://aksw.org/Groups/SIMBA> <http://purl.org/dc/terms/abstract> "SIMBA's focus in supporting the transition of non-semantic applications to knowledge-driven applications. Hence we support all major steps from legacy data to rich semantic applications. This includes but is not limited to knowledge storage (triple stores, federated queries), knowledge extraction (RDF extraction from text, structured data, etc.), knowledge integration (link discovery, data fusion), knowledge access (keyword-based search, question answering and rich interfaces) and knowledge consumption within semantic applications . For this purpose, SIMBA develops novel and scalable approaches for data ranging from small to Big Data. In addition, SIMBA provides tools and frameworks that implement these approaches and allow for their swift integration into industry projects." .
 <http://aksw.org/Groups/SIMBA> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/Groups/SIMBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
+<http://aksw.org/Groups/SIMBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
 <http://aksw.org/Groups/SIMBA> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Abstraction" .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AdnanAkhter> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AlexanderBigerl> .
