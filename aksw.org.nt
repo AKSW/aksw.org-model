@@ -1583,18 +1583,17 @@
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "KonradHoeffner" .
 <http://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Konrad Höffner" .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AutoSPARQL> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/BIG> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GeoKnow> .
-<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LinkedSpending> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Hoeffner/gn/Konrad> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/familyName> "Höffner" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/homepage> <https://konradhoeffner.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/mbox> <mailto:konrad.hoeffner@uni-leipzig.de> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad Höffner" .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AutoSPARQL> .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/BIG> .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/GeoKnow> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkedGeoData> .
+<http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LinkedSpending> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SAIM> .
 <http://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-16322> .
 <http://aksw.org/KunalJha> <http://aksw.org/schema/publicationTag> "kunaljha" .
