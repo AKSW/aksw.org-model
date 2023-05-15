@@ -1509,7 +1509,7 @@
 <http://aksw.org/JuliaHolze> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
-<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> <http://wiki.dbpedia.org/sites/default/files/julia%20%288%29.jpg?dialogFeatures=protocol=http#overlay-context=users/juliaholze> .
+<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> <https://www.dbpedia.org/wp-content/uploads/2020/10/Julia-Holze.png> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/familyName> "Holze" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/mbox> <mailto:holze@informatik.uni-leipzig.de> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
