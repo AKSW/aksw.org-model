@@ -1917,7 +1917,6 @@
 <http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpedia> .
 <http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DBpediaDQ> .
 <http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DeFacto> .
-<http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/depiction> <http://bis.informatik.uni-leipzig.de/images/jpegPhoto.php?name=sn&value=morsey> .
 <http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/familyName> "Morsey" .
 <http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/mbox> <mailto:morsey@informatik.uni-leipzig.de> .
 <http://aksw.org/MohamedMorsey> <http://xmlns.com/foaf/0.1/name> "Mohamed Morsey" .
