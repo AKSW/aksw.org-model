@@ -1640,7 +1640,7 @@
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Wenige> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/familyName> "Wenige" .
-<http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/mbox> <mailto:wenige@infai.org> .
+<http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/mbox> <mailto:Lisa.Wenige@hs-merseburg.de> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903755> .
 <http://aksw.org/LixiConrads> <http://aksw.org/schema/publicationTag> "conrads" .
