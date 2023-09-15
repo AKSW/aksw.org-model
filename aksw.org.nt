@@ -1636,11 +1636,11 @@
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Lisa Wenige" .
+<http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Wenige> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/familyName> "Wenige" .
-<http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/mbox> <mailto:wenige@infai.org> .
+<http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/mbox> <mailto:Lisa.Wenige@hs-merseburg.de> .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903755> .
 <http://aksw.org/LixiConrads> <http://aksw.org/schema/publicationTag> "conrads" .
