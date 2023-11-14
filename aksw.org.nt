@@ -1253,6 +1253,16 @@
 <http://aksw.org/Groups/MOLE> <http://aksw.org/schema/researchAreas> "Quality assurance and enhancement in ontologies" .
 <http://aksw.org/Groups/MOLE> <http://aksw.org/schema/researchAreas> "Semi-automatic instance matching" .
 <http://aksw.org/Groups/MOLE> <http://aksw.org/schema/researchAreas> "Supervised Machine Learning in OWL/RDF knowledge bases" .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/DiegoEsteves> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/GezimSejdiu> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/HajiraJabeen> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/JensLehmann> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/LuisGarcia> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/MofeedHassan> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/MohamedSherif> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/MohnishDubey> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/NileshChakraborty> .
+<http://aksw.org/Groups/MOLE> <http://dbpedia.org/ontology/pastMember> <http://aksw.org/UrosMilosevic> .
 <http://aksw.org/Groups/MOLE> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "MOLE" .
 <http://aksw.org/Groups/MOLE> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/Groups/MOLE> <http://purl.org/dc/terms/abstract> "The MOLE group focuses on combining Semantic Web and supervised Machine Learning technologies. The goal is to improve both quality and quantity of available knowledge by extracting, analysing, enriching and linking existing data. To make obtained results readily available for use in other applications, the group also provides several established open source tools, frameworks and demonstrators." .
@@ -1261,20 +1271,9 @@
 <http://aksw.org/Groups/MOLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
 <http://aksw.org/Groups/MOLE> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Learning and Ontology Engineering" .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ClausStadler> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DiegoEsteves> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/GezimSejdiu> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/HajiraJabeen> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JensLehmann> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KonradHoeffner> .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LorenzBuehmann> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LuisGarcia> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MofeedHassan> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MohamedSherif> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MohnishDubey> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NileshChakraborty> .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/PatrickWestphal> .
 <http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SimonBin> .
-<http://aksw.org/Groups/MOLE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/UrosMilosevic> .
 <http://aksw.org/Groups/NLP2RDF> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/Groups/KILT> .
 <http://aksw.org/Groups/NLP2RDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
 <http://aksw.org/Groups/NLP2RDF> <http://www.w3.org/2000/01/rdf-schema#label> "NLP2RDF" .
@@ -1299,13 +1298,13 @@
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DiegoEsteves> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DiegoMoussallem> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/EdgardMarx> .
-<http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/FelixConrads> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/IvanErmilov> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JonathanEberle> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JonathanHuthman> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KevinDressler> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KlausLyko> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KleanthiGeorgala> .
+<http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LixiConrads> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MatthiasWauer> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MichaelHoffmann> .
 <http://aksw.org/Groups/SIMBA> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MichaelRoeder> .
