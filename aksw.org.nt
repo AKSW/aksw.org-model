@@ -1197,6 +1197,12 @@
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraPraetor> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SimoneAngermann> .
+<http://aksw.org/Groups/Alumni> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
+<http://aksw.org/Groups/Alumni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
+<http://aksw.org/Groups/Alumni> <http://www.w3.org/2000/01/rdf-schema#label> "Group of former AKSW members" .
+<http://aksw.org/Groups/Alumni> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AxelNgonga> .
+<http://aksw.org/Groups/Alumni> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JensLehmann> .
+<http://aksw.org/Groups/Alumni> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SoerenAuer> .
 <http://aksw.org/Groups/ES> <http://aksw.org/schema/publicationTag> "ES" .
 <http://aksw.org/Groups/ES> <http://aksw.org/schema/researchAreas> "Agile Knowledge Engineering" .
 <http://aksw.org/Groups/ES> <http://aksw.org/schema/researchAreas> "Distributed / Federated Social Networks" .
