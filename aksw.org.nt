@@ -439,6 +439,7 @@
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/AxelNgonga> <http://schema.org/location> <http://aksw.org/Address/InfAI> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "AxelNgonga" .
 <http://aksw.org/AxelNgonga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Axel-C. Ngonga Ngomo" .
@@ -561,7 +562,6 @@
 <http://aksw.org/DanielGerber> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
 <http://aksw.org/DanielGerber> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
 <http://aksw.org/DanielGerber> <http://schema.org/location> <http://aksw.org/Address/Elsewhere> .
-<http://aksw.org/DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
 <http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AGDISTIS> .
@@ -1210,15 +1210,18 @@
 <http://aksw.org/Groups/ES> <http://www.w3.org/2000/01/rdf-schema#label> "Emergent Semantics" .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/AntjeSchlaf> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ClausStadler> .
+<http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DanielGerber> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KurtJunghanns> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LarsPeterMeyer> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LisaWenige> .
+<http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/LorenzBuehmann> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NormanRadtke> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SabineGruenderFahrer> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SarvenCapadisli> .
+<http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SimonBin> .
 <http://aksw.org/Groups/ES> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/StudentWorker/SimeonAckermann> .
 <http://aksw.org/Groups/KILT> <http://aksw.org/schema/publicationTag> "kilt" .
 <http://aksw.org/Groups/KILT> <http://aksw.org/schema/researchAreas> "DBpedia"@en .
@@ -1388,6 +1391,7 @@
 <http://aksw.org/JensLehmann> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/JensLehmann> <http://schema.org/location> <http://aksw.org/Address/UniBonn> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/2002/07/owl#sameAs> <http://jens-lehmann.org/foaf.rdf#i> .
 <http://aksw.org/JensLehmann> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "JensLehmann" .
@@ -1634,6 +1638,7 @@
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <http://aksw.org/LisaWenige> <http://aksw.org/schema/publicationTag> "wenige" .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Lisa Wenige" .
 <http://aksw.org/LisaWenige> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/LIMBO> .
@@ -1660,7 +1665,6 @@
 <http://aksw.org/LorenzBuehmann> <http://ns.ontowiki.net/SysOnt/Site/content> "Research Topics:\n----------------\n- Ontology Learning\n- Ontology Debugging\n- Reasoning\n- Question Answering\n- Natural Language Generation\n- Big Structured Machine Learning"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/LorenzBuehmann> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "regular" .
 <http://aksw.org/LorenzBuehmann> <http://schema.org/location> <http://aksw.org/Address/Goerdellering904109Leipzig> .
-<http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AutoSPARQL> .
 <http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/DEQA> .
@@ -4825,6 +4829,7 @@
 <http://aksw.org/RicardoUsbeck> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
 <http://aksw.org/RicardoUsbeck> <http://schema.org/location> <http://aksw.org/Address/UHH_SEMS> .
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Ricardo Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
@@ -4886,7 +4891,6 @@
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-22903754> .
 <http://aksw.org/SabineGruenderFahrer> <http://aksw.org/schema/room> "" .
 <http://aksw.org/SabineGruenderFahrer> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/familyName> "Gründer-Fahrer" .
@@ -4941,6 +4945,7 @@
 <http://aksw.org/SandroRautenberg> <http://schema.org/location> <http://aksw.org/Address/Augustusplatz10> .
 <http://aksw.org/SandroRautenberg> <http://schema.org/location> <http://aksw.org/Alumni> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sandro Rautenberg" .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/depiction> <https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/093/033/38a5100.jpg> .
@@ -5167,7 +5172,6 @@
 <http://aksw.org/SimonBin> <http://aksw.org/schema/room> "24" .
 <http://aksw.org/SimonBin> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "minimal" .
 <http://aksw.org/SimonBin> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
-<http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CoyPu> .
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Bin> .
@@ -5192,7 +5196,6 @@
 <http://aksw.org/SimonBordewisch> <http://xmlns.com/foaf/0.1/name> "Simon Bordewisch" .
 <http://aksw.org/SimoneAngermann> <http://aksw.org/schema/room> "15" .
 <http://aksw.org/SimoneAngermann> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
-<http://aksw.org/SimoneAngermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/SimoneAngermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Angermann> .
 <http://aksw.org/SimoneAngermann> <http://xmlns.com/foaf/0.1/familyName> "Angermann" .
@@ -5204,6 +5207,7 @@
 <http://aksw.org/SoerenAuer> <http://open.vocab.org/terms/businessCard> <http://aksw.org/vCard/Leipzig> .
 <http://aksw.org/SoerenAuer> <http://schema.org/location> <http://aksw.org/Address/Elsewhere> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "SoerenAuer" .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sören Auer" .
