@@ -1193,6 +1193,7 @@
 <http://aksw.org/Groups/AKSW> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web" .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NadineJochimsen> .
+<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraPraetor> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
@@ -4878,7 +4879,7 @@
 <http://aksw.org/RoyMeissner> <http://aksw.org/schema/supervisorTag> "RoyMeissner" .
 <http://aksw.org/RoyMeissner> <http://open.vocab.org/terms/businessCard> <http://aksw.org/VCard/InfAIOfficeLeipzig> .
 <http://aksw.org/RoyMeissner> <http://purl.org/dc/terms/description> "Roy Meissner is researching e-learning technologies and technology aided competency acquisition processes. Within these topics he applies DevOps, Semantic-Web, Service-Architecture and machine-learning technologies and workflows.\n\nSee his [ORCiD](https://orcid.org/0000-0003-4193-8209) for a list of all publications.\n\nCurrent Projects\n==================\n* [tech4comp](https://tech4comp.de) - Personalized competency development through scalable mentoring processes\n* [EAs.LiT](http://easlit.de) - E-Assessment Literacy Tool version 2\n* [Fachlandkarten-Tool](https://gitlab.com/Tech4Comp/fachlandkarten-ui/) - Automatic domain model generation and management\n\n"^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
+<http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ActivateAction> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/2002/07/owl#sameAs> <https://rmeissn.github.io> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "RoyMeissner" .
@@ -4954,7 +4955,7 @@
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sandro Rautenberg" .
-<http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/depiction> <https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/093/033/38a5100.jpg> .
+<http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/depiction> <http://www.unicentro.br/docentes/decomp/01603.jpg> .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/familyName> "Rautenberg" .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/mbox> <mailto:sandro.rautenberg@gmail.com> .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/name> "Sandro Rautenberg" .
