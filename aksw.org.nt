@@ -1637,9 +1637,10 @@
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/STREAM> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWiki> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/SlideWikiEU> .
+<http://aksw.org/LarsPeterMeyer> <http://aksw.org/schema/publicationTag> "lpmeyer" .
 <http://aksw.org/LarsPeterMeyer> <http://ns.ontowiki.net/SysOnt/Site/content> "" .
-<http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/Alumni> .
 <http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/LarsPeterMeyer> .
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/familyName> "Meyer" .
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/mbox> <mailto:lpmeyer@infai.org> .
 <http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
