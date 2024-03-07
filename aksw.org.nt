@@ -104,6 +104,13 @@
 <http://aksw.org/Address/AvantgardeLabsGmbH> <http://schema.org/streetAddress> "Löbauer Straße 19" .
 <http://aksw.org/Address/AvantgardeLabsGmbH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <http://aksw.org/Address/AvantgardeLabsGmbH> <http://www.w3.org/2000/01/rdf-schema#label> "Avantgarde Labs GmbH" .
+<http://aksw.org/Address/DNB> <http://schema.org/addressCountry> "Germany" .
+<http://aksw.org/Address/DNB> <http://schema.org/addressLocality> "Leipzig" .
+<http://aksw.org/Address/DNB> <http://schema.org/name> "Deutsche Nationalbibliothek" .
+<http://aksw.org/Address/DNB> <http://schema.org/postalCode> "04103" .
+<http://aksw.org/Address/DNB> <http://schema.org/streetAddress> "Deutscher Platz 1" .
+<http://aksw.org/Address/DNB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<http://aksw.org/Address/DNB> <http://www.w3.org/2000/01/rdf-schema#label> "DNB Leipzig" .
 <http://aksw.org/Address/DataLensLtd> <http://ns.ontowiki.net/SysOnt/range> "N101A, Vox Studios" .
 <http://aksw.org/Address/DataLensLtd> <http://schema.org/addressCountry> "United Kingdom" .
 <http://aksw.org/Address/DataLensLtd> <http://schema.org/addressLocality> "London" .
@@ -2037,10 +2044,10 @@
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LOD2> .
 <http://aksw.org/NadineJochimsen> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-9732367> .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/publicationTag> "arndt" .
+<http://aksw.org/NatanaelArndt> <http://aksw.org/schema/room> "B.02.033" .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/supervisorTag> "NatanaelArndt" .
 <http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Natanael Arndt is working in the field of Linked Enterprise Data Services. His doctoral thesis has the title \"Distributed Collaboration on Versioned Decentralized RDF Knowledge Bases\"."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
-<http://aksw.org/NatanaelArndt> <http://schema.org/faxNumber> <tel:+49-341-35115771> .
-<http://aksw.org/NatanaelArndt> <http://schema.org/location> <http://aksw.org/Address/Eccenca> .
+<http://aksw.org/NatanaelArndt> <http://schema.org/location> <http://aksw.org/Address/DNB> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ActivateAction> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fb.comiles.eu/?c=person&id=natanael> .
@@ -2059,7 +2066,7 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/familyName> "Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://natanael.arndt.xyz/> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/mbox> <mailto:natanael.arndt@eccenca.com> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/mbox> <mailto:n.arndt@dnb.de> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/nick> "Nate" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2013/DigitaleForschungskollaboration> .
@@ -2070,7 +2077,7 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LEDS> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/MobileSocialSemanticWeb> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Xodx> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/phone> <tel:+49-173-2646196> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-2271-134> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/About> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/Team> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/Groups> .
