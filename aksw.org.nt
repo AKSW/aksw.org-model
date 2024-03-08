@@ -45,6 +45,8 @@
 <http://aksw.org/#Query-3db0038ec153e756747566a1353c1e09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/SparqlQuery> .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#locality> "Leipzig" .
 <http://aksw.org//527> <http://www.w3.org/2006/vcard/ns#postal-code> "04109" .
+<http://aksw.org/32601eb3-baf5-4fc3-b611-63463f719998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/MovedResource> .
+<http://aksw.org/32601eb3-baf5-4fc3-b611-63463f719998> <http://www.w3.org/2000/01/rdf-schema#label> "Group"@en .
 <http://aksw.org/> <http://purl.org/dc/terms/contributor> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/> <http://purl.org/dc/terms/creator> <http://aksw.org/AmrapaliZaveri> .
 <http://aksw.org/> <http://purl.org/dc/terms/creator> <http://aksw.org/JohannesFrey> .
@@ -1178,6 +1180,7 @@
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/mbox> <mailto:g.sejdiu@gmail.com> .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/name> "Gezim Sejdiu" .
 <http://aksw.org/GezimSejdiu> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-97-32292> .
+<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/seeAlso> <http://aksw.org/Team> .
 <http://aksw.org/Groups/AIKE> <http://aksw.org/schema/publicationTag> "AIKE" .
 <http://aksw.org/Groups/AIKE> <http://aksw.org/schema/researchAreas> "Agile collaborative requirements engineering" .
 <http://aksw.org/Groups/AIKE> <http://aksw.org/schema/researchAreas> "Creation and evolution of knowledge bases from legacy databases" .
