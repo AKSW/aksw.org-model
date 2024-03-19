@@ -1202,6 +1202,7 @@
 <http://aksw.org/Groups/AKSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
 <http://aksw.org/Groups/AKSW> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web" .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JuliaHolze> .
+<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KonradHoeffner> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NadineJochimsen> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
