@@ -2134,9 +2134,7 @@
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/AKSWorg> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/CatalogusProfessorum> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Erfurt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/JekyllRDF> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/OntoWiki> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/familyName> "Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://natanael.arndt.xyz/> .
@@ -2147,9 +2145,12 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2018/LeipzigerSemanticWebTag> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Events/2019/LeipzigerSemanticWebTag> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/AMSL> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/CoyPu> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/DSSN> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Erfurt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/LEDS> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/MobileSocialSemanticWeb> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/OntoWiki> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/pastProject> <http://aksw.org/Projects/Xodx> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/phone> <tel:+49-341-2271-134> .
 <http://aksw.org/Navigation/Main> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/About> .
@@ -3165,8 +3166,10 @@
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/IncubatorProject> .
 <http://aksw.org/Projects/CognitiveEvolutionLD> <http://www.w3.org/2000/01/rdf-schema#label> "Analyzing Cognitive Evolution using Linked Data" .
 <http://aksw.org/Projects/CoyPu> <http://aksw.org/schema/status> "finished" .
+<http://aksw.org/Projects/CoyPu> <http://purl.org/dc/terms/abstract> "In an increasingly networked corporate world, the company-specific variables that are relevant from the perspective of crisis management have very complex relationships and dynamic interactions with a wide range of external factors (e.g., location, customers, competition, suppliers, personnel market, legal and social framework). These external interactions in turn give rise to far-reaching internal (domino) effects and interdependencies across all areas of the company (operational, financial, strategic) (Fig. 1, right). Neither in-house expertise nor personal or local consultant knowledge is therefore sufficient to generate valid, economically usable insights or to derive concrete crisis-related entrepreneurial measures."@en .
 <http://aksw.org/Projects/CoyPu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/schema/FundedProject> .
 <http://aksw.org/Projects/CoyPu> <http://www.w3.org/2000/01/rdf-schema#label> "CoyPu" .
+<http://aksw.org/Projects/CoyPu> <http://xmlns.com/foaf/0.1/homepage> <https://coypu.org/> .
 <http://aksw.org/Projects/CubeQA> <http://aksw.org/schema/hookline> "Question Answering on Statistical Linked Data" .
 <http://aksw.org/Projects/CubeQA> <http://aksw.org/schema/publicationTag> "cubeqa" .
 <http://aksw.org/Projects/CubeQA> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LinkedSpending> .
@@ -4009,6 +4012,18 @@
 <http://aksw.org/Projects/MMoOn> <http://www.w3.org/2000/01/rdf-schema#label> "MMoOn" .
 <http://aksw.org/Projects/MMoOn> <http://xmlns.com/foaf/0.1/homepage> <http://mmoon.org> .
 <http://aksw.org/Projects/MMoOn> <http://xmlns.com/foaf/0.1/logo> <http://mmoon.org/wp-content/uploads/2015/11/MMoOn_Logo_2015-1024x682.png> .
+<http://aksw.org/Projects/MMoOnHeb> <http://aksw.org/schema/hookline> "The Multilingual Morpheme Ontology for Hebrew and Open Hebrew Inventory." .
+<http://aksw.org/Projects/MMoOnHeb> <http://aksw.org/schema/publicationTag> "mmoonheb" .
+<http://aksw.org/Projects/MMoOnHeb> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/LIDER> .
+<http://aksw.org/Projects/MMoOnHeb> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/MMoOn> .
+<http://aksw.org/Projects/MMoOnHeb> <http://purl.org/dc/terms/abstract> "The development of standard models for describing general lexical resources has led to the emergence of numerous lexical datasets of various languages in the Semantic Web. However, there are no models that describe the domain of morphology in a similar manner. As a result, there are hardly any language resources of morphemic data available in RDF to date. This paper presents the creation of the Hebrew Morpheme Inventory from a manually compiled tabular dataset comprising around 52.000 entries. It is an ongoing effort of representing the lexemes, word-forms and morphologigal patterns together with their underlying relations based on the newly created Multilingual Morpheme Ontology (MMoOn). It will be shown how segmented Hebrew language data can be granularly described in a Linked Data format, thus, serving as an exemplary case for creating morpheme inventories of any inflectional language with MMoOn. The resulting dataset is described a) according to the structure of the underlying data format, b) with respect to the Hebrew language characteristic of building word-forms directly from roots, c) by exemplifying how inflectional information is realized and d) with regard to its enrichment with external links to sense resources."@en .
+<http://aksw.org/Projects/MMoOnHeb> <http://usefulinc.com/ns/doap#browse> <https://github.com/MMoOn-Project/JekyllPage/tree/master/_data> .
+<http://aksw.org/Projects/MMoOnHeb> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/BettinaKlimek> .
+<http://aksw.org/Projects/MMoOnHeb> <http://usefulinc.com/ns/doap#maintainer> <http://aksw.org/NatanaelArndt> .
+<http://aksw.org/Projects/MMoOnHeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
+<http://aksw.org/Projects/MMoOnHeb> <http://www.w3.org/2000/01/rdf-schema#label> "MMoOn Open Hebrew" .
+<http://aksw.org/Projects/MMoOnHeb> <http://xmlns.com/foaf/0.1/homepage> <https://mmoon-project.github.io/JekyllPage/> .
+<http://aksw.org/Projects/MMoOnHeb> <http://xmlns.com/foaf/0.1/logo> <http://mmoon.org/wp-content/uploads/2015/11/MMoOn_Logo_2015-1024x682.png> .
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://aksw.org/schema/hookline> "weaving a distributed, semantic social network for mobile users" .
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://aksw.org/schema/publicationTag> "seebiproject_MSSW" .
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DSSN> .
