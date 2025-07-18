@@ -4023,7 +4023,6 @@
 <http://aksw.org/Projects/MMoOnHeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Project> .
 <http://aksw.org/Projects/MMoOnHeb> <http://www.w3.org/2000/01/rdf-schema#label> "MMoOn Open Hebrew" .
 <http://aksw.org/Projects/MMoOnHeb> <http://xmlns.com/foaf/0.1/homepage> <https://mmoon-project.github.io/JekyllPage/> .
-<http://aksw.org/Projects/MMoOnHeb> <http://xmlns.com/foaf/0.1/logo> <http://mmoon.org/wp-content/uploads/2015/11/MMoOn_Logo_2015-1024x682.png> .
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://aksw.org/schema/hookline> "weaving a distributed, semantic social network for mobile users" .
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://aksw.org/schema/publicationTag> "seebiproject_MSSW" .
 <http://aksw.org/Projects/MobileSocialSemanticWeb> <http://aksw.org/schema/relatedProject> <http://aksw.org/Projects/DSSN> .
