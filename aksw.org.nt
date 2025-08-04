@@ -445,6 +445,26 @@
 <http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/familyName> "Delpeuch" .
 <http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/mbox> <mailto:delpeuch@infai.org> .
 <http://aksw.org/AntoninDelpeuch> <http://xmlns.com/foaf/0.1/name> "Antonin Delpeuch" .
+<http://aksw.org/Association> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "AKSW e.V." .
+<http://aksw.org/Association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://aksw.org/Association> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web (AKSW) e.V." .
+<http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DanielGerber> .
+<http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JoergUnbehauen> .
+<http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NatanaelArndt> .
+<http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RicardoUsbeck> .
+<http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
+<http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
+<http://aksw.org/AssociationAKSW> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "AKSW Research Group" .
+<http://aksw.org/AssociationAKSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
+<http://aksw.org/AssociationAKSW> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web Research Group" .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JuliaHolze> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KonradHoeffner> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NadineJochimsen> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraPraetor> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
+<http://aksw.org/AssociationAKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SimoneAngermann> .
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/publicationTag> "ngonga" .
 <http://aksw.org/AxelNgonga> <http://aksw.org/schema/room> "105" .
 <http://aksw.org/AxelNgonga> <http://ns.ontowiki.net/SysOnt/Site/templateOption> "extended" .
@@ -1270,17 +1290,6 @@
 <http://aksw.org/Groups/AIKE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/Groups/AIKE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/StudentWorker/SimeonAckermann> .
 <http://aksw.org/Groups/AIKE> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/ThomasRiechert> .
-<http://aksw.org/Groups/AKSW> <http://ns.ontowiki.net/SysOnt/Site/abbrevation> "AKSW" .
-<http://aksw.org/Groups/AKSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/aiiso/schema#ResearchGroup> .
-<http://aksw.org/Groups/AKSW> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web" .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JuliaHolze> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/KonradHoeffner> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NadineJochimsen> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/RoyMeissner> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraFuchs> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SandraPraetor> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
-<http://aksw.org/Groups/AKSW> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SimoneAngermann> .
 <http://aksw.org/Groups/Alumni> <http://purl.org/vocab/aiiso/schema#part_of> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/Groups/Alumni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/adf50754-8eec-4c0f-95b1-cbac2e0b90eb> .
 <http://aksw.org/Groups/Alumni> <http://www.w3.org/2000/01/rdf-schema#label> "Group of former AKSW members" .
