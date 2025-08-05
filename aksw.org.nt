@@ -449,6 +449,7 @@
 <http://aksw.org/Association/Board> <http://schema.org/isPartOf> <http://aksw.org/Association> .
 <http://aksw.org/Association/Board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
 <http://aksw.org/Association/Board> <http://www.w3.org/2000/01/rdf-schema#label> "Board of the Agile Knowledge Engineering and Semantic Web (AKSW) e.V." .
+<http://aksw.org/Association/Board> <http://www.w3.org/2004/02/skos/core#prefLabel> "AKSW e.V. Board" .
 <http://aksw.org/Association/Board> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JoergUnbehauen> .
 <http://aksw.org/Association/Board> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/Association/Board> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
@@ -456,6 +457,7 @@
 <http://aksw.org/Association> <http://purl.org/dc/terms/abstract> "The Agile Knowledge Engineering and Semantic Web (AKSW) e.V. (association) is a non-profit organization dedicated to advancing the principles of Linked Open Data and the Semantic Web. We foster research, education, and collaboration in the field of semantic technologies, open data, and open-source solutions. By building a network, we aim to promote the free availability and understanding of data and knowledge, ultimately contributing to innovation and a more interconnected digital world. We strive to support individuals and organizations to leverage the power of semantic technologies for the benefit of society."@en .
 <http://aksw.org/Association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Association> <http://www.w3.org/2000/01/rdf-schema#label> "Agile Knowledge Engineering and Semantic Web (AKSW) e.V." .
+<http://aksw.org/Association> <http://www.w3.org/2004/02/skos/core#prefLabel> "AKSW e.V." .
 <http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/DanielGerber> .
 <http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/Association> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/JoergUnbehauen> .
@@ -2142,13 +2144,13 @@
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/publicationTag> "arndt" .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/room> "B.02.033" .
 <http://aksw.org/NatanaelArndt> <http://aksw.org/schema/supervisorTag> "NatanaelArndt" .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Natanael Arndt is working in the field of Linked Enterprise Data Services. His doctoral thesis has the title \"Distributed Collaboration on Versioned Decentralized RDF Knowledge Bases\"."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Natanael Arndt is working at the German National Library and is responsible for redesigning and developing the web archive of the library. Previously he was working at eccenca GmbH as Senior Linked Data Expert and as research associate and project lead in various research and industry projects at the Institute for Applied Informatics (InfAI), the Leipzig University and the Leipzig University library with the aim of supporting people of various subjects and domains to gain a deeper understanding of their data with the help of semantic technologies. His research interests are collaborative and distributed knowledge management which involves the full Linked Data Lifecycle including: knowledge modeling, versioning and archiving, scalable data exploration, as well as knowledge extraction and integration. He is engaged in the application and development new technologies and is the author of several open-source tools, including the Quit Store, Jekyll RDF, and OntoPad. He is co-maintainer of the Python RDF library RDFlib. He earned his PhD from the Leipzig University with the doctoral thesis “Distributed Collaboration on Versioned Decentralized RDF Knowledge Bases”. Since 2009 he is member of the AKSW research group, a founding member of the AKSW e.V. and in the board of the association."^^<http://ns.ontowiki.net/SysOnt/Markdown> .
 <http://aksw.org/NatanaelArndt> <http://schema.org/location> <http://aksw.org/Address/DNB> .
-<http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ActivateAction> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/NatanaelArndt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fb.comiles.eu/?c=person&id=natanael> .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://natanael.arndt.xyz/#i> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2002/07/owl#sameAs> <http://data.semanticweb.org/person/natanael-arndt> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2002/07/owl#sameAs> <http://people.comiles.eu/natanael> .
+<http://aksw.org/NatanaelArndt> <http://www.w3.org/2002/07/owl#sameAs> <https://natanael.arndt.xyz/#i> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "NatanaelArndt" .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Nate" .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "white-gecko" .
