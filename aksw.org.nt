@@ -719,7 +719,7 @@
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/NeuralSPARQLMachines> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/RDFSlice> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/pcp-on-web> .
-<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/depiction> <https://pbs.twimg.com/profile_images/1214901755823214593/7nVhKi8r_400x400.jpg> .
+<http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/depiction> <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHTd1gdCIaTGm7bPYHBcbf6JDlAhSV9V7ph2KH9g8Af3BUHsKyqNFFSdZmJFyOM83cD0&usqp=CAU> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/familyName> "Marx" .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <https://edgardmarx.github.io> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/mbox> <mailto:edgard.marx@htwk-leipzig.de> .
@@ -4960,7 +4960,7 @@
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RicardoUsbeck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Ricardo Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/GERBIL> .
-<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Usbeck/gn/Ricardo> .
+<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/depiction> <https://www.leuphana.de/fileadmin/_processed_/0/b/csm_usbeck_ricardo_795-75631.690x690px.WEB_da8e46ce21.jpg> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/familyName> "Usbeck" .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/mbox> <mailto:ricardo.usbeck@uni-hamburg.de> .
 <http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/name> "Ricardo Usbeck" .
@@ -5075,7 +5075,7 @@
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://aksw.org/GrownUp> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SandroRautenberg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sandro Rautenberg" .
-<http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/depiction> <http://www.unicentro.br/docentes/decomp/01603.jpg> .
+<http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/depiction> <https://www.unicentro.br/docentes/decomp/01603.jpg> .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/familyName> "Rautenberg" .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/mbox> <mailto:sandro.rautenberg@gmail.com> .
 <http://aksw.org/SandroRautenberg> <http://xmlns.com/foaf/0.1/name> "Sandro Rautenberg" .
@@ -5352,7 +5352,7 @@
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/Sparqlify> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/TripleCheckMate> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/currentProject> <http://aksw.org/Projects/conTEXT> .
-<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/depiction> <https://ldapweb.aksw.org/pic/sn/Auer> .
+<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/depiction> <https://www.tib.eu/fileadmin/Daten/presse/bilder/pressefotos/TIB_Prof_Dr_Soeren_Auer_Pressefoto.jpg> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/familyName> "Auer" .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/mbox> <mailto:soeren.auer@tib.eu> .
