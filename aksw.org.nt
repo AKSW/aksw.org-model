@@ -2373,11 +2373,11 @@
 <http://aksw.org/Partner/Ebrosia> <http://xmlns.com/foaf/0.1/homepage> <http://www.ebrosia.de/> .
 <http://aksw.org/Partner/Ebrosia> <http://xmlns.com/foaf/0.1/logo> <http://lh3.ggpht.com/-o3vRiFELGW0/UD3V-_iWM1I/AAAAAAAABJ8/kh3QSnliIUs/Ebrosia.png> .
 <http://aksw.org/Partner/Eccenca> <http://purl.org/dc/terms/abstract> "eccenca provides expertise in the field of Enterprise Search, Semantic Web and Linked Data technologies. As business partner in national and European research projects we transform our know-how into sustainable Linked Data enterprise solutions. The product lines of eccenca offer state-of-the-art IT solutions meeting the high standards of knowledge management applications in enterprises. Using Linked Data technologies eccenca Linked Data Suite (eLDS) and eccenca Enterprise Search Suite (eESS) provide powerful tools to support the integration of various data resources and to significantly improve reporting, searching and publishing options in enterprise information systems." .
-<http://aksw.org/Partner/Eccenca> <http://rdfs.org/sioc/ns#feed> <http://www.eccenca.com/de/feeds/aktuelles.xml> .
 <http://aksw.org/Partner/Eccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Partner/Eccenca> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH (D)" .
 <http://aksw.org/Partner/Eccenca> <http://xmlns.com/foaf/0.1/homepage> <http://eccenca.com/> .
-<http://aksw.org/Partner/Eccenca> <http://xmlns.com/foaf/0.1/logo> <http://sylvainkubler.fr/wp-content/themes/biopic/images/Research/Logo_eccenca.png> .
+<http://aksw.org/Partner/Eccenca> <http://xmlns.com/foaf/0.1/logo> <https://eccenca.com/layouts/default/images/logo_eccenca.svg> .
+<http://aksw.org/Partner/Eccenca> <http://xmlns.com/foaf/0.1/member> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/Partner/Exalead> <http://purl.org/dc/terms/abstract> "Founded in 2000 by search engine pioneers, Exalead is a global software provider in the enterprise and Web search markets. Exalead worldwide client base includes leading companies such as Price Waterhouse Cooper, Michelin, American Greetings and Sanofi Pasteur, and more than 100 million unique users a month use Exalead's technology for search." .
 <http://aksw.org/Partner/Exalead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://aksw.org/Partner/Exalead> <http://www.w3.org/2000/01/rdf-schema#label> "Exalead (F)" .
